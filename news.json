@@ -1,4 +1,221 @@
 {
-  "updated": null,
-  "items": []
+  "updated": "2026-11-22T12:52:51.124Z",
+  "items": [
+    {
+      "headline": "'He will see what Man Utd are made of' - Pulis on Pochettino's first game",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ckqx5w58dgv7o",
+      "outlet": "BBC Sport",
+      "category": "Football",
+      "date": "2026-11-22",
+      "summary": "BBC Sport columnist Tony Pulis explains how new Manchester United boss Mauricio Pochettino will prepare for Sunday's game against Liverpool after only a few days with his squad."
+    },
+    {
+      "headline": "Why Arsenal are behind in race for Champions League spots",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c8752llr1ed1o",
+      "outlet": "BBC Sport",
+      "category": "Football",
+      "date": "2026-11-22",
+      "summary": "Arsenal were open about their aim to win the WSL this season but they find themselves well adrift - where have things gone wrong?"
+    },
+    {
+      "headline": "'Not the right time' - Fernandes pauses Man Utd contract talks",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c6x2e8devk1po",
+      "outlet": "BBC Sport",
+      "category": "Football",
+      "date": "2026-11-22",
+      "summary": "Manchester United captain Bruno Fernandes says he has been offered a new contract by the club but feels it \"is not the right time\" for discussions about his future."
+    },
+    {
+      "headline": "Watford seek sixth manager in 18 months after sacking Dionisi",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cyvz6r4g1jqo",
+      "outlet": "BBC Sport",
+      "category": "Football",
+      "date": "2026-11-22",
+      "summary": "Watford sack head coach Alessio Dionisi after 18 games in charge."
+    },
+    {
+      "headline": "Raya set to have scan on injury - how much would Arsenal miss him?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ckx28w9ree9vo",
+      "outlet": "BBC Sport",
+      "category": "Football",
+      "date": "2026-11-21",
+      "summary": "Arsenal goalkeeper David Raya is set to have a scan on his shoulder after going off injured during Saturday's 2-2 draw with Newcastle."
+    },
+    {
+      "headline": "'The world got to see today' - Williams-Barnett announces himself as Spurs star",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cm9d7jg50e12o",
+      "outlet": "BBC Sport",
+      "category": "Football",
+      "date": "2026-11-21",
+      "summary": "BBC Sport looks at Tottenham's new teenage star after Luca Williams-Barnett makes a superb full Premier League debut for Spurs"
+    },
+    {
+      "headline": "'Fragile' and 'miles off it' - Alonso's Chelsea honeymoon is over",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cwe8944d004yo",
+      "outlet": "BBC Sport",
+      "category": "Football",
+      "date": "2026-11-21",
+      "summary": "The honeymoon period is over for Chelsea manager Xabi Alonso, who is now in firefighting mode after a 4-1 defeat by Leeds at Stamford Bridge."
+    },
+    {
+      "headline": "Argentina midfielder Paredes collapses during TV interview",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cwnv45818z59o",
+      "outlet": "BBC Sport",
+      "category": "Football",
+      "date": "2026-11-22",
+      "summary": "World Cup winning midfielder Leandro Paredes collapses while giving a post-match interview minutes after winning a trophy with Boca Juniors."
+    },
+    {
+      "headline": "Can AI really help spot Black Friday deals? We put it to the test",
+      "link": "https://www.bbc.co.uk/news/articles/cw8dv4jmnle2o",
+      "outlet": "BBC News",
+      "category": "Technology",
+      "date": "2026-11-21",
+      "summary": "We put four AI models to the test to see if they could save us money on a new TV."
+    },
+    {
+      "headline": "In a year of AI solving maths problems, an Anthropic worker says he may have cracked the biggest",
+      "link": "https://www.bbc.co.uk/news/articles/c6pqr2g7w059o",
+      "outlet": "BBC News",
+      "category": "Technology",
+      "date": "2026-11-20",
+      "summary": "A mathematician at Anthropic says he used an AI to prove the famed Riemann hypothesis, though verification will take some time."
+    },
+    {
+      "headline": "GTA 6 sales hit $3.8bn in a single day - the biggest entertainment launch in history",
+      "link": "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o",
+      "outlet": "BBC News",
+      "category": "Technology",
+      "date": "2026-11-20",
+      "summary": "The mammoth figure surpasses every video game launch and single-day film box office record."
+    },
+    {
+      "headline": "Tech stock sell-off drags markets down as Anthropic shares slide",
+      "link": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo",
+      "outlet": "BBC News",
+      "category": "Technology",
+      "date": "2026-11-20",
+      "summary": "Pressures weighed on US markets, with the S&P 500 and the Dow Jones Industrial Average pushed into correction territory."
+    },
+    {
+      "headline": "Trump threatens ban on US firms building AI data centres overseas",
+      "link": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko",
+      "outlet": "BBC News",
+      "category": "Technology",
+      "date": "2026-11-20",
+      "summary": "The US president provided little detail on the potential policy, saying others in his team were hearing about it for the first time."
+    },
+    {
+      "headline": "White House removes cyber-security chief after series of tech outages",
+      "link": "https://www.bbc.co.uk/news/articles/cwz0k3nn5p5mo",
+      "outlet": "BBC News",
+      "category": "Technology",
+      "date": "2026-11-20",
+      "summary": "He has been fired after losing the confidence of new White House chief of staff Stephen Miller, according to reports."
+    },
+    {
+      "headline": "Should AI be judging our credit worthiness?",
+      "link": "https://www.bbc.co.uk/news/articles/c6d94pzk9vleo",
+      "outlet": "BBC News",
+      "category": "Technology",
+      "date": "2026-11-20",
+      "summary": "Would AI be a good judge of whether you should get a mortgage, car loan or mobile phone contract?"
+    },
+    {
+      "headline": "Tens of thousands of UK fridges secured from hackers in secret nationwide operation",
+      "link": "https://www.bbc.co.uk/news/articles/c6eq49zyx7p4o",
+      "outlet": "BBC News",
+      "category": "Technology",
+      "date": "2026-11-20",
+      "summary": "Supermarkets, warehouses, restaurants and stadiums have been scrambling to make their devices safe."
+    },
+    {
+      "headline": "From a village bakery to headlining Glastonbury: How Harry Styles became a star",
+      "link": "https://www.bbc.co.uk/news/articles/cq782xz5nkg4o",
+      "outlet": "BBC News",
+      "category": "Music",
+      "date": "2026-11-22",
+      "summary": "The singer will make his debut at the festival next year as one of the event's curtain-raising artists."
+    },
+    {
+      "headline": "How Westside Cowboy went from student gigs to rising stars in two years",
+      "link": "https://www.bbc.co.uk/news/articles/crjeqxedzpnko",
+      "outlet": "BBC News",
+      "category": "Music",
+      "date": "2026-11-21",
+      "summary": "The four-piece band joins a prestigious list that includes Myles Smith, Olivia Dean, Tom Grennan."
+    },
+    {
+      "headline": "TRNSMT: What's the future for Scotland's largest music festival?",
+      "link": "https://www.bbc.co.uk/news/articles/cv702en03nw4o",
+      "outlet": "BBC News",
+      "category": "Music",
+      "date": "2026-11-21",
+      "summary": "No dates, ticket sales or acts have yet been announced by DF Concerts for the Glasgow Green festival."
+    },
+    {
+      "headline": "BBC apologises for 'any offence caused' by Strictly noise disruption",
+      "link": "https://www.bbc.co.uk/news/articles/cm8e0p5dexy6o",
+      "outlet": "BBC News",
+      "category": "Arts",
+      "date": "2026-11-22",
+      "summary": "Lancashire police says a mobile phone has been seized and it is assessing whether any criminal offences may have taken place."
+    },
+    {
+      "headline": "Miley Cyrus marries Maxx Morando in California ceremony",
+      "link": "https://www.bbc.co.uk/news/articles/cq8e0p87l89lo",
+      "outlet": "BBC News",
+      "category": "Arts",
+      "date": "2026-11-22",
+      "summary": "The couple have been together for four years and were engaged in 2025."
+    },
+    {
+      "headline": "Why Nicola Coughlan's new drama might leave viewers uncomfortable",
+      "link": "https://www.bbc.co.uk/news/articles/cj4gn7x05yygo",
+      "outlet": "BBC News",
+      "category": "Arts",
+      "date": "2026-11-22",
+      "summary": "I Am Helen is a must-watch according to critics, but the cast don't want viewers sitting comfortably."
+    },
+    {
+      "headline": "Calls for Marilyn Manson performance to be pulled",
+      "link": "https://www.bbc.co.uk/news/articles/cmn4kz7lj3jvo",
+      "outlet": "BBC News",
+      "category": "Arts",
+      "date": "2026-11-22",
+      "summary": "Marilyn Manson is due to support Slipknot at Wembley Stadium in July, ahead of a trial he faces."
+    },
+    {
+      "headline": "Italian jeweller and businessman Paolo Bulgari dies aged 89",
+      "link": "https://www.bbc.co.uk/news/articles/c8e39qk5vrpdo",
+      "outlet": "BBC News",
+      "category": "Arts",
+      "date": "2026-11-22",
+      "summary": "In a statement to Italian media, his family remember him as \"the greatest jeweller of our time\"."
+    },
+    {
+      "headline": "Bad Girls star Helen Fraser dies aged 84",
+      "link": "https://www.bbc.co.uk/news/articles/cqlyjwng3xdwo",
+      "outlet": "BBC News",
+      "category": "Arts",
+      "date": "2026-11-21",
+      "summary": "Actress Helen Fraser dies at 84 in an Eye care home after a successful career in TV, theatre and film."
+    },
+    {
+      "headline": "Spitting Image co-creator Peter Fluck dies aged 85",
+      "link": "https://www.bbc.co.uk/news/articles/cm3vg9dqr6zyo",
+      "outlet": "BBC News",
+      "category": "Arts",
+      "date": "2026-11-21",
+      "summary": "The 85-year-old he died in the early hours of Saturday at home in Cornwall, following a recent illness."
+    },
+    {
+      "headline": "Who will be Robert Pattinson's 'Bond girl' - and does the role need to change?",
+      "link": "https://www.bbc.co.uk/news/articles/cr4g1l7x52jno",
+      "outlet": "BBC News",
+      "category": "Arts",
+      "date": "2026-11-21",
+      "summary": "Speculation is rife as to who will play the new 007's leading lady, with commentators saying she will need a \"very strong identity\"."
+    }
+  ]
 }
