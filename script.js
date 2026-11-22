@@ -4,7 +4,7 @@
 var SHEET_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSqaM5HA8MP2s0ZWUTXBoIAtSJAna5mCyapWvE3f7DgZZ56D1UkM1ADrh2NBKUQ9O5xM_dOhUZF6vUU/pub?gid=0&single=true&output=csv";
 
 // Daily headlines file, rebuilt every day by the GitHub Action (scripts/fetch-news.js).
-var NEWS_URL = "news.json";
+var NEWS_URL = "https://raw.githubusercontent.com/kelvinkamauk2-max/KELVINN/main/news.json";
 
 // Sheet columns (row 1 headings, any order):
 // headline | link | outlet | byline | date | summary | topics | category | mine | take
