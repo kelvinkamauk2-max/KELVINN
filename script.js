@@ -6,6 +6,34 @@ var SHEET_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSqaM5HA8MP2s0Z
 // Daily headlines file, rebuilt every day by the GitHub Action (scripts/fetch-news.js).
 var NEWS_URL = "https://raw.githubusercontent.com/kelvinkamauk2-max/KELVINN/main/news.json";
 
+// Order of the filter buttons in "What I’m following".
+var CATEGORY_ORDER = ["Football", "Technology", "Music", "Arts"];
+
+// ----- Tips and donations -----
+// Fill in only the options you want. Anything left empty ("") is hidden, and if
+// everything is empty the whole "Support my work" section stays hidden.
+// {var DONATE = {
+  // A PayPal link, for example "https://paypal.me/yourname"
+  paypal: "",
+  mpesa: {0740018924}
+    name: "",     // name that shows on M-Pesa, for example "Kelvin Kamau"
+    phone: "",    // send-money number, for example "0740018924"
+    till: "",     // Buy Goods till number
+    paybill: "",  // Paybill business number
+    account: ""   // account number to use with the Paybill
+  }
+};var DONATE = {
+  // A PayPal link, for example "https://paypal.me/yourname"
+  paypal: "",
+  mpesa: {
+    name: "Kelvin Kamau",
+    phone: "0740 018 924",
+    till: "",
+    paybill: "",
+    account: ""
+  }
+};
+
 // Sheet columns (row 1 headings, any order):
 // headline | link | outlet | byline | date | summary | topics | category | mine | take
 // date: "YYYY-MM" (for example 2026-03) or leave empty.
@@ -194,15 +222,28 @@ function section(listId, chipsId, items, block, emptyText, limit) {
   function draw() {
     listEl.textContent = "";
     var shown = items.filter(function (x) { return active === "All" || x.category === active; });
-    if (limit && active === "All") shown = shown.slice(0, limit);
+    if (limit && active === "All") {
+      var counts = {};
+      shown = shown.filter(function (x) {
+        counts[x.category] = (counts[x.category] || 0) + 1;
+        return counts[x.category] <= limit;
+      });
+    }
     if (!shown.length) { listEl.appendChild(el("p", "empty", emptyText)); return; }
     shown.forEach(function (x) { listEl.appendChild(block(x)); });
   }
   function chips() {
     if (!chipsEl) return;
     chipsEl.textContent = "";
-    var cats = ["All"];
-    items.forEach(function (x) { if (cats.indexOf(x.category) < 0) cats.push(x.category); });
+    var found = [];
+    items.forEach(function (x) { if (found.indexOf(x.category) < 0) found.push(x.category); });
+    found.sort(function (a, b) {
+      var ia = CATEGORY_ORDER.indexOf(a), ib = CATEGORY_ORDER.indexOf(b);
+      if (ia < 0) ia = 99;
+      if (ib < 0) ib = 99;
+      return ia - ib || (a < b ? -1 : a > b ? 1 : 0);
+    });
+    var cats = ["All"].concat(found);
     if (cats.length < 3) return; // no need for buttons with one category
     cats.forEach(function (c) {
       var b = el("button", "chip", c);
@@ -221,7 +262,7 @@ function showAll(items, loaded) {
   section("stories", "work-chips", mine, storyBlock, "No stories to show yet.");
   section("news-list", "news-chips", news, newsBlock,
     loaded ? "No headlines yet. They appear here after the first daily update."
-           : "This section fills automatically once the daily update has run.", 12);
+           : "This section fills automatically once the daily update has run.", 4);
 }
 
 // ===== Loading =====
@@ -266,10 +307,88 @@ function mergeUnique(lists) {
   return out;
 }
 
+// ===== Tips and donations =====
+function copyText(text, btn) {
+  function done() {
+    var old = btn.textContent;
+    btn.textContent = "Copied";
+    setTimeout(function () { btn.textContent = old; }, 1500);
+  }
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(text).then(done, function () {});
+  } else {
+    var t = document.createElement("textarea");
+    t.value = text; document.body.appendChild(t); t.select();
+    try { document.execCommand("copy"); done(); } catch (e) {}
+    document.body.removeChild(t);
+  }
+}
+
+// rows: [label, value, canCopy]. Empty values are skipped.
+function payCard(title, rows) {
+  rows = rows.filter(function (r) { return r[1]; });
+  if (!rows.length) return null;
+  var card = el("div", "pay");
+  card.appendChild(el("h3", "", title));
+  var dl = el("dl");
+  rows.forEach(function (r) {
+    var row = el("div", "row");
+    row.appendChild(el("dt", "", r[0]));
+    var dd = el("dd");
+    dd.appendChild(document.createTextNode(r[1]));
+    if (r[2]) {
+      var b = el("button", "copy", "Copy");
+      b.type = "button";
+      b.setAttribute("aria-label", "Copy " + r[0]);
+      b.addEventListener("click", function () { copyText(r[1], b); });
+      dd.appendChild(b);
+    }
+    row.appendChild(dd);
+    dl.appendChild(row);
+  });
+  card.appendChild(dl);
+  return card;
+}
+
+function renderDonate() {
+  var box = document.getElementById("donate-options");
+  var section = document.getElementById("support");
+  var navLink = document.getElementById("nav-support");
+  if (!box || !section) return;
+  var cards = [];
+
+  var pp = safeUrl(DONATE.paypal);
+  if (pp) {
+    var c1 = el("div", "pay");
+    c1.appendChild(el("h3", "", "PayPal"));
+    c1.appendChild(el("p", "", "Pay by card or PayPal balance, from anywhere."));
+    var a = el("a", "btn", "Tip with PayPal");
+    a.href = pp; a.target = "_blank"; a.rel = "noopener";
+    c1.appendChild(a);
+    cards.push(c1);
+  }
+
+  var m = DONATE.mpesa || {};
+  var mp = payCard("M-Pesa", [
+    ["Name", m.name, false],
+    ["Send money to", m.phone, true],
+    ["Till number", m.till, true],
+    ["Paybill number", m.paybill, true],
+    ["Account number", m.account, true]
+  ]);
+  if (mp) cards.push(mp);
+
+  if (!cards.length) return;
+  cards.forEach(function (c) { box.appendChild(c); });
+  section.hidden = false;
+  if (navLink) navLink.hidden = false;
+}
+
 // ===== Start =====
 (function start() {
   var status = document.getElementById("status");
   var updated = document.getElementById("news-updated");
+  renderDonate();
   showAll(BACKUP.slice(), false);
   if (typeof fetch !== "function") return;
 
