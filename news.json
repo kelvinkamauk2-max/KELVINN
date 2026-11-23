@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T17:12:58.586Z",
+  "updated": "2026-11-23T17:27:57.586Z",
   "report": {
     "feeds_ok": 27,
     "feeds_failed": [
@@ -70,7 +70,7 @@
       "outlet": "The Guardian",
       "category": "Football",
       "date": "2026-11-23",
-      "summary": "No 1 to miss Dortmund game but could return for City clash ‘We were worried … he’s better than expected,’ says manager Mikel Arteta is hopeful the shoulder injury David Raya sustained at Newcastle is…"
+      "summary": "No 1 to miss Dortmund game but could return for City clash ‘We were worried … he’s better than expected,’ says manager Mikel Arteta is hopeful the ­shoulder injury David Raya sustained at Newcastle…"
     },
     {
       "headline": "Mauricio Pochettino can now see just how desperate Manchester United are | Jonathan Wilson",
@@ -217,6 +217,14 @@
       "summary": "AI employees in the industry's epicentre - San Francisco - worry that the sector is overheated."
     },
     {
+      "headline": "The best Black Friday deals we’ve already found",
+      "link": "https://www.theverge.com/gadgets/1028991/black-friday-best-early-deals-2026",
+      "outlet": "The Verge",
+      "category": "Technology",
+      "date": "2026-11-23",
+      "summary": "The countdown to Black Friday is on, and many discounts have already arrived. Although the shopping holiday isn’t officially until Friday, November 27th, retailers are already dropping early deals on…"
+    },
+    {
       "headline": "White House brags that Trump was ‘totally involved’ in getting Jensen reinstated",
       "link": "https://www.theverge.com/policy/1040096/trump-nvidia-jensen-huang-reinstated",
       "outlet": "The Verge",
@@ -249,12 +257,20 @@
       "summary": "The AirPods Pro 3 are cheaper than ever. Apple’s latest flagship wireless earbuds dropped this morning to just $149 at Amazon, Best Buy and Walmart. Originally, they sold for $249, but have been…"
     },
     {
-      "headline": "The Verge’s favorite holiday gifts that cost $50 or less",
-      "link": "https://www.theverge.com/gadgets/1023471/best-gifts-under-50-2026",
-      "outlet": "The Verge",
+      "headline": "Amazon snaps up Decart’s AI optimization tech for $7.5B as it prepares to sell Trainium chips",
+      "link": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+      "outlet": "TechCrunch",
       "category": "Technology",
       "date": "2026-11-23",
-      "summary": "You've got $50 to spend on a friend or loved one this shopping season, and you're not sure what to spend it on. First off, that's actually really generous of you. While this price tier can sometimes…"
+      "summary": "Amazon is acquiring Decart’s AI optimization technology and research team in a reported $7.5 billion deal."
+    },
+    {
+      "headline": "Meta throws out its net-zero goal. Its competitors should be furious",
+      "link": "https://techcrunch.com/2026/11/23/meta-throws-out-its-net-zero-goal-its-competitors-should-be-furious/",
+      "outlet": "TechCrunch",
+      "category": "Technology",
+      "date": "2026-11-23",
+      "summary": "Meta walked back its 2030 net zero goal in its 2026 sustainability report, a decision that could send ripples throughout the tech industry."
     },
     {
       "headline": "Jensen Huang isn’t out of the woods yet",
@@ -281,28 +297,12 @@
       "summary": "The cybersecurity giant said that the deal to buy Zscaler, which provides zero-trust products to large enterprises, will better equip their customers to use AI agents."
     },
     {
-      "headline": "Dutch privacy authority urges consumers not to buy ‘pervert glasses’",
-      "link": "https://techcrunch.com/2026/11/23/dutch-privacy-authority-urges-consumers-not-to-buy-pervert-glasses/",
-      "outlet": "TechCrunch",
-      "category": "Technology",
-      "date": "2026-11-23",
-      "summary": "The Netherlands' data protection agency said smart wearables violate people's privacy, get information wrong, and can result in unsafe situations."
-    },
-    {
-      "headline": "Trump endorses Jensen Huang’s return to Nvidia, says US has no evidence of wrongdoing",
-      "link": "https://techcrunch.com/2026/11/23/trump-endorses-jensen-huangs-return-to-nvidia-says-us-has-no-evidence-of-wrongdoing/",
-      "outlet": "TechCrunch",
-      "category": "Technology",
-      "date": "2026-11-23",
-      "summary": "The president cited the U.S. attorney general in defending Huang's return, while urging Nvidia to continue its export-control investigation."
-    },
-    {
       "headline": "Marvel crams every superhero ever into Avengers: Doomsday final trailer",
       "link": "https://arstechnica.com/culture/2026/11/marvel-crams-every-superhero-ever-into-avengers-doomsday-final-trailer/",
       "outlet": "Ars Technica",
       "category": "Technology",
       "date": "2026-11-23",
-      "summary": "\"All of you have lived stolen lives. But now you must give them back\""
+      "summary": "\"All of you have lived stolen lives. But now you must give them back.\""
     },
     {
       "headline": "Jensen Huang reinstated as Nvidia CEO, board chair",
@@ -473,6 +473,14 @@
       "summary": "“Grey Boy” and “Boss Trix” now have “Boss Mix” editions"
     },
     {
+      "headline": "D’Angelo’s ‘GTA VI’ Song ‘Kamikaze’ Released as Brother Teases Future Posthumous Songs",
+      "link": "https://www.rollingstone.com/music/music-news/dangelos-gta-vi-kamikaze-brother-new-music-1235662740/",
+      "outlet": "Rolling Stone",
+      "category": "Music",
+      "date": "2026-11-23",
+      "summary": "\"We look forward to sharing more of my brother’s legacy with you,\" Luther Archer Jr. said"
+    },
+    {
       "headline": "Justin Timberlake Will Open Up About Highs and Lows of Stardom on Four-Part Documentary",
       "link": "https://www.rollingstone.com/music/music-news/justin-timberlake-apple-tv-documentary-1235662641/",
       "outlet": "Rolling Stone",
@@ -503,14 +511,6 @@
       "category": "Music",
       "date": "2026-11-23",
       "summary": "After 50 years of relentless touring, Cheap Trick now have a blank calendar for the first time in their history"
-    },
-    {
-      "headline": "The 200 Best Songs of the 1990s",
-      "link": "https://www.rollingstone.com/music/music-lists/best-1990s-songs-1235651872/",
-      "outlet": "Rolling Stone",
-      "category": "Music",
-      "date": "2026-11-23",
-      "summary": "From Biggie to Blur to Britney, from New Jack Swing to shoegaze to ska — let’s celebrate the beauty, brilliance, and weirdness of one of music’s most bountiful decades"
     },
     {
       "headline": "Travis Scott, Slayyyter, Offset, Anitta & More Power ‘Grand Theft Auto VI: The Album’ Deluxe Edition: Stream It Now",
@@ -601,6 +601,22 @@
       "summary": "After some satirical experiments with the ‘disgusting’ AI, the photographer has returned to his first love with a book of contact sheets from his celebrity shoots. ‘I wish we could go back and stop…"
     },
     {
+      "headline": "Mohamed bin Zayed University of Artificial Intelligence Launches $250,000 Art Commission Program",
+      "link": "https://www.artnews.com/art-news/news/mbzuai-launches-inaugural-250000-commission-1234807312/",
+      "outlet": "ARTnews",
+      "category": "Arts",
+      "date": "2026-11-23",
+      "summary": "The winning commission will be displayed in the university’s new cultural center that’s slated to open in 2027."
+    },
+    {
+      "headline": "With MoMA, M+, and the Centre Pompidou’s Alliance, Museums Enter a New Era of Collaboration",
+      "link": "https://www.artnews.com/art-news/opinion/moma-m-plus-centre-pompidou-alliance-collaboration-1234807316/",
+      "outlet": "ARTnews",
+      "category": "Arts",
+      "date": "2026-11-23",
+      "summary": "Maximizing and leveraging the reach of individual collections is only the start."
+    },
+    {
       "headline": "Did a Trump Staffer Accidentally Reveal White House Plans to Revamp the Smithsonian?",
       "link": "https://www.artnews.com/art-news/news/trump-staffer-reveal-white-house-plans-revamp-smithsonian-1234807305/",
       "outlet": "ARTnews",
@@ -623,22 +639,6 @@
       "category": "Arts",
       "date": "2026-11-23",
       "summary": "She will have her first show at the gallery’s Paris space in January."
-    },
-    {
-      "headline": "Lucy Sante Talks About What Collage Enables That Writing Can’t",
-      "link": "https://www.artnews.com/art-in-america/columns/lucy-sante-interview-collage-1234806243/",
-      "outlet": "ARTnews",
-      "category": "Arts",
-      "date": "2026-11-23",
-      "summary": "She started making collages long before she established herself as a writer."
-    },
-    {
-      "headline": "Art Basel Hong Kong Lines Up 232 Exhibitors and a New Floor Plan for Its 2027 Edition",
-      "link": "https://www.artnews.com/art-news/market/art-basel-hong-kong-2027-exhibitor-list-1234807256/",
-      "outlet": "ARTnews",
-      "category": "Arts",
-      "date": "2026-11-23",
-      "summary": "The fair will also feature 31 first-time exhibitors."
     },
     {
       "headline": "Miami Through the GTA VI Looking-Glass",
