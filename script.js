@@ -1,7 +1,7 @@
 // ===== Settings =====
 // Paste your published Google Sheet CSV link between the quotes.
 // (Google Sheets > File > Share > Publish to web > Sheet1 + CSV)
-var SHEET_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSqaM5HA8MP2s0ZWUTXBoIAtSJAna5mCyapWvE3f7DgZZ56D1UkM1ADrh2NBKUQ9O5xM_dOhUZF6vUU/pub?gid=0&single=true&output=csv";
+var SHEET_URL = "";
 
 // Daily headlines file, rebuilt every day by the GitHub Action (scripts/fetch-news.js).
 var NEWS_URL = "https://raw.githubusercontent.com/kelvinkamauk2-max/KELVINN/main/news.json";
@@ -12,25 +12,15 @@ var CATEGORY_ORDER = ["Football", "Technology", "Music", "Arts"];
 // ----- Tips and donations -----
 // Fill in only the options you want. Anything left empty ("") is hidden, and if
 // everything is empty the whole "Support my work" section stays hidden.
-// {var DONATE = {
-  // A PayPal link, for example "https://paypal.me/yourname"
-  paypal: "",
-  mpesa: {0740018924}
-    name: "",     // name that shows on M-Pesa, for example "Kelvin Kamau"
-    phone: "",    // send-money number, for example "0740018924"
-    till: "",     // Buy Goods till number
-    paybill: "",  // Paybill business number
-    account: ""   // account number to use with the Paybill
-  }
-};var DONATE = {
+var DONATE = {
   // A PayPal link, for example "https://paypal.me/yourname"
   paypal: "",
   mpesa: {
-    name: "Kelvin Kamau",
-    phone: "0740 018 924",
-    till: "",
-    paybill: "",
-    account: ""
+    name: "",     // name that shows on M-Pesa, for example "Kelvin Kamau"
+    phone: "",    // send-money number, for example "0712 345 678"
+    till: "",     // Buy Goods till number
+    paybill: "",  // Paybill business number
+    account: ""   // account number to use with the Paybill
   }
 };
 
