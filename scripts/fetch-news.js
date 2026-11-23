@@ -1,21 +1,57 @@
-// Collects the latest headlines from RSS feeds and saves them to news.json.
+// Collects the latest headlines from many RSS/Atom feeds and saves them to news.json.
 // Runs every day in GitHub Actions. Needs Node 18 or newer (no packages to install).
-// Only headline, short summary, date and link are saved. Always link back to the original.
+// Only the headline, a short summary, the date and the link are saved. Always link back to the original.
 
 const fs = require("fs");
 const path = require("path");
 
 const OUTPUT = path.join(__dirname, "..", "news.json");
-const PER_CATEGORY = 8;
+const PER_FEED = 5;          // most items kept from one outlet
+const PER_CATEGORY = 24;     // most items kept per category (newest first)
+const MAX_AGE_DAYS = 10;     // older items are dropped
 
-const MUSIC_WORDS = /\b(music|album|song|songs|singer|band|concert|gig|rapper|rap|tour|festival|grammy|grammys|brit awards|chart|vinyl|dj|opera|orchestra)\b/i;
+const MUSIC_WORDS = /\b(music|album|albums|song|songs|singer|band|concert|gig|rapper|rap|tour|festival|grammy|grammys|brit awards|chart|vinyl|dj|opera|orchestra)\b/i;
+const FOOTBALL_WORDS = /\b(football|soccer|premier league|champions league|europa league|afcon|caf|fifa|uefa|world cup|la liga|bundesliga|serie a|ligue 1|harambee stars|gor mahia|afc leopards|kpl|goal|striker|midfielder|goalkeeper)\b/i;
 
-// Add, remove or change feeds here. "include" and "exclude" are optional word filters.
+// To add an outlet, add one line. To remove one, delete its line.
+// "include" / "exclude" are optional word filters for feeds that mix topics.
 const FEEDS = [
-  { category: "Football",   outlet: "BBC Sport", url: "https://feeds.bbci.co.uk/sport/football/rss.xml" },
-  { category: "Technology", outlet: "BBC News",  url: "https://feeds.bbci.co.uk/news/technology/rss.xml" },
-  { category: "Music",      outlet: "BBC News",  url: "https://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml", include: MUSIC_WORDS },
-  { category: "Arts",       outlet: "BBC News",  url: "https://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml", exclude: MUSIC_WORDS }
+  // ---- Football ----
+  { category: "Football", outlet: "BBC Sport",        url: "https://feeds.bbci.co.uk/sport/football/rss.xml" },
+  { category: "Football", outlet: "The Guardian",     url: "https://www.theguardian.com/football/rss" },
+  { category: "Football", outlet: "ESPN",             url: "https://www.espn.com/espn/rss/soccer/news" },
+  { category: "Football", outlet: "Sky Sports",       url: "https://www.skysports.com/rss/12040" },
+  { category: "Football", outlet: "CBS Sports",       url: "https://www.cbssports.com/rss/headlines/soccer/" },
+  { category: "Football", outlet: "The Standard (Kenya)",  url: "https://www.standardmedia.co.ke/rss/sports.php", include: FOOTBALL_WORDS },
+  { category: "Football", outlet: "Capital FM (Kenya)",    url: "https://www.capitalfm.co.ke/sports/feed/",       include: FOOTBALL_WORDS },
+
+  // ---- Technology ----
+  { category: "Technology", outlet: "BBC News",       url: "https://feeds.bbci.co.uk/news/technology/rss.xml" },
+  { category: "Technology", outlet: "The Verge",      url: "https://www.theverge.com/rss/index.xml" },
+  { category: "Technology", outlet: "TechCrunch",     url: "https://techcrunch.com/feed/" },
+  { category: "Technology", outlet: "Ars Technica",   url: "https://feeds.arstechnica.com/arstechnica/index" },
+  { category: "Technology", outlet: "WIRED",          url: "https://www.wired.com/feed/rss" },
+  { category: "Technology", outlet: "Engadget",       url: "https://www.engadget.com/rss.xml" },
+  { category: "Technology", outlet: "The Guardian",   url: "https://www.theguardian.com/technology/rss" },
+  { category: "Technology", outlet: "TechCabal",      url: "https://techcabal.com/feed/" },
+  { category: "Technology", outlet: "Techpoint Africa", url: "https://techpoint.africa/feed/" },
+
+  // ---- Music ----
+  { category: "Music", outlet: "The Guardian",   url: "https://www.theguardian.com/music/rss" },
+  { category: "Music", outlet: "NME",            url: "https://www.nme.com/feed" },
+  { category: "Music", outlet: "Pitchfork",      url: "https://pitchfork.com/feed/feed-news/rss" },
+  { category: "Music", outlet: "Rolling Stone",  url: "https://www.rollingstone.com/music/feed/" },
+  { category: "Music", outlet: "Billboard",      url: "https://www.billboard.com/feed/" },
+  { category: "Music", outlet: "Stereogum",      url: "https://www.stereogum.com/feed/" },
+  { category: "Music", outlet: "BBC News",       url: "https://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml", include: MUSIC_WORDS },
+
+  // ---- Arts ----
+  { category: "Arts", outlet: "The Guardian",   url: "https://www.theguardian.com/artanddesign/rss" },
+  { category: "Arts", outlet: "ARTnews",        url: "https://www.artnews.com/feed/" },
+  { category: "Arts", outlet: "Hyperallergic",  url: "https://hyperallergic.com/feed/" },
+  { category: "Arts", outlet: "The New York Times", url: "https://rss.nytimes.com/services/xml/rss/nyt/Arts.xml" },
+  { category: "Arts", outlet: "Artsy",          url: "https://www.artsy.net/rss/news" },
+  { category: "Arts", outlet: "BBC News",       url: "https://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml", exclude: MUSIC_WORDS }
 ];
 
 function decode(s) {
@@ -30,12 +66,26 @@ function decode(s) {
 function clean(s) {
   s = (s || "").replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1");
   s = decode(s).replace(/<[^>]*>/g, " ");
+  s = decode(s); // some feeds escape their HTML twice
   return s.replace(/\s+/g, " ").trim();
 }
 
 function tag(block, name) {
   const m = new RegExp("<" + name + "(?:\\s[^>]*)?>([\\s\\S]*?)</" + name + ">", "i").exec(block);
   return m ? m[1] : "";
+}
+
+// Atom feeds keep the link in an attribute: <link href="..." rel="alternate"/>
+function atomLink(block) {
+  let fallback = "";
+  for (const l of block.match(/<link\b[^>]*>/gi) || []) {
+    const href = (/href=["']([^"']+)["']/i.exec(l) || [])[1];
+    const rel = (/rel=["']([^"']+)["']/i.exec(l) || [])[1];
+    if (!href) continue;
+    if (!rel || rel === "alternate") return href;
+    if (!fallback) fallback = href;
+  }
+  return fallback;
 }
 
 function shorten(s, max) {
@@ -49,70 +99,90 @@ function cleanLink(raw) {
   try {
     const u = new URL(raw);
     if (u.protocol !== "http:" && u.protocol !== "https:") return "";
-    u.searchParams.delete("at_medium");
-    u.searchParams.delete("at_campaign");
+    ["at_medium", "at_campaign", "utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term"]
+      .forEach((p) => u.searchParams.delete(p));
     return u.toString();
   } catch (e) { return ""; }
 }
 
-function parseRSS(xml, feed) {
+function parseFeed(xml, feed) {
+  const blocks = xml.match(/<item[\s>][\s\S]*?<\/item>/gi) || xml.match(/<entry[\s>][\s\S]*?<\/entry>/gi) || [];
+  const cutoff = Date.now() - MAX_AGE_DAYS * 86400000;
   const items = [];
-  const blocks = xml.match(/<item[\s>][\s\S]*?<\/item>/gi) || [];
   for (const b of blocks) {
     const headline = clean(tag(b, "title"));
-    const link = cleanLink(tag(b, "link"));
+    const link = cleanLink(tag(b, "link")) || cleanLink(atomLink(b));
     if (!headline || !link) continue;
-    const text = headline + " " + clean(tag(b, "description"));
+    const summaryRaw = clean(tag(b, "description") || tag(b, "summary") || tag(b, "content"));
+    const text = headline + " " + summaryRaw;
     if (feed.include && !feed.include.test(text)) continue;
     if (feed.exclude && feed.exclude.test(text)) continue;
-    const d = new Date(clean(tag(b, "pubDate")));
+    const d = new Date(clean(tag(b, "pubDate") || tag(b, "published") || tag(b, "updated") || tag(b, "dc:date")));
+    const valid = !isNaN(d.getTime());
+    if (valid && d.getTime() < cutoff) continue;
     items.push({
       headline,
       link,
       outlet: feed.outlet,
       category: feed.category,
-      date: isNaN(d.getTime()) ? "" : d.toISOString().slice(0, 10),
-      summary: shorten(clean(tag(b, "description")), 200)
+      date: valid ? d.toISOString().slice(0, 10) : "",
+      summary: shorten(summaryRaw, 200)
     });
   }
-  return items;
+  return items.slice(0, PER_FEED);
 }
 
 async function getFeed(feed) {
   const res = await fetch(feed.url, {
-    headers: { "User-Agent": "KelvinPortfolioNewsBot/1.0 (headline links only)" },
-    signal: AbortSignal.timeout(20000)
+    headers: {
+      "User-Agent": "Mozilla/5.0 (compatible; KelvinPortfolioNewsBot/1.0; headline links only)",
+      "Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml, */*"
+    },
+    signal: AbortSignal.timeout(20000),
+    redirect: "follow"
   });
   if (!res.ok) throw new Error("HTTP " + res.status);
-  return parseRSS(await res.text(), feed);
+  return parseFeed(await res.text(), feed);
 }
 
 async function main() {
   let previous = { items: [] };
   try { previous = JSON.parse(fs.readFileSync(OUTPUT, "utf8")); } catch (e) {}
 
+  const results = await Promise.allSettled(FEEDS.map(getFeed));
   const all = [];
-  let failures = 0;
-  for (const feed of FEEDS) {
-    try {
-      const items = (await getFeed(feed)).slice(0, PER_CATEGORY);
-      console.log(feed.category + ": " + items.length + " headlines");
-      all.push(...items);
-    } catch (err) {
-      failures++;
-      console.warn(feed.category + " failed (" + err.message + "). Keeping the previous headlines.");
-      all.push(...(previous.items || []).filter((i) => i.category === feed.category));
+  const failed = [];
+  results.forEach((r, i) => {
+    const f = FEEDS[i];
+    const label = f.category + " / " + f.outlet;
+    if (r.status === "fulfilled" && r.value.length) {
+      console.log("OK      " + label + ": " + r.value.length + " headlines");
+      all.push(...r.value);
+    } else {
+      const why = r.status === "rejected" ? r.reason.message : "no matching headlines";
+      console.warn("FAILED  " + label + " (" + why + ")");
+      failed.push(label);
+      all.push(...(previous.items || []).filter((x) => x.category === f.category && x.outlet === f.outlet).slice(0, PER_FEED));
     }
-  }
-  if (failures === FEEDS.length && !all.length) throw new Error("All feeds failed and there is nothing saved.");
+  });
+  if (failed.length === FEEDS.length && !all.length) throw new Error("All feeds failed and nothing is saved.");
 
+  // One copy of each link, newest first, capped per category.
   const seen = new Set();
-  const items = all.filter((i) => (seen.has(i.link) ? false : seen.add(i.link)));
-  fs.writeFileSync(OUTPUT, JSON.stringify({ updated: new Date().toISOString(), items }, null, 2) + "\n");
-  console.log("Saved " + items.length + " headlines to news.json");
+  const unique = all.filter((i) => (seen.has(i.link) ? false : seen.add(i.link)));
+  unique.sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0));
+  const count = {};
+  const items = unique.filter((i) => {
+    count[i.category] = (count[i.category] || 0) + 1;
+    return count[i.category] <= PER_CATEGORY;
+  });
+
+  const report = { feeds_ok: FEEDS.length - failed.length, feeds_failed: failed };
+  fs.writeFileSync(OUTPUT, JSON.stringify({ updated: new Date().toISOString(), report, items }, null, 2) + "\n");
+  console.log("Saved " + items.length + " headlines. Feeds OK: " + report.feeds_ok + "/" + FEEDS.length);
 }
 
 if (require.main === module) {
   main().catch((err) => { console.error(err); process.exit(1); });
 }
-module.exports = { parseRSS, clean, cleanLink, shorten, FEEDS };
+module.exports = { parseFeed, clean, cleanLink, shorten, FEEDS };
