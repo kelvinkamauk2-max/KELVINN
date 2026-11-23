@@ -1,5 +1,12 @@
 {
-  "updated": "2026-11-23T16:16:36.544Z",
+  "updated": "2026-11-23T16:38:35.691Z",
+  "report": {
+    "feeds_ok": 27,
+    "feeds_failed": [
+      "Football / ESPN",
+      "Technology / Techpoint Africa"
+    ]
+  },
   "items": [
     {
       "headline": "England, Northern Ireland, Scotland & Wales to host 2035 Women's World Cup",
@@ -18,14 +25,6 @@
       "summary": "Arsenal goalkeeper David Raya will miss Tuesday's Champions League game against Borussia Dortmund but his shoulder injury will not require an operation."
     },
     {
-      "headline": "Chaotic week, nightmare start and huge reality check for Pochettino",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cwd012903kvgo",
-      "outlet": "BBC Sport",
-      "category": "Football",
-      "date": "2026-11-22",
-      "summary": "Mauricio Pochettino's reign as Manchester United boss could barely have got off to a more chastening start, writes Simon Stone."
-    },
-    {
       "headline": "Watford set to appoint former Romania boss Iordanescu",
       "link": "https://www.bbc.co.uk/sport/football/articles/cj7523r0vrp0o",
       "outlet": "BBC Sport",
@@ -42,28 +41,132 @@
       "summary": "Diego Simeone records his 345th La Liga victory as Atletico Madrid manager to set a new mark."
     },
     {
-      "headline": "Holloway sacked by Swindon after two seasons",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c5yrg1r6ezno",
-      "outlet": "BBC Sport",
+      "headline": "‘Celebrate, inspire, unite’: UK confirmed as host of 2035 Women’s World Cup",
+      "link": "https://www.theguardian.com/football/2026/nov/23/uk-confirmed-hosts-2035-womens-world-cup-fifa",
+      "outlet": "The Guardian",
       "category": "Football",
       "date": "2026-11-23",
-      "summary": "Swindon sack manager Ian Holloway following their poor start to the League Two season."
+      "summary": "Country’s first World Cup since men’s 1966 edition in England Bid lists 22 stadiums as potential venues The UK is to host the 2035 Women’s World Cup, Fifa has confirmed. England, Northern Ireland…"
     },
     {
-      "headline": "One of football's most-hyped 16-year-olds - what next for JJ Gabriel?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c6p9dym309nxo",
-      "outlet": "BBC Sport",
+      "headline": "Infantino’s $20bn World Cup sell-off plan was to run for up to 96 years, documents show",
+      "link": "https://www.theguardian.com/football/2026/nov/23/gianni-infantino-world-cup-sell-off-plan-96-years-documents-payouts",
+      "outlet": "The Guardian",
       "category": "Football",
       "date": "2026-11-23",
-      "summary": "BBC Sport looks at why JJ Gabriel's move from Manchester United to Real Madrid has caused such a stir."
+      "summary": "Management team were in line for huge payouts Fifa denies Infantino would have profited from plan Gianni Infantino’s failed Fifa Forward Enterprise plan could have locked football in for up to 96…"
     },
     {
-      "headline": "I've wanted to crawl under a rock and hide' - Pressley",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cre3d9j5k4n8o",
-      "outlet": "BBC Sport",
+      "headline": "David Raya’s shoulder injury ‘not too serious’ and no surgery needed for Arsenal goalkeeper",
+      "link": "https://www.theguardian.com/football/2026/nov/23/david-raya-shoulder-injury-arsenal-surgery-mikel-arteta",
+      "outlet": "The Guardian",
       "category": "Football",
       "date": "2026-11-23",
-      "summary": "Steven Pressley says he felt embarrassed by Dundee's 8-0 \"humiliation\" by Hearts and that there is a \"fragility\" in his squad."
+      "summary": "No 1 to miss Dortmund game but could return for City clash ‘We were worried … he’s better than expected,’ says manager Mikel Arteta is hopeful the shoulder injury David Raya sustained at Newcastle is…"
+    },
+    {
+      "headline": "Emery insists no change of plan for Aston Villa despite fears over Galatasaray surface",
+      "link": "https://www.theguardian.com/football/2026/nov/23/unai-emery-no-change-of-plan-aston-villa-galatasaray-surface",
+      "outlet": "The Guardian",
+      "category": "Football",
+      "date": "2026-11-23",
+      "summary": "‘Hopefully the pitch will be as best as possible,’ says Villa manager Turkish champions had to move game on Saturday Unai Emery has insisted he will not alter his plans for Aston Villa’s Champions…"
+    },
+    {
+      "headline": "Mauricio Pochettino can now see just how desperate Manchester United are | Jonathan Wilson",
+      "link": "https://www.theguardian.com/football/2026/nov/23/mauricio-pochettino-can-now-see-just-how-desperate-manchester-united-are",
+      "outlet": "The Guardian",
+      "category": "Football",
+      "date": "2026-11-23",
+      "summary": "The manager’s first game in charge was a disaster and he needs to lift the mood within a sunken squad if a relegation battle is to be avoided Sign up for our free newsletter here In as much as any…"
+    },
+    {
+      "headline": "UK confirmed as hosts of 2035 Women's World Cup",
+      "link": "https://www.skysports.com/football/news/12040/13615555/womens-world-cup-uk-announced-as-2035-hosts-as-costa-rica-jamaica-mexico-and-usa-host-in-2031",
+      "outlet": "Sky Sports",
+      "category": "Football",
+      "date": "2026-11-23",
+      "summary": "The UK has been confirmed as the host of the 2035 Women's World Cup."
+    },
+    {
+      "headline": "Henman: While Sinner is out of equation, Alcaraz is best in the world",
+      "link": "https://www.skysports.com/tennis/news/12040/13615606/carlos-alcaraz-spaniard-is-toughest-player-to-play-against-right-now-with-jannik-sinner-out-of-the-equation-says-tim-henman",
+      "outlet": "Sky Sports",
+      "category": "Football",
+      "date": "2026-11-23",
+      "summary": "Carlos Alcaraz is the \"toughest player to play against\" right now with Jannik Sinner out of the equation, says Tim Henman."
+    },
+    {
+      "headline": "Bakole steps in for Opetaia to fight Wilder on Fury-AJ undercard",
+      "link": "https://www.skysports.com/boxing/news/12040/13615668/fury-vs-joshua-undercard-martin-bakole-steps-in-for-jai-opetaia-to-fight-former-heavyweight-world-champion-deontay-wilder",
+      "outlet": "Sky Sports",
+      "category": "Football",
+      "date": "2026-11-23",
+      "summary": "Martin Bakole will fight Deontay Wilder on the undercard of Tyson Fury vs Anthony Joshua on December 11."
+    },
+    {
+      "headline": "Raya injury 'not too serious' says relieved Arteta",
+      "link": "https://www.skysports.com/football/news/12040/13615438/david-raya-injury-arsenal-goalkeeper-avoids-surgery-and-blow-is-not-as-bad-as-first-feared-says-mikel-arteta",
+      "outlet": "Sky Sports",
+      "category": "Football",
+      "date": "2026-11-23",
+      "summary": "Mikel Arteta has revealed that David Raya's shoulder injury is not as bad as first feared, but is unsure when the Arsenal goalkeeper will return to action."
+    },
+    {
+      "headline": "Sinner set to undergo knee surgery and doubt for Australian Open",
+      "link": "https://www.skysports.com/tennis/news/12040/13615609/jannik-sinner-former-world-no-1-to-undergo-knee-surgery-in-finland-and-doubt-for-australian-open-in-january",
+      "outlet": "Sky Sports",
+      "category": "Football",
+      "date": "2026-11-23",
+      "summary": "Former world No 1 Jannik Sinner is set to undergo surgery on his troublesome knee which is likely to see him miss the Australian Open in January, according to Sky in Italy."
+    },
+    {
+      "headline": "USA to co-host 2031 FIFA Women's World Cup with Mexico, Costa Rica and Jamaica",
+      "link": "https://www.cbssports.com/soccer/news/u-s-a-co-host-2031-fifa-womens-world-cup-mexico-costa-rica-jamaica/",
+      "outlet": "CBS Sports",
+      "category": "Football",
+      "date": "2026-11-23",
+      "summary": "The tournament returns to North America after Canada hosted in 2015, while the U.S. resumes hosting duties for the Women's World Cup for the first time since 2003"
+    },
+    {
+      "headline": "Gloves off as Harambee Stars goalkeeper decries poor quality of match balls in Kenyan league",
+      "link": "https://capitalfm.africa/gloves-off-as-harambee-stars-goalkeeper-decries-poor-quality-of-match-balls-in-kenyan-league/",
+      "outlet": "Capital FM (Kenya)",
+      "category": "Football",
+      "date": "2026-11-23",
+      "summary": "NAIROBI, Kenya, November 23, 2026 – Harambee Stars goalkeeper Farouk Shikhalo has decried the poor quality of footballs used in the 2026/27 Football Kenya Federation (FKF) Premier League. The Nairobi…"
+    },
+    {
+      "headline": "CAS to declare legitimate Afcon champions between Senegal, Morocco",
+      "link": "https://capitalfm.africa/hour-of-reckoning-as-cas-to-declare-legitimate-afcon-champions-between-senegal-morocco/",
+      "outlet": "Capital FM (Kenya)",
+      "category": "Football",
+      "date": "2026-11-23",
+      "summary": "NAIROBI, Kenya, November 23, 2026 – The Court of Arbitration for Sports (CAS) will on Tuesday rule on who are the legitimate Africa Cup of Nations (Afcon) champions between Senegal…"
+    },
+    {
+      "headline": "Why Gor coach Akonnor is not losing sleep over his misfiring strikers",
+      "link": "https://capitalfm.africa/why-gor-coach-akonnor-is-not-losing-sleep-over-his-misfiring-strikers/",
+      "outlet": "Capital FM (Kenya)",
+      "category": "Football",
+      "date": "2026-11-23",
+      "summary": "NAIROBI, Kenya, November 23, 2026 – Gor Mahia head coach Charles Akonnor says he is unworried about his strikers’ deadness in front of goal in the 2026/27 FKF Premier League.…"
+    },
+    {
+      "headline": "Pepe did not injure eyes staring at sun, say Villarreal",
+      "link": "https://capitalfm.africa/pepe-did-not-injure-eyes-staring-at-sun-say-villarreal/",
+      "outlet": "Capital FM (Kenya)",
+      "category": "Football",
+      "date": "2026-11-23",
+      "summary": "MADRID, Spain, November 23, 2026 – Villarreal say reports striker Nicolas Pepe needed eye surgery because he stared directly at the solar eclipse are “completely false”. In a statement, the…"
+    },
+    {
+      "headline": "One of football’s most-hyped 16-year-olds – what next for JJ Gabriel?",
+      "link": "https://capitalfm.africa/one-of-footballs-most-hyped-16-year-olds-what-next-for-jj-gabriel/",
+      "outlet": "Capital FM (Kenya)",
+      "category": "Football",
+      "date": "2026-11-23",
+      "summary": "MANCHESTER, England, November 23, 2026 – It has been one of the biggest transfer sagas of the year – around a player who has never played competitive football. Forward JJ…"
     },
     {
       "headline": "How important are Nvidia and Jensen Huang to the US economy?",
@@ -106,68 +209,540 @@
       "summary": "AI employees in the industry's epicentre - San Francisco - worry that the sector is overheated."
     },
     {
-      "headline": "Can AI really help spot Black Friday deals? We put it to the test",
-      "link": "https://www.bbc.co.uk/news/articles/cw8dv4jmnle2o",
-      "outlet": "BBC News",
+      "headline": "White House brags that Trump was ‘totally involved’ in getting Jensen reinstated",
+      "link": "https://www.theverge.com/policy/1040096/trump-nvidia-jensen-huang-reinstated",
+      "outlet": "The Verge",
       "category": "Technology",
-      "date": "2026-11-21",
-      "summary": "We put four AI models to the test to see if they could save us money on a new TV."
+      "date": "2026-11-23",
+      "summary": "It sure looked like President Donald Trump played a role in Jensen Huang's reinstatement as Nvidia CEO - and now the White House is making sure everyone knows he was. \"President Trump was totally…"
     },
     {
-      "headline": "In a year of AI solving maths problems, an Anthropic worker says he may have cracked the biggest",
-      "link": "https://www.bbc.co.uk/news/articles/c6pqr2g7w059o",
-      "outlet": "BBC News",
+      "headline": "Tech leaders are celebrating Jensen Huang’s return",
+      "link": "https://www.theverge.com/tech/1040069/jensen-huang-return-elon-musk-sam-altman-yay",
+      "outlet": "The Verge",
       "category": "Technology",
-      "date": "2026-11-20",
-      "summary": "A mathematician at Anthropic says he used an AI to prove the famed Riemann hypothesis, though verification will take some time."
+      "date": "2026-11-23",
+      "summary": "Let's say you're Jensen Huang. You (allegedly) cheated on your wife with an alleged Chinese spy, allegedly had an affair with not one, but two subordinates, and (allegedly!) \"terrorized\" your…"
     },
     {
-      "headline": "GTA 6 sales hit $3.8bn in a single day - the biggest entertainment launch in history",
-      "link": "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o",
-      "outlet": "BBC News",
+      "headline": "My trusty 27-inch Alienware QD-OLED gaming monitor is just $280",
+      "link": "https://www.theverge.com/gadgets/1039999/alienware-aw2726dm-qdoled-gaming-monitor-black-friday-2026-deal-sale",
+      "outlet": "The Verge",
       "category": "Technology",
-      "date": "2026-11-20",
-      "summary": "The mammoth figure surpasses every video game launch and single-day film box office record."
+      "date": "2026-11-23",
+      "summary": "Alienware’s AW2726DM QD-OLED gaming monitor was a great deal even at its original $349.99 price. The low price and impressive specs were enough to convince me to get one at launch, and I’m glad that…"
     },
     {
-      "headline": "US rapper postpones O2 arena show after Manchester evacuation",
-      "link": "https://www.bbc.co.uk/news/articles/ck3rgp4gv9pxo",
-      "outlet": "BBC News",
+      "headline": "Apple’s AirPods Pro 3 are 40 percent off ahead of Black Friday",
+      "link": "https://www.theverge.com/gadgets/1039978/airpods-pro-3-apple-earbuds-black-friday-2026-deal-sale",
+      "outlet": "The Verge",
+      "category": "Technology",
+      "date": "2026-11-23",
+      "summary": "The AirPods Pro 3 are cheaper than ever. Apple’s latest flagship wireless earbuds dropped this morning to just $149 at Amazon and Walmart. Originally, they sold for $249, but have been commonly…"
+    },
+    {
+      "headline": "The Verge’s favorite holiday gifts that cost $50 or less",
+      "link": "https://www.theverge.com/gadgets/1023471/best-gifts-under-50-2026",
+      "outlet": "The Verge",
+      "category": "Technology",
+      "date": "2026-11-23",
+      "summary": "You've got $50 to spend on a friend or loved one this shopping season, and you're not sure what to spend it on. First off, that's actually really generous of you. While this price tier can sometimes…"
+    },
+    {
+      "headline": "CrowdStrike to acquire Zscaler for $44 billion",
+      "link": "https://techcrunch.com/2026/11/23/crowdstrike-to-acquire-zscaler-for-44-billion/",
+      "outlet": "TechCrunch",
+      "category": "Technology",
+      "date": "2026-11-23",
+      "summary": "The cybersecurity giant said that the deal to buy Zscaler, which provides zero-trust products to large enterprises, will better equip their customers to use AI agents."
+    },
+    {
+      "headline": "Dutch privacy authority urges consumers not to buy ‘pervert glasses’",
+      "link": "https://techcrunch.com/2026/11/23/dutch-privacy-authority-urges-consumers-not-to-buy-pervert-glasses/",
+      "outlet": "TechCrunch",
+      "category": "Technology",
+      "date": "2026-11-23",
+      "summary": "The Netherlands' data protection agency said smart wearables violate people's privacy, get information wrong, and can result in unsafe situations."
+    },
+    {
+      "headline": "Trump endorses Jensen Huang’s return to Nvidia, says US has no evidence of wrongdoing",
+      "link": "https://techcrunch.com/2026/11/23/trump-endorses-jensen-huangs-return-to-nvidia-says-us-has-no-evidence-of-wrongdoing/",
+      "outlet": "TechCrunch",
+      "category": "Technology",
+      "date": "2026-11-23",
+      "summary": "The president cited the U.S. Attorney General in defending Huang's return, while urging Nvidia to continue its export-control investigation."
+    },
+    {
+      "headline": "Sierra doubles valuation to $30B within six months as demand for AI in CX takes off",
+      "link": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/",
+      "outlet": "TechCrunch",
+      "category": "Technology",
+      "date": "2026-11-23",
+      "summary": "Enterprise customer experience company Sierra, co-founded by former Salesforce co-CEO Bret Taylor, said on Monday that it has raised $1.75 billion in a Series F round."
+    },
+    {
+      "headline": "Nvidia reverses course and brings Jensen Huang back as CEO",
+      "link": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/",
+      "outlet": "TechCrunch",
+      "category": "Technology",
+      "date": "2026-11-23",
+      "summary": "The stunning reversal was supported by senior officials in the U.S. government."
+    },
+    {
+      "headline": "Marvel crams every superhero ever into Avengers: Doomsday final trailer",
+      "link": "https://arstechnica.com/culture/2026/11/marvel-crams-every-superhero-ever-into-avengers-doomsday-final-trailer/",
+      "outlet": "Ars Technica",
+      "category": "Technology",
+      "date": "2026-11-23",
+      "summary": "\"All of you have lived stolen lives. But now you must give them back\""
+    },
+    {
+      "headline": "Jensen Huang reinstated as Nvidia CEO, board chair",
+      "link": "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair/",
+      "outlet": "Ars Technica",
+      "category": "Technology",
+      "date": "2026-11-23",
+      "summary": "Trump says he spoke to the board and that Huang \"did nothing wrong.\""
+    },
+    {
+      "headline": "COP31 ends in failure as countries split over fossil fuels, climate finance",
+      "link": "https://arstechnica.com/science/2026/11/cop31-ends-in-failure-as-countries-split-over-fossil-fuels-climate-finance/",
+      "outlet": "Ars Technica",
+      "category": "Technology",
+      "date": "2026-11-23",
+      "summary": "COP31 ended without a consensus deal for the first time since 2009."
+    },
+    {
+      "headline": "F1 in Las Vegas: You've never seen an F1 race like this before",
+      "link": "https://arstechnica.com/cars/2026/11/f1-in-las-vegas-youve-never-seen-an-f1-race-like-this-before/",
+      "outlet": "Ars Technica",
+      "category": "Technology",
+      "date": "2026-11-23",
+      "summary": "There were 352 position changes, including 35 for the lead."
+    },
+    {
+      "headline": "Tri-screen portable monitors aren’t for the faint of heart",
+      "link": "https://arstechnica.com/gadgets/2026/11/a-triple-screen-portable-monitor-means-more-pixels-and-more-bulk/",
+      "outlet": "Ars Technica",
+      "category": "Technology",
+      "date": "2026-11-23",
+      "summary": "Three extra screens boost multitasking but can distract and overwhelm."
+    },
+    {
+      "headline": "Jensen Huang Is Back as Nvidia CEO",
+      "link": "https://www.wired.com/story/jensen-huang-is-back-as-nvidia-ceo/",
+      "outlet": "WIRED",
+      "category": "Technology",
+      "date": "2026-11-23",
+      "summary": "The company’s board of directors has reinstated Huang a little more than a week after the CEO resigned amid allegations of multiple affairs, including with a direct report."
+    },
+    {
+      "headline": "Nvidia Is Powering Brain-Computer Interfaces Now",
+      "link": "https://www.wired.com/story/nvidia-is-powering-brain-computer-interfaces-now/",
+      "outlet": "WIRED",
+      "category": "Technology",
+      "date": "2026-11-23",
+      "summary": "Brain-computer interface company Paradromics is using Nvidia’s computing hardware and software to process brain data."
+    },
+    {
+      "headline": "Submit Your Questions: Will Anyone Keep You Safe From AI?",
+      "link": "https://www.wired.com/story/livestream-will-anyone-keep-us-safe-from-ai/",
+      "outlet": "WIRED",
+      "category": "Technology",
+      "date": "2026-11-23",
+      "summary": "Experts agree that AI, in one way or another, poses real danger. Will the industry do anything about it? Join our livestream on December 2 to hear your questions answered."
+    },
+    {
+      "headline": "44 Best Gifts Under $100 That WIRED Loves (2026)",
+      "link": "https://www.wired.com/gallery/best-gifts-under-100/",
+      "outlet": "WIRED",
+      "category": "Technology",
+      "date": "2026-11-23",
+      "summary": "Score a great gift for everyone on your list without breaking the bank. Every one of these gifts comes WIRED-recommended."
+    },
+    {
+      "headline": "‘Most of the video budget went on Steve Strange’s makeup’: Midge Ure on how Visage made Fade to Grey",
+      "link": "https://www.theguardian.com/culture/2026/nov/23/visage-fade-to-grey-midge-ure-steve-strange-millais-ophelia-pre-raphaelite",
+      "outlet": "The Guardian",
       "category": "Music",
       "date": "2026-11-23",
-      "summary": "Don Toliver's show on Sunday was evacuated after an \"unknown substance\" was released into the crowd."
+      "summary": "‘I was really into pre-Raphaelite paintings – Millais’ drowning Ophelia and the like – so I wrote a romantic study that eventually became this’ Visage were an amalgamation of three bands: Rich Kids…"
     },
     {
-      "headline": "Police investigate unknown substance that caused Manchester's Co-op Live evacuation",
-      "link": "https://www.bbc.co.uk/news/articles/c9e851dn8516o",
-      "outlet": "BBC News",
+      "headline": "Concertgoers criticise ‘atrocious’ lack of security at Manchester Co-op Live gig",
+      "link": "https://www.theguardian.com/uk-news/2026/nov/23/concertgoers-criticise-security-manchester-co-op-live-arena",
+      "outlet": "The Guardian",
       "category": "Music",
       "date": "2026-11-23",
-      "summary": "People describe a \"horrible smell\" and hearing screaming as they were evacuated from the Don Toliver gig."
+      "summary": "Fans at concert where unknown substance was released into crowd tell of ‘shocking’ checks and ticketless people ‘hopping barriers’ Concertgoers in Manchester have criticised an “atrocious” lack of…"
     },
     {
-      "headline": "Australian music legend Molly Meldrum dies aged 83",
-      "link": "https://www.bbc.co.uk/news/articles/c3qj57rkd2k1o",
-      "outlet": "BBC News",
+      "headline": "‘My name was poison’: Donny Osmond on fame, failure – and his friend Michael Jackson",
+      "link": "https://www.theguardian.com/music/2026/nov/23/donny-osmond-interview-fame-failure-michael-jackson-friendship",
+      "outlet": "The Guardian",
       "category": "Music",
       "date": "2026-11-23",
-      "summary": "The promoter and broadcaster helped define the music tastes of Australians for decades."
+      "summary": "He was the child star of the Osmonds who become a global celebrity by 14. Then, at 21, his career came crashing down. Here, he reveals how he survived his years in exile – and what happened when…"
     },
     {
-      "headline": "Beatles venue may not play live music on rooftop",
-      "link": "https://www.bbc.co.uk/news/articles/ckp80ynrn3mvo",
-      "outlet": "BBC News",
+      "headline": "FKA Twigs and Patti Smith added to Gasometer grand opening as we go inside the “new cultural landmark for Northern Europe”",
+      "link": "https://www.nme.com/news/music/fka-twigs-and-patti-smith-added-to-gasometer-grand-opening-as-we-go-inside-the-new-cultural-landmark-for-northern-europe-3976585",
+      "outlet": "NME",
       "category": "Music",
       "date": "2026-11-23",
-      "summary": "The proposed museum on Savile Row may get the greenlight on Tuesday but is facing objections."
+      "summary": "Ahead of Gasometer's ambitious inaugural performances in March 2027, NME takes a look around the new state-of-the-art renovated gig destination that offers many \"historic moments\" to come The post…"
     },
     {
-      "headline": "TRNSMT: What's the future for Scotland's largest music festival?",
-      "link": "https://www.bbc.co.uk/news/articles/cv702en03nw4o",
-      "outlet": "BBC News",
+      "headline": "AC/DC, Blondie and Kylie Minogue lead tributes after beloved music promoter Molly Meldrum dies, aged 83",
+      "link": "https://www.nme.com/news/music/ac-dc-blondie-and-kylie-minogue-lead-tributes-after-beloved-music-promoter-molly-meldrum-dies-aged-83-3976776",
+      "outlet": "NME",
       "category": "Music",
-      "date": "2026-11-21",
-      "summary": "No dates, ticket sales or acts have yet been announced by DF Concerts for the Glasgow Green festival."
+      "date": "2026-11-23",
+      "summary": "AC/DC, Blondie and Kylie Minogue are among a host of stars who have paid tribute to music promoter Molly Meldrum who has died, aged 83. The Australian broadcaster and record producer died at Epworth…"
+    },
+    {
+      "headline": "‘Blade Runner 2099’ review: a hollow retread of the cult dystopian classic",
+      "link": "https://www.nme.com/reviews/tv-reviews/blade-runner-2099-review-michelle-yeoh-hunter-schafer-amazon-prime-3976755",
+      "outlet": "NME",
+      "category": "Music",
+      "date": "2026-11-23",
+      "summary": "The eight-hour series fails to bring anything new to the slowly-expanding sci-fi franchise The post ‘Blade Runner 2099’ review: a hollow retread of the cult dystopian classic appeared first on NME ."
+    },
+    {
+      "headline": "Live music to be banned from rooftop of The Beatles’ Saville Row London fan experience",
+      "link": "https://www.nme.com/news/music/live-music-to-be-banned-from-rooftop-of-the-beatles-saville-row-london-fan-experience-3976748",
+      "outlet": "NME",
+      "category": "Music",
+      "date": "2026-11-23",
+      "summary": "The Fab Four famously played their final public performance there in 1969 The post Live music to be banned from rooftop of The Beatles’ Saville Row London fan experience appeared first on NME ."
+    },
+    {
+      "headline": "‘Grand Theft Auto 6: The Album’ gets ‘Deluxe’ version with 23 more tracks",
+      "link": "https://www.nme.com/news/gaming-news/grand-theft-auto-6-the-album-deluxe-version-tracklist-slayyyter-travis-scott-3976738",
+      "outlet": "NME",
+      "category": "Music",
+      "date": "2026-11-23",
+      "summary": "Featuring new music from Slayyyter, The Dare, Denzel Curry, Travis Scott and more The post ‘Grand Theft Auto 6: The Album’ gets ‘Deluxe’ version with 23 more tracks appeared first on NME ."
+    },
+    {
+      "headline": "Portishead Reportedly Pull Music From Israeli Streaming Services",
+      "link": "https://pitchfork.com/story/portishead-reportedly-pull-music-from-israeli-streaming-services/",
+      "outlet": "Pitchfork",
+      "category": "Music",
+      "date": "2026-11-23",
+      "summary": "The band, long aligned with the Palestinian cause, has not commented on the removal"
+    },
+    {
+      "headline": "Listen to D’Angelo’s Posthumous Song “Kamikazi”",
+      "link": "https://pitchfork.com/story/listen-to-dangelos-posthumous-song-kamikazi/",
+      "outlet": "Pitchfork",
+      "category": "Music",
+      "date": "2026-11-23",
+      "summary": "The previously unreleased track surfaced in Grand Theft Auto VI’s Worldwide FM radio station"
+    },
+    {
+      "headline": "Don Toliver Concert Evacuated After Airborne Substance Released Into Crowd",
+      "link": "https://pitchfork.com/story/don-toliver-concert-evacuated-after-airborne-substance-released-into-crowd/",
+      "outlet": "Pitchfork",
+      "category": "Music",
+      "date": "2026-11-23",
+      "summary": "Fans were reportedly “screaming” and “coughing up blood” at UK arena Co-Op Live"
+    },
+    {
+      "headline": "Nirosta Steel Shares Alternate Versions of My Skyscraper Tracks",
+      "link": "https://pitchfork.com/story/nirosta-steel-shares-alternate-versions-of-my-skyscraper-tracks/",
+      "outlet": "Pitchfork",
+      "category": "Music",
+      "date": "2026-11-23",
+      "summary": "“Grey Boy” and “Boss Trix” now have “Boss Mix” editions"
+    },
+    {
+      "headline": "Justin Timberlake Will Open Up About Highs and Lows of Stardom on Four-Part Documentary",
+      "link": "https://www.rollingstone.com/music/music-news/justin-timberlake-apple-tv-documentary-1235662641/",
+      "outlet": "Rolling Stone",
+      "category": "Music",
+      "date": "2026-11-23",
+      "summary": "First two parts of Timberlake premiere on Apple TV on Dec. 11, with trailer out now"
+    },
+    {
+      "headline": "Watch Taylor Swift Surprise Brenda Lee With ‘Rockin’ Around the Christmas Tree’ Honor",
+      "link": "https://www.rollingstone.com/music/music-country/taylor-swift-rockin-around-the-christmas-tree-brenda-lee-1235662663/",
+      "outlet": "Rolling Stone",
+      "category": "Music",
+      "date": "2026-11-23",
+      "summary": "Lee’s 1958 chestnut is one of just two Christmas songs to ever be certified Diamond"
+    },
+    {
+      "headline": "Nick Cave’s Raucous, Druggy Johnny Cash Cover Will Improve Your Day",
+      "link": "https://www.rollingstone.com/music/music-news/nick-cave-bob-dylan-johnny-cash-wanted-man-1986-concert-1235662612/",
+      "outlet": "Rolling Stone",
+      "category": "Music",
+      "date": "2026-11-23",
+      "summary": "The Bad Seeds performed “Wanted Man” and other Cave classics at a 1986 gig that’s newly posted to YouTube"
+    },
+    {
+      "headline": "See Cheap Trick Play Last Concert Before Indefinite Hiatus: ‘Thanks for Everything You’ve Given Us’",
+      "link": "https://www.rollingstone.com/music/music-news/cheap-trick-last-concert-hiatus-1235662620/",
+      "outlet": "Rolling Stone",
+      "category": "Music",
+      "date": "2026-11-23",
+      "summary": "After 50 years of relentless touring, Cheap Trick now have a blank calendar for the first time in their history"
+    },
+    {
+      "headline": "The 200 Best Songs of the 1990s",
+      "link": "https://www.rollingstone.com/music/music-lists/best-1990s-songs-1235651872/",
+      "outlet": "Rolling Stone",
+      "category": "Music",
+      "date": "2026-11-23",
+      "summary": "From Biggie to Blur to Britney, from New Jack Swing to shoegaze to ska — let’s celebrate the beauty, brilliance, and weirdness of one of music’s most bountiful decades"
+    },
+    {
+      "headline": "Watch Taylor Swift Surprise Brenda Lee With an RIAA Diamond Plaque for This ‘Incredible Song’",
+      "link": "https://www.billboard.com/music/music-news/taylor-swift-surprises-brenda-lee-riaa-diamond-plaque-video-1236387743/",
+      "outlet": "Billboard",
+      "category": "Music",
+      "date": "2026-11-23",
+      "summary": "Lee's holiday classic \"Rockin' Around The Christmas Tree\" has reached a new milestone."
+    },
+    {
+      "headline": "‘Everyone Comes Here to Be Wowed’: Las Vegas Grand Prix Hits Live Music Jackpot With Backstreet Boys, Kacey Musgraves & More",
+      "link": "https://www.billboard.com/music/music-news/las-vegas-grand-prix-2026-backstreet-boys-kacey-musgraves-1236387637/",
+      "outlet": "Billboard",
+      "category": "Music",
+      "date": "2026-11-23",
+      "summary": "Sean Paul, Natasha Bedingfield and Ja Rule also performed on the T-Mobile Zone stage by the Sphere."
+    },
+    {
+      "headline": "Don Toliver Delays London Gig After Manchester Set Evacuated for ‘Unknown Substance’: ‘Stop Bringing Bulls–t’ Into My Shows!’",
+      "link": "https://www.billboard.com/music/rb-hip-hop/don-toliver-show-evacuated-unknown-substance-rapper-reacts-1236387729/",
+      "outlet": "Billboard",
+      "category": "Music",
+      "date": "2026-11-23",
+      "summary": "His Saturday Manchester set was evacuated mid-show, with attendees treated by medical staff."
+    },
+    {
+      "headline": "All CMA Awards New Artist of the Year Winners Over 30: Stephen Wilson Jr., Jelly Roll & More",
+      "link": "https://www.billboard.com/lists/cma-awards-new-artist-of-the-year-winners-over-age-30/",
+      "outlet": "Billboard",
+      "category": "Music",
+      "date": "2026-11-23",
+      "summary": "The CMA has presented new artist of the year (formerly known as the Horizon Award) 46 times. As the years have gone by, the winners have gotten appreciably older."
+    },
+    {
+      "headline": "Here Are All the K-pop Albums That Have Topped the Billboard 200: Full List",
+      "link": "https://www.billboard.com/lists/k-pop-albums-number-one-billboard-200-albums-full-list/",
+      "outlet": "Billboard",
+      "category": "Music",
+      "date": "2026-11-23",
+      "summary": "ATEEZ's latest is the fifth K-pop album or EP to top Billboard 200 in 2026, which ties 2023 as the year with the most K-pop leaders."
+    },
+    {
+      "headline": "Steve Lacy Brought Out SZA, Childish Gambino, Tyler, The Creator & More In LA",
+      "link": "https://stereogum.com/2520245/steve-lacy-brought-out-sza-childish-gambino-tyler-the-creator-more-in-la/news/",
+      "outlet": "Stereogum",
+      "category": "Music",
+      "date": "2026-11-23",
+      "summary": "The post Steve Lacy Brought Out SZA, Childish Gambino, Tyler, The Creator & More In LA appeared first on Stereogum ."
+    },
+    {
+      "headline": "D’Angelo’s Previously Unheard GTA VI Song “Kamikazi” Hits Streaming Services",
+      "link": "https://stereogum.com/2520241/dangelos-previously-unheard-gta-vi-song-kamikazi-hits-streaming-services/music/",
+      "outlet": "Stereogum",
+      "category": "Music",
+      "date": "2026-11-23",
+      "summary": "The post D’Angelo’s Previously Unheard GTA VI Song “Kamikazi” Hits Streaming Services appeared first on Stereogum ."
+    },
+    {
+      "headline": "Cathedrals of sound: the secret universe inside musical instruments – in pictures",
+      "link": "https://www.theguardian.com/artanddesign/gallery/2026/nov/24/stunning-optical-illusion-photographs-inside-musical-instruments-charles-brooks",
+      "outlet": "The Guardian",
+      "category": "Arts",
+      "date": "2026-11-23",
+      "summary": "Photographer and former cellist Charles Brooks creates optical illusions with minuscule cameras. He threads endoscopes inside instruments to capture thousands of images which are then combined: a…"
+    },
+    {
+      "headline": "The journal of a punk photographer from Wollongong to London and back – in pictures",
+      "link": "https://www.theguardian.com/artanddesign/gallery/2026/nov/24/australian-english-punk-culture-photographs-from-wollongong-to-london-katelyn-slyer",
+      "outlet": "The Guardian",
+      "category": "Arts",
+      "date": "2026-11-23",
+      "summary": "Katelyn Slyer’s book, The Middle, records a generation of young people negotiating their identity while caught between the intimacy of the analog era and new digital world from 2004 to 2010. Her…"
+    },
+    {
+      "headline": "‘A fight to demand that humans are worth investing in’: Theaster Gates on taking over America’s last porcelain factory",
+      "link": "https://www.theguardian.com/artanddesign/2026/nov/23/theaster-gates-pickard-china-art",
+      "outlet": "The Guardian",
+      "category": "Arts",
+      "date": "2026-11-23",
+      "summary": "As he invests in 60,0000 sq ft of midwest real estate, the celebrated artist explains bringing ‘independent thinking’ back to fine china “The worth of hand-painted china depends mainly upon the hand…"
+    },
+    {
+      "headline": "Brioche armchairs, butter sculptures and edible chandeliers: meet the new food artists",
+      "link": "https://www.theguardian.com/food/2026/nov/23/brioche-armchairs-butter-sculptures-and-edible-chandeliers-meet-the-new-food-artists",
+      "outlet": "The Guardian",
+      "category": "Arts",
+      "date": "2026-11-23",
+      "summary": "Culinary artists are turning fashion shows and design fairs into a feast for the eyes A pretty Venetian chandelier featuring delicate pink flowers and cascading blue leaves hangs from a ceiling. A…"
+    },
+    {
+      "headline": "Dapper Liam and Noel, experimental Björk, and Bowie ‘cuddling himself’: Rankin reveals his never-before-seen shots of the stars",
+      "link": "https://www.theguardian.com/artanddesign/2026/nov/23/rankin-photographer-interview-contact-david-bowie-oasis",
+      "outlet": "The Guardian",
+      "category": "Arts",
+      "date": "2026-11-23",
+      "summary": "After some satirical experiments with the ‘disgusting’ AI, the photographer has returned to his first love with a book of contact sheets from his celebrity shoots. ‘I wish we could go back and stop…"
+    },
+    {
+      "headline": "Controversial Venice Biennale Closes, Athens Police Seize 35 Forgeries, and More: Morning Links for November 23, 2026",
+      "link": "https://www.artnews.com/art-news/news/controversial-venice-biennale-closes-morning-links-1234807296/",
+      "outlet": "ARTnews",
+      "category": "Arts",
+      "date": "2026-11-23",
+      "summary": "Here's what we're reading this morning."
+    },
+    {
+      "headline": "Hauser & Wirth Now Represents Ser Serpas, Fast-Rising Artist Who Combs the Detritus of Everyday Life",
+      "link": "https://www.artnews.com/art-news/market/ser-serpas-hauser-and-wirth-gallery-representation-1234807276/",
+      "outlet": "ARTnews",
+      "category": "Arts",
+      "date": "2026-11-23",
+      "summary": "She will have her first show at the gallery’s Paris space in January."
+    },
+    {
+      "headline": "Lucy Sante Talks About What Collage Enables That Writing Can’t",
+      "link": "https://www.artnews.com/art-in-america/columns/lucy-sante-interview-collage-1234806243/",
+      "outlet": "ARTnews",
+      "category": "Arts",
+      "date": "2026-11-23",
+      "summary": "She started making collages long before she established herself as a writer."
+    },
+    {
+      "headline": "Art Basel Hong Kong Lines Up 232 Exhibitors and a New Floor Plan for Its 2027 Edition",
+      "link": "https://www.artnews.com/art-news/market/art-basel-hong-kong-2027-exhibitor-list-1234807256/",
+      "outlet": "ARTnews",
+      "category": "Arts",
+      "date": "2026-11-23",
+      "summary": "The fair will also feature 31 first-time exhibitors."
+    },
+    {
+      "headline": "Miami Through the GTA VI Looking-Glass",
+      "link": "https://hyperallergic.com/miami-through-the-gta-vi-looking-glass/",
+      "outlet": "Hyperallergic",
+      "category": "Arts",
+      "date": "2026-11-23",
+      "summary": "A conversation with artists misael soto and Leo Castañeda, ANGA looks back on a year of activism at the Venice Biennale, and more."
+    },
+    {
+      "headline": "Inside Edward Said’s World",
+      "link": "https://hyperallergic.com/inside-edward-saids-world/",
+      "outlet": "Hyperallergic",
+      "category": "Arts",
+      "date": "2026-11-23",
+      "summary": "A new film about the Palestinian thinker, reviewed by a former students of his, and when does a documentary become an art performance?"
+    },
+    {
+      "headline": "In Harlem, a New Museum Maps the Civil Rights Fight in the North",
+      "link": "https://www.nytimes.com/2026/11/23/arts/design/urban-civil-rights-museum-harlem.html",
+      "outlet": "The New York Times",
+      "category": "Arts",
+      "date": "2026-11-23",
+      "summary": "The Urban Civil Rights Museum, the first in New York dedicated to the history of the movement, aims to tell stories often overlooked in similar narratives."
+    },
+    {
+      "headline": "A First for a ‘Curious Incident’ Production: A Cast of Neurodivergent Actors",
+      "link": "https://www.nytimes.com/2026/11/23/theater/curious-incident-epic-players-neurodiverse.html",
+      "outlet": "The New York Times",
+      "category": "Arts",
+      "date": "2026-11-23",
+      "summary": "A company for neurodivergent actors steps up to a bigger stage with its full-spectrum model of inclusion."
+    },
+    {
+      "headline": "A French Star’s Latest Reinvention? Acting in Japanese.",
+      "link": "https://www.nytimes.com/2026/11/23/movies/virginie-efira-all-of-a-sudden.html",
+      "outlet": "The New York Times",
+      "category": "Arts",
+      "date": "2026-11-23",
+      "summary": "Virginie Efira went from hosting reality TV to starring in art house movies. For her latest, “All of a Sudden,” she mastered a new language — and won best actress at Cannes."
+    },
+    {
+      "headline": "Jem Perucchini’s Jewel-Like Portraits Give Black Figures a Place in the Renaissance",
+      "link": "https://www.artsy.net/article/artsy-editorial-jem-perucchinis-jewel-like-portraits-black-figures-place-renaissance",
+      "outlet": "Artsy",
+      "category": "Arts",
+      "date": "2026-11-23",
+      "summary": "Sospiro, 2026 Jem Perucchini David Zwirner The Italian Renaissance, Ethiopian Orthodox painting, and African textiles: This is the wide range of inspirations that Italian Ethiopian artist Jem…"
+    },
+    {
+      "headline": "An Art Lover’s Guide to Miami",
+      "link": "https://www.artsy.net/article/artsy-editorial-art-lovers-guide-miami",
+      "outlet": "Artsy",
+      "category": "Arts",
+      "date": "2026-11-23",
+      "summary": "Year-round sunshine, miles of coastline, a culture steeped in Latin American influence, a world-class restaurant scene, and neighborhoods anchored by galleries, museums, and public art draw travelers…"
+    },
+    {
+      "headline": "Italian jeweller and businessman Paolo Bulgari dies aged 89",
+      "link": "https://www.bbc.co.uk/news/articles/c8e39qk5vrpdo",
+      "outlet": "BBC News",
+      "category": "Arts",
+      "date": "2026-11-23",
+      "summary": "In a statement to Italian media, his family remember him as \"the greatest jeweller of our time\"."
+    },
+    {
+      "headline": "Chaotic week, nightmare start and huge reality check for Pochettino",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cwd012903kvgo",
+      "outlet": "BBC Sport",
+      "category": "Football",
+      "date": "2026-11-22",
+      "summary": "Mauricio Pochettino's reign as Manchester United boss could barely have got off to a more chastening start, writes Simon Stone."
+    },
+    {
+      "headline": "Welcome to Manchester United: Mauricio Pochettino faces grim reality after collapse against Liverpool",
+      "link": "https://www.cbssports.com/soccer/news/manchester-united-mauricio-pochettino-collapse-liverpool/",
+      "outlet": "CBS Sports",
+      "category": "Football",
+      "date": "2026-11-22",
+      "summary": "A humiliating 4-0 defeat at Liverpool quickly exposed Manchester United's glaring defensive flaws and showed the new manager the massive scale of the rebuild ahead at Old Trafford"
+    },
+    {
+      "headline": "Vanessa DiBernardo caps 12-year wait with 'saucy' title-winning olimpico for Current and MVP honors",
+      "link": "https://www.cbssports.com/soccer/news/vanessa-dibernardo-olimpico-nwsl-current-mvp/",
+      "outlet": "CBS Sports",
+      "category": "Football",
+      "date": "2026-11-22",
+      "summary": "After a decade of postseason heartbreak, the Kansas City Current midfielder scored a stunning olimpico to win the NWSL Championship and claim MVP honors months after returning from maternity leave"
+    },
+    {
+      "headline": "Vlatko Andonovski built it, Chris Armas finished it: KC Current's NWSL title was continuity through disruption",
+      "link": "https://www.cbssports.com/soccer/news/kc-current-nwsl-championship-chris-armas-vlatko-andonosvski/",
+      "outlet": "CBS Sports",
+      "category": "Football",
+      "date": "2026-11-22",
+      "summary": "The Current won their first ever NWSL Championship with a 2-1 win over the Washington Spirit thanks to goals from Vanessa DiBernardo and Debinha"
+    },
+    {
+      "headline": "Carolina Herrera’s Wes Gordon and Oribe’s Daniel Kaner on Collecting as a Personal Passion and a Creative Practice",
+      "link": "https://www.artnews.com/art-news/news/wes-gordon-daniel-kaner-carolina-herrera-oribe-art-week-nyc-2026-1234806633/",
+      "outlet": "ARTnews",
+      "category": "Arts",
+      "date": "2026-11-22",
+      "summary": "Gordon and Kaner reveal how they've build their own collections, and what inspires their work in the fashion and beauty world."
+    },
+    {
+      "headline": "Hunter Schafer, Now in ‘Blade Runner 2099,’ Never Meant to Be an Actress",
+      "link": "https://www.nytimes.com/2026/11/22/arts/television/hunter-schafer-never-meant-to-be-an-actress.html",
+      "outlet": "The New York Times",
+      "category": "Arts",
+      "date": "2026-11-22",
+      "summary": "The “Euphoria” star has other dreams for her future. But first she’ll star as Cora, a human among replicants, in “Blade Runner 2099.”"
+    },
+    {
+      "headline": "Andrew Scott on the Shattering Feat of Playing Ian Charleson in ‘Elsinore’",
+      "link": "https://www.nytimes.com/2026/11/22/movies/andrew-scott-elsinore-ian-charleson.html",
+      "outlet": "The New York Times",
+      "category": "Arts",
+      "date": "2026-11-22",
+      "summary": "Scott is the subject of Oscar chatter for his performance recreating the last months of Ian Charleson for the biopic “Elsinore.”"
     },
     {
       "headline": "Miley Cyrus marries Maxx Morando in California ceremony",
@@ -200,38 +775,6 @@
       "category": "Arts",
       "date": "2026-11-22",
       "summary": "Police say they attended a Manchester bar after reports of a disturbance earlier this month."
-    },
-    {
-      "headline": "Italian jeweller and businessman Paolo Bulgari dies aged 89",
-      "link": "https://www.bbc.co.uk/news/articles/c8e39qk5vrpdo",
-      "outlet": "BBC News",
-      "category": "Arts",
-      "date": "2026-11-23",
-      "summary": "In a statement to Italian media, his family remember him as \"the greatest jeweller of our time\"."
-    },
-    {
-      "headline": "Long-lost Chevalier landscape found in charity shop",
-      "link": "https://www.bbc.co.uk/news/articles/c32l5z88z15jo",
-      "outlet": "BBC News",
-      "category": "Arts",
-      "date": "2026-11-22",
-      "summary": "Cape Schanck, Victoria, is set to go under the hammer at Olympia Auctions in London on 9 December."
-    },
-    {
-      "headline": "Calls for Marilyn Manson performance to be pulled",
-      "link": "https://www.bbc.co.uk/news/articles/cmn4kz7lj3jvo",
-      "outlet": "BBC News",
-      "category": "Arts",
-      "date": "2026-11-22",
-      "summary": "Marilyn Manson is due to support Slipknot at Wembley Stadium in July, ahead of a trial he faces."
-    },
-    {
-      "headline": "Catherine talks openly about how cancer changed her in documentary on BBC",
-      "link": "https://www.bbc.co.uk/news/articles/c85y14zvexz9o",
-      "outlet": "BBC News",
-      "category": "Arts",
-      "date": "2026-11-21",
-      "summary": "\"There is a much, much deeper part to what a cancer diagnosis shifts in you,\" says Catherine in the documentary."
     }
   ]
 }
