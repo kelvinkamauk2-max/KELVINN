@@ -1,20 +1,173 @@
 {
-  "updated": "2026-11-23T17:27:57.586Z",
+  "updated": "2026-11-24T04:15:39.406Z",
   "report": {
-    "feeds_ok": 27,
+    "feeds_ok": 26,
     "feeds_failed": [
       "Football / ESPN",
-      "Technology / Techpoint Africa"
+      "Technology / Techpoint Africa",
+      "Arts / Hyperallergic"
     ]
   },
   "items": [
     {
-      "headline": "England, Northern Ireland, Scotland & Wales to host 2035 Women's World Cup",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cx30g83716lzo",
+      "headline": "Google alternative Kagi launches an email service",
+      "link": "https://www.theverge.com/tech/1041000/kagi-mail-email-google-gmail-alternative",
+      "outlet": "The Verge",
+      "category": "Technology",
+      "date": "2026-11-24",
+      "summary": "Kagi, which already offers a paid alternative to Google Search and its own Orion browser as a rival to Chrome, is taking on another Google service: Gmail. Today, Kagi announced a public beta of Kagi…"
+    },
+    {
+      "headline": "Inside Nvidia, Not Everyone Is Celebrating Jensen Huang’s Return",
+      "link": "https://www.wired.com/story/inside-nvidia-not-everyone-is-celebrating-jensen-huangs-return/",
+      "outlet": "WIRED",
+      "category": "Technology",
+      "date": "2026-11-24",
+      "summary": "Some saw Huang’s resignation as an opportunity for culture change at the chip giant. “If Jensen comes back, I’m not doing any HR trainings ever again,” one employee said."
+    },
+    {
+      "headline": "The three DISM commands you should know to fix your Windows system images",
+      "link": "https://www.engadget.com/2320620/dism-commands-for-windows-system-image-repair/",
+      "outlet": "Engadget",
+      "category": "Technology",
+      "date": "2026-11-24",
+      "summary": "Check and repair damaged system files with these DISM commands."
+    },
+    {
+      "headline": "The biggest downsides to using Apple's Magic Mouse",
+      "link": "https://www.engadget.com/2320296/apple-magic-mouse-biggest-downsides/",
+      "outlet": "Engadget",
+      "category": "Technology",
+      "date": "2026-11-24",
+      "summary": "Mac users have their reasons for ditching Apple's Magic Mouse despite its slick touch gestures. Knowing them can help you decide if it suits your desk."
+    },
+    {
+      "headline": "Commons reasons your Android phone's icons won't move and how to fix it",
+      "link": "https://www.engadget.com/2320294/reasons-android-phone-icons-wont-move-fix/",
+      "outlet": "Engadget",
+      "category": "Technology",
+      "date": "2026-11-24",
+      "summary": "It's most likely your home screen settings."
+    },
+    {
+      "headline": "Today’s Wordle answer and hints for #1984 on November 24",
+      "link": "https://www.nme.com/guides/gaming-guides/heres-the-wordle-answer-for-today-3171240",
+      "outlet": "NME",
+      "category": "Music",
+      "date": "2026-11-24",
+      "summary": "There's no need to lose your streak - here's the 'Wordle' answer for today The post Today’s Wordle answer and hints for #1984 on November 24 appeared first on NME ."
+    },
+    {
+      "headline": "‘Connections’ answers and hints for today, November 24",
+      "link": "https://www.nme.com/guides/gaming-guides/connections-answers-hints-groups-today-3557066",
+      "outlet": "NME",
+      "category": "Music",
+      "date": "2026-11-24",
+      "summary": "Here are hints, groups and answers for 'Connections' #1262 The post ‘Connections’ answers and hints for today, November 24 appeared first on NME ."
+    },
+    {
+      "headline": "Globle answer today – here’s the answer and hints for November 24",
+      "link": "https://www.nme.com/guides/gaming-guides/globle-hint-answer-today-3213991",
+      "outlet": "NME",
+      "category": "Music",
+      "date": "2026-11-24",
+      "summary": "Where in the world? The post Globle answer today – here’s the answer and hints for November 24 appeared first on NME ."
+    },
+    {
+      "headline": "Framed answer today – here’s the solution for November 24",
+      "link": "https://www.nme.com/guides/gaming-guides/framed-answer-today-3192186",
+      "outlet": "NME",
+      "category": "Music",
+      "date": "2026-11-24",
+      "summary": "You’ve been framed The post Framed answer today – here’s the solution for November 24 appeared first on NME ."
+    },
+    {
+      "headline": "Bob Seger and the Silver Bullet Band Bassist Chris Campbell Dead at 78",
+      "link": "https://www.rollingstone.com/music/music-news/bob-seger-silver-bullet-band-bassist-chris-campbell-dead-1235662929/",
+      "outlet": "Rolling Stone",
+      "category": "Music",
+      "date": "2026-11-24",
+      "summary": "He spent 50 years playing alongside Seger and appears on \"Turn the Page,\" \"Night Moves,\" \"Rock and Roll Never Forgets,\" \"Still the Same,\" \"Hollywood Nights,\" and \"Against the Wind\""
+    },
+    {
+      "headline": "See the Sasha & Digweed Poster That Sold for $21,500 at Auction",
+      "link": "https://www.billboard.com/music/music-news/sasha-digweed-poster-sold-21500-auction-photo-1236388407/",
+      "outlet": "Billboard",
+      "category": "Music",
+      "date": "2026-11-24",
+      "summary": "The poster for the duo's 1994 mix album Renaissance: The Mix Collection was originally created as a temporary ad."
+    },
+    {
+      "headline": "Robert Glasper on the State of R&B, Kendrick Lamar’s ‘To Pimp a Butterfly’ & Why ‘AI Can’t Copy This’",
+      "link": "https://www.billboard.com/music/rb-hip-hop/robert-glasper-interview-rb-kendrick-lamar-ai-1236388434/",
+      "outlet": "Billboard",
+      "category": "Music",
+      "date": "2026-11-24",
+      "summary": "The five-time Grammy-winning musician also discusses jazz's influence on hip-hop, scoring upcoming films & helping shape the next generation of Blue Note Records."
+    },
+    {
+      "headline": "Jagged Edge Member Brandon Casey Sued by Woman Claiming Child Rape",
+      "link": "https://www.billboard.com/pro/jagged-edge-brandon-casey-lawsuit-child-rape/",
+      "outlet": "Billboard",
+      "category": "Music",
+      "date": "2026-11-24",
+      "summary": "The woman also alleges she wrote the R&B group’s hit song “Walked Outta Heaven” at age six. Casey \"flatly rejects the untrue allegations.\""
+    },
+    {
+      "headline": "Jay-Z’s 2027 Super Bowl Halftime Show Coming to IMAX Theaters",
+      "link": "https://www.billboard.com/music/rb-hip-hop/jay-z-super-bowl-halftime-show-imax-theaters-2027-1236388294/",
+      "outlet": "Billboard",
+      "category": "Music",
+      "date": "2026-11-24",
+      "summary": "Get your popcorn ready."
+    },
+    {
+      "headline": "Stevie Wonder Addresses Conspiracy Theories About His Blindness: ‘Get in the Car With Me & We’ll See’",
+      "link": "https://www.billboard.com/music/rb-hip-hop/stevie-wonder-conspiracy-theories-blindness-comments-1236388335/",
+      "outlet": "Billboard",
+      "category": "Music",
+      "date": "2026-11-24",
+      "summary": "The legendary singer is in on the joke and has been for quite some time."
+    },
+    {
+      "headline": "King Charles and Elton John pay tribute to Australian music legend Molly Meldrum",
+      "link": "https://www.bbc.co.uk/news/articles/c3qj57rkd2k1o",
+      "outlet": "BBC News",
+      "category": "Music",
+      "date": "2026-11-24",
+      "summary": "The promoter and broadcaster helped define the music tastes of Australians for decades."
+    },
+    {
+      "headline": "Take me to the fatberg! The £437m new Museum of London is an astonishing sight",
+      "link": "https://www.theguardian.com/artanddesign/2026/nov/24/fatberg-museum-of-london-astonishing-smithfields-architecture",
+      "outlet": "The Guardian",
+      "category": "Arts",
+      "date": "2026-11-24",
+      "summary": "After a 10-year transformation, the glorious cathedral-like Smithfields market is now telling the capital’s story. Our architecture critic enters a world of jewels, axes, DJs and dog races – with…"
+    },
+    {
+      "headline": "Exiled From Kennedy Center, but Sticking to Its National Identity",
+      "link": "https://www.nytimes.com/2026/11/23/arts/music/washington-national-opera-kennedy-center.html",
+      "outlet": "The New York Times",
+      "category": "Arts",
+      "date": "2026-11-24",
+      "summary": "Washington National Opera, which broke from the Kennedy Center this year, made clear its beliefs about American culture in two recent performances."
+    },
+    {
+      "headline": "Tarkowski's first Premier League red ruins Moyes' night - was it deserved?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cmqx5eynvpqno",
       "outlet": "BBC Sport",
       "category": "Football",
       "date": "2026-11-23",
-      "summary": "The United Kingdom will host a football World Cup for the first time since 1966."
+      "summary": "Everton captain James Tarkowski was sent off for the first time in his Premier League career in Monday's 4-0 loss at Brentford - but was it a harsh decision?"
+    },
+    {
+      "headline": "Janelt scores stunner as Brentford beat 10-man Everton",
+      "link": "https://www.bbc.co.uk/sport/football/videos/c5gm3jlw7l7xo",
+      "outlet": "BBC Sport",
+      "category": "Football",
+      "date": "2026-11-23",
+      "summary": "Watch highlights as Brentford earn a comfortable 3-0 win against 10-man Everton in the Premier League, including a great goal by Vitaly Janelt."
     },
     {
       "headline": "'No-one's coming to save us' - but how can Man Utd save themselves?",
@@ -25,36 +178,36 @@
       "summary": "How does Mauricio Pochettino halt Manchester United's desperate slide towards the foot of the Premier League"
     },
     {
-      "headline": "Raya to miss Dortmund game but injury 'not serious'",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cjx2rqpr7l9lo",
+      "headline": "Who has made Troy's Premier League team of the week?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c34gn2p5d0zwo",
       "outlet": "BBC Sport",
       "category": "Football",
       "date": "2026-11-23",
-      "summary": "Arsenal goalkeeper David Raya will miss Tuesday's Champions League game against Borussia Dortmund but his shoulder injury will not require an operation."
+      "summary": "After every round of Premier League matches this season, Troy Deeney gives us his team of the week. Do you agree with his choices?"
     },
     {
-      "headline": "'You don't win 345 matches by defending' - Simeone breaks La Liga record",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c5pv9kkwn3y3o",
+      "headline": "England, Northern Ireland, Scotland & Wales to host 2035 Women's World Cup",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cx30g83716lzo",
       "outlet": "BBC Sport",
       "category": "Football",
       "date": "2026-11-23",
-      "summary": "Diego Simeone records his 345th La Liga victory as Atletico Madrid manager to set a new mark."
+      "summary": "The United Kingdom will host a football World Cup for the first time since 1966."
     },
     {
-      "headline": "Watford set to appoint former Romania boss Iordanescu",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cj7523r0vrp0o",
-      "outlet": "BBC Sport",
-      "category": "Football",
-      "date": "2026-11-23",
-      "summary": "Watford are set to appoint former Romania coach Edward Iordanescu as their new head coach, reports BBC Three Counties Radio."
-    },
-    {
-      "headline": "‘Celebrate, inspire, unite’: UK confirmed as host of 2035 Women’s World Cup",
-      "link": "https://www.theguardian.com/football/2026/nov/23/uk-confirmed-hosts-2035-womens-world-cup-fifa",
+      "headline": "Lewis-Potter double and Janelt stunner ease Brentford past 10-man Everton",
+      "link": "https://www.theguardian.com/football/2026/nov/23/brentford-everton-premier-league-match-report",
       "outlet": "The Guardian",
       "category": "Football",
       "date": "2026-11-23",
-      "summary": "Country’s first World Cup since men’s 1966 edition in England Bid lists 22 stadiums as potential venues The UK is to host the 2035 Women’s World Cup, Fifa has confirmed. England, Northern Ireland…"
+      "summary": "It was a record-breaking occasion in more ways than one. David Moyes made history for Everton, edging clear of Harry Catterick by overseeing his 593rd game in charge of the club, but calamitous…"
+    },
+    {
+      "headline": "The 2035 Women’s World Cup has huge potential for women and girls in UK",
+      "link": "https://www.theguardian.com/football/2026/nov/23/2035-womens-world-cup-potential-women-girls-uk",
+      "outlet": "The Guardian",
+      "category": "Football",
+      "date": "2026-11-23",
+      "summary": "Maximising the societal impact of the tournament, especially combating misogyny, should be a top priority The announcement that the 2035 Women’s World Cup will be hosted in England, Scotland, Wales…"
     },
     {
       "headline": "Infantino’s $20bn World Cup sell-off plan was to run for up to 96 years, documents show",
@@ -65,12 +218,12 @@
       "summary": "Management team were in line for huge payouts Fifa denies Infantino would have profited from plan Gianni Infantino’s failed Fifa Forward Enterprise plan could have locked football in for up to 96…"
     },
     {
-      "headline": "David Raya’s shoulder injury ‘not too serious’ and no surgery needed for Arsenal goalkeeper",
-      "link": "https://www.theguardian.com/football/2026/nov/23/david-raya-shoulder-injury-arsenal-surgery-mikel-arteta",
+      "headline": "Emery insists no change of plan for Aston Villa despite Galatasaray surface",
+      "link": "https://www.theguardian.com/football/2026/nov/23/unai-emery-no-change-of-plan-aston-villa-galatasaray-surface",
       "outlet": "The Guardian",
       "category": "Football",
       "date": "2026-11-23",
-      "summary": "No 1 to miss Dortmund game but could return for City clash ‘We were worried … he’s better than expected,’ says manager Mikel Arteta is hopeful the ­shoulder injury David Raya sustained at Newcastle…"
+      "summary": "‘Hopefully the pitch will be as best as possible,’ says Villa manager Turkish champions had to move game on Saturday Unai Emery has insisted he will not alter his plans for Aston Villa’s Champions…"
     },
     {
       "headline": "Mauricio Pochettino can now see just how desperate Manchester United are | Jonathan Wilson",
@@ -81,52 +234,52 @@
       "summary": "The manager’s first game in charge was a disaster and he needs to lift the mood within a sunken squad if a relegation battle is to be avoided Sign up for our free newsletter here In as much as any…"
     },
     {
-      "headline": "Emery insists no change of plan for Aston Villa despite fears over Galatasaray surface",
-      "link": "https://www.theguardian.com/football/2026/nov/23/unai-emery-no-change-of-plan-aston-villa-galatasaray-surface",
-      "outlet": "The Guardian",
-      "category": "Football",
-      "date": "2026-11-23",
-      "summary": "‘Hopefully the pitch will be as best as possible,’ says Villa manager Turkish champions had to move game on Saturday Unai Emery has insisted he will not alter his plans for Aston Villa’s Champions…"
-    },
-    {
-      "headline": "UK confirmed as 2035 Women's World Cup hosts - which stadiums will be used?",
-      "link": "https://www.skysports.com/football/news/12040/13615555/womens-world-cup-uk-announced-as-2035-hosts-as-costa-rica-jamaica-mexico-and-usa-host-in-2031",
+      "headline": "Five-time Solheim Cup player Khang secures LPGA Tour card for 2027",
+      "link": "https://www.skysports.com/golf/news/12040/13615841/lpga-tour-q-series-megan-khang-secures-tour-card-for-2027-as-megha-ganne-wins-final-qualifying-stage",
       "outlet": "Sky Sports",
       "category": "Football",
       "date": "2026-11-23",
-      "summary": "The UK has been confirmed as the host of the 2035 Women's World Cup."
+      "summary": "Megha Ganne won the 2026 LPGA Q-Series final qualifying stage as 27 tour cards were claimed for the 2027 season, with five-time USA Solheim Cup team member Megan Khang among those successful."
     },
     {
-      "headline": "Henman: While Sinner is out of equation, Alcaraz is best in the world",
-      "link": "https://www.skysports.com/tennis/news/12040/13615606/carlos-alcaraz-spaniard-is-toughest-player-to-play-against-right-now-with-jannik-sinner-out-of-the-equation-says-tim-henman",
+      "headline": "Patten ends Grand Slam-winning doubles pairing to partner fellow Brit Skupski",
+      "link": "https://www.skysports.com/tennis/news/12040/13615831/henry-patten-ends-partnership-with-harri-heliovaara-to-team-up-with-fellow-briton-neal-skupski",
       "outlet": "Sky Sports",
       "category": "Football",
       "date": "2026-11-23",
-      "summary": "Carlos Alcaraz is the \"toughest player to play against\" right now with Jannik Sinner out of the equation, says Tim Henman."
+      "summary": "Henry Patten has ended his world No 1 doubles partnership with Harri Heliovaara in shock fashion in favour of teaming up with British compatriot Neal Skupski for 2027."
     },
     {
-      "headline": "Raya injury 'not too serious' says relieved Arteta",
-      "link": "https://www.skysports.com/football/news/12040/13615438/david-raya-injury-arsenal-goalkeeper-avoids-surgery-and-blow-is-not-as-bad-as-first-feared-says-mikel-arteta",
+      "headline": "Lewis-Potter scores twice as Brentford thump four past 10-man Everton",
+      "link": "https://www.skysports.com/football/brentford-vs-everton/report/559546",
       "outlet": "Sky Sports",
       "category": "Football",
       "date": "2026-11-23",
-      "summary": "Mikel Arteta has revealed that David Raya's shoulder injury is not as bad as first feared, but is unsure when the Arsenal goalkeeper will return to action."
+      "summary": "Keane Lewis-Potter’s first-half double set Brentford on their way to a comprehensive 4-0 Premier League win over 10-man Everton."
     },
     {
-      "headline": "Bakole steps in for Opetaia to fight Wilder on Fury-AJ undercard",
-      "link": "https://www.skysports.com/boxing/news/12040/13615668/fury-vs-joshua-undercard-martin-bakole-steps-in-for-jai-opetaia-to-fight-former-heavyweight-world-champion-deontay-wilder",
+      "headline": "Penge claims stunning maiden PGA Tour win at RSM Classic",
+      "link": "https://www.skysports.com/golf/news/12040/13615763/marco-penge-claims-maiden-pga-tour-win-englishman-triumphs-from-four-way-playoff-at-rsm-classic",
       "outlet": "Sky Sports",
       "category": "Football",
       "date": "2026-11-23",
-      "summary": "Martin Bakole will fight Deontay Wilder on the undercard of Tyson Fury vs Anthony Joshua on December 11."
+      "summary": "English golfer Marco Penge claimed a stunning maiden win on the PGA Tour as he emerged victorious from a four-way playoff at the season-ending RSM Classic."
     },
     {
-      "headline": "Sinner set to undergo knee surgery and doubt for Australian Open",
-      "link": "https://www.skysports.com/tennis/news/12040/13615609/jannik-sinner-former-world-no-1-to-undergo-knee-surgery-in-finland-and-doubt-for-australian-open-in-january",
+      "headline": "WHAT A STRIKE! Janelt rifles rocket for Brentford’s third",
+      "link": "https://www.skysports.com/watch/video/13615825/goal-v-janelt-67-brentford-3-0-everton",
       "outlet": "Sky Sports",
       "category": "Football",
       "date": "2026-11-23",
-      "summary": "Former world No 1 Jannik Sinner is set to undergo surgery on his troublesome knee which is likely to see him miss the Australian Open in January, according to Sky in Italy."
+      "summary": "Janelt rifles rocket for Brentford’s third against Everton in the Premier League"
+    },
+    {
+      "headline": "Washington Spirit part ways with Adrian Gonzalez after loss in NWSL Championship",
+      "link": "https://www.cbssports.com/soccer/news/washington-spirit-adrian-gonzalez-nwsl-championship/",
+      "outlet": "CBS Sports",
+      "category": "Football",
+      "date": "2026-11-23",
+      "summary": "Gonzalez was at the helm for both Saturday's defeat to the Kansas City Current and the 2025 loss in the NWSL Championship to Gotham FC"
     },
     {
       "headline": "USA to co-host 2031 FIFA Women's World Cup with Mexico, Costa Rica and Jamaica",
@@ -177,6 +330,22 @@
       "summary": "MANCHESTER, England, November 23, 2026 – It has been one of the biggest transfer sagas of the year – around a player who has never played competitive football. Forward JJ…"
     },
     {
+      "headline": "US to blacklist Asian AI firm Megaspeed after Nvidia scandal",
+      "link": "https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo",
+      "outlet": "BBC News",
+      "category": "Technology",
+      "date": "2026-11-23",
+      "summary": "Megaspeed has been accused of funneling AI chips to China after a former executive's affair with Jensen Huang became public."
+    },
+    {
+      "headline": "Nvidia value climbs by almost $1tn and tech stocks rally after Jensen Huang returns",
+      "link": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko",
+      "outlet": "BBC News",
+      "category": "Technology",
+      "date": "2026-11-23",
+      "summary": "The jump in Nvidia shares has also lifted stock markets, with the tech-heavy Nasdaq up 6.5%."
+    },
+    {
       "headline": "How important are Nvidia and Jensen Huang to the US economy?",
       "link": "https://www.bbc.co.uk/news/articles/c68798vdprwpo",
       "outlet": "BBC News",
@@ -193,14 +362,6 @@
       "summary": "Days after resigning while mired in scandal of extra-marital affairs, Nvidia's Jensen Huang is making a remarkable return."
     },
     {
-      "headline": "Nvidia shares up 30% and tech stocks rally after Jensen Huang returns",
-      "link": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko",
-      "outlet": "BBC News",
-      "category": "Technology",
-      "date": "2026-11-23",
-      "summary": "The jump in Nvidia shares has also lifted stock markets, with the tech-heavy Nasdaq up 6.5% in early trading."
-    },
-    {
       "headline": "GTA 6 hacker released on licence with warning 'don't let this happen again'",
       "link": "https://www.bbc.co.uk/news/articles/cqpv9kr7pxmro",
       "outlet": "BBC News",
@@ -209,164 +370,116 @@
       "summary": "21-year-old Arion Kurtaj pleaded guilty to the Rockstar Games hack and others he carried out when he was a teenager."
     },
     {
-      "headline": "San Francisco is enjoying an AI boom, but worries about a crash are growing",
-      "link": "https://www.bbc.co.uk/news/articles/cqe9k09j9jv4o",
-      "outlet": "BBC News",
-      "category": "Technology",
-      "date": "2026-11-23",
-      "summary": "AI employees in the industry's epicentre - San Francisco - worry that the sector is overheated."
-    },
-    {
-      "headline": "The best Black Friday deals we’ve already found",
-      "link": "https://www.theverge.com/gadgets/1028991/black-friday-best-early-deals-2026",
+      "headline": "The hacker behind early GTA VI leaks has been sentenced — and released",
+      "link": "https://www.theverge.com/games/1040966/arion-kurtaj-gta-vi-leaks-sentenced-released",
       "outlet": "The Verge",
       "category": "Technology",
       "date": "2026-11-23",
-      "summary": "The countdown to Black Friday is on, and many discounts have already arrived. Although the shopping holiday isn’t officially until Friday, November 27th, retailers are already dropping early deals on…"
+      "summary": "Arion Kurtaj, who pleaded guilty last week to hacking Grand Theft Auto VI developer Rockstar Games and other companies, including Uber and Revolut, was sentenced to seven years in prison but released…"
     },
     {
-      "headline": "White House brags that Trump was ‘totally involved’ in getting Jensen reinstated",
-      "link": "https://www.theverge.com/policy/1040096/trump-nvidia-jensen-huang-reinstated",
+      "headline": "The Verge’s 2026 holiday gift guide",
+      "link": "https://www.theverge.com/gadgets/1026041/holiday-gift-guide-2026",
       "outlet": "The Verge",
       "category": "Technology",
       "date": "2026-11-23",
-      "summary": "It sure looked like President Donald Trump played a role in Jensen Huang's reinstatement as Nvidia CEO - and now the White House is making sure everyone knows he was. \"President Trump was totally…"
+      "summary": "Gift-giving isn't just about grabbing something solid under a determined spending limit. It's an expression of love, a way to show someone how well you really know them. That doesn't mean you have to…"
     },
     {
-      "headline": "Tech leaders are celebrating Jensen Huang’s return",
-      "link": "https://www.theverge.com/tech/1040069/jensen-huang-return-elon-musk-sam-altman-yay",
+      "headline": "Ladybird, the first new browser engine in years, is now available to test",
+      "link": "https://www.theverge.com/tech/1040872/ladybird-indie-browser-engine-alpha-testing",
       "outlet": "The Verge",
       "category": "Technology",
       "date": "2026-11-23",
-      "summary": "Let's say you're Jensen Huang. You (allegedly) cheated on your wife with an alleged Chinese spy, allegedly had an affair with not one, but two subordinates, and (allegedly!) \"terrorized\" your…"
+      "summary": "Ladybird, an independent web browser with a built-from-scratch engine, is finally available for testing. On Monday, Ladybird developer Andreas Kling announced that the browser is launching in alpha…"
     },
     {
-      "headline": "My trusty 27-inch Alienware QD-OLED gaming monitor is just $280",
-      "link": "https://www.theverge.com/gadgets/1039999/alienware-aw2726dm-qdoled-gaming-monitor-black-friday-2026-deal-sale",
+      "headline": "Trump engineered a risky comeback for Jensen Huang",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated",
       "outlet": "The Verge",
       "category": "Technology",
       "date": "2026-11-23",
-      "summary": "Alienware’s AW2726DM QD-OLED gaming monitor was a great deal even at its original $349.99 price. The low price and impressive specs were enough to convince me to get one at launch, and I’m glad that…"
+      "summary": "After Nvidia's board accepted Jensen Huang's resignation as CEO, following reports that Huang had an affair with an alleged Chinese spy, President Donald Trump, too, appeared to submit to the new…"
     },
     {
-      "headline": "Apple’s AirPods Pro 3 are 40 percent off ahead of Black Friday",
-      "link": "https://www.theverge.com/gadgets/1039978/airpods-pro-3-apple-earbuds-black-friday-2026-deal-sale",
-      "outlet": "The Verge",
-      "category": "Technology",
-      "date": "2026-11-23",
-      "summary": "The AirPods Pro 3 are cheaper than ever. Apple’s latest flagship wireless earbuds dropped this morning to just $149 at Amazon, Best Buy and Walmart. Originally, they sold for $249, but have been…"
-    },
-    {
-      "headline": "Amazon snaps up Decart’s AI optimization tech for $7.5B as it prepares to sell Trainium chips",
-      "link": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+      "headline": "Figma employee sues, alleging company forced her to confront harassers",
+      "link": "https://techcrunch.com/2026/11/23/figma-employee-sues-alleging-company-forced-her-to-confront-harassers/",
       "outlet": "TechCrunch",
       "category": "Technology",
       "date": "2026-11-23",
-      "summary": "Amazon is acquiring Decart’s AI optimization technology and research team in a reported $7.5 billion deal."
+      "summary": "Figma and its CEO are being sued by a current employee for alleged sexual harassment and discrimination."
     },
     {
-      "headline": "Meta throws out its net-zero goal. Its competitors should be furious",
-      "link": "https://techcrunch.com/2026/11/23/meta-throws-out-its-net-zero-goal-its-competitors-should-be-furious/",
+      "headline": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
+      "link": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
       "outlet": "TechCrunch",
       "category": "Technology",
       "date": "2026-11-23",
-      "summary": "Meta walked back its 2030 net zero goal in its 2026 sustainability report, a decision that could send ripples throughout the tech industry."
+      "summary": "As AI-generated code piles up, Anthropic's new developer tools aim to eliminate another bottleneck by letting agents handle routine approvals."
     },
     {
-      "headline": "Jensen Huang isn’t out of the woods yet",
-      "link": "https://techcrunch.com/2026/11/23/jensen-huang-isnt-out-of-the-woods-yet/",
+      "headline": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
+      "link": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/",
       "outlet": "TechCrunch",
       "category": "Technology",
       "date": "2026-11-23",
-      "summary": "It’s safe to say no one expected this. Monday morning, Jensen Huang returned as CEO of Nvidia, after resigning the position following news of multiple affairs, including one with a subordinate and…"
+      "summary": "Think you know where the market is headed? A startup called Supertake lets you put money behind your ideas without having to pick the stocks yourself."
     },
     {
-      "headline": "Trump reportedly called into Nvidia board meeting to advocate for Huang’s return",
-      "link": "https://techcrunch.com/2026/11/23/trump-reportedly-called-into-nvidia-board-meeting-to-advocate-for-huangs-return/",
+      "headline": "Elon Musk and others rejoice as Jensen Huang is reinstated at Nvidia amid scandal",
+      "link": "https://techcrunch.com/2026/11/23/elon-musk-and-others-rejoice-as-jensen-huang-is-reinstated-at-nvidia-amid-scandal/",
       "outlet": "TechCrunch",
       "category": "Technology",
       "date": "2026-11-23",
-      "summary": "\"I spoke to them, let me put it that way... And I convinced them,\" the president told CNBC."
+      "summary": "\"The mistake has been corrected,\" Elon Musk chimed in."
     },
     {
-      "headline": "CrowdStrike to acquire Zscaler for $44 billion",
-      "link": "https://techcrunch.com/2026/11/23/crowdstrike-to-acquire-zscaler-for-44-billion/",
+      "headline": "Megaspeed, the company at the center of the Jensen Huang scandal, appears headed for a US blacklist",
+      "link": "https://techcrunch.com/2026/11/23/megaspeed-the-company-at-the-center-of-the-jensen-huang-scandal-appears-headed-for-a-u-s-blacklist/",
       "outlet": "TechCrunch",
       "category": "Technology",
       "date": "2026-11-23",
-      "summary": "The cybersecurity giant said that the deal to buy Zscaler, which provides zero-trust products to large enterprises, will better equip their customers to use AI agents."
+      "summary": "Megaspeed, which was previously led by Alice Huang, would be barred from doing business with U.S. companies unless those companies attained a special license from the federal government."
     },
     {
-      "headline": "Marvel crams every superhero ever into Avengers: Doomsday final trailer",
-      "link": "https://arstechnica.com/culture/2026/11/marvel-crams-every-superhero-ever-into-avengers-doomsday-final-trailer/",
+      "headline": "Trump halts Iowa detonation, says new governor to blame if it blows accidentally",
+      "link": "https://arstechnica.com/health/2026/11/trump-halts-iowa-detonation-says-new-governor-to-blame-if-it-blows-accidentally/",
       "outlet": "Ars Technica",
       "category": "Technology",
       "date": "2026-11-23",
-      "summary": "\"All of you have lived stolen lives. But now you must give them back.\""
+      "summary": "The Army said on Sunday that it would carry out the detonation on Wednesday."
     },
     {
-      "headline": "Jensen Huang reinstated as Nvidia CEO, board chair",
-      "link": "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair/",
+      "headline": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
+      "link": "https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn/",
       "outlet": "Ars Technica",
       "category": "Technology",
       "date": "2026-11-23",
-      "summary": "Trump says he spoke to the board and that Huang \"did nothing wrong.\""
+      "summary": "X says every Grok output is screened, but state AGs say Grok is still making CSAM."
     },
     {
-      "headline": "COP31 ends in failure as countries split over fossil fuels, climate finance",
-      "link": "https://arstechnica.com/science/2026/11/cop31-ends-in-failure-as-countries-split-over-fossil-fuels-climate-finance/",
+      "headline": "Russia will launch a routine ISS supply mission tomorrow—apparently, it's a big secret",
+      "link": "https://arstechnica.com/space/2026/11/russia-will-launch-a-routine-iss-supply-mission-tomorrow-apparently-its-a-big-secret/",
       "outlet": "Ars Technica",
       "category": "Technology",
       "date": "2026-11-23",
-      "summary": "COP31 ended without a consensus deal for the first time since 2009."
+      "summary": "\"I would ask you to please reach out to Roscosmos directly.\""
     },
     {
-      "headline": "F1 in Las Vegas: You've never seen an F1 race like this before",
-      "link": "https://arstechnica.com/cars/2026/11/f1-in-las-vegas-youve-never-seen-an-f1-race-like-this-before/",
+      "headline": "Surveillance pricing uses our personal data to make us pay more",
+      "link": "https://arstechnica.com/tech-policy/2026/11/surveillance-pricing-uses-our-personal-data-to-make-us-pay-more/",
       "outlet": "Ars Technica",
       "category": "Technology",
       "date": "2026-11-23",
-      "summary": "There were 352 position changes, including 35 for the lead."
+      "summary": "Personalized pricing can mean unfair, and even biased, prices."
     },
     {
-      "headline": "Tri-screen portable monitors aren’t for the faint of heart",
-      "link": "https://arstechnica.com/gadgets/2026/11/a-triple-screen-portable-monitor-means-more-pixels-and-more-bulk/",
+      "headline": "Amazon fights Delivery Protection Act by putting stickers on its packages",
+      "link": "https://arstechnica.com/tech-policy/2026/11/amazon-fights-delivery-protection-act-by-putting-stickers-on-its-packages/",
       "outlet": "Ars Technica",
       "category": "Technology",
       "date": "2026-11-23",
-      "summary": "Three extra screens boost multitasking but can distract and overwhelm."
-    },
-    {
-      "headline": "Jensen Huang Is Back as Nvidia CEO",
-      "link": "https://www.wired.com/story/jensen-huang-is-back-as-nvidia-ceo/",
-      "outlet": "WIRED",
-      "category": "Technology",
-      "date": "2026-11-23",
-      "summary": "The company’s board of directors has reinstated Huang a little more than a week after the CEO resigned amid allegations of multiple affairs, including with a direct report."
-    },
-    {
-      "headline": "Nvidia Is Powering Brain-Computer Interfaces Now",
-      "link": "https://www.wired.com/story/nvidia-is-powering-brain-computer-interfaces-now/",
-      "outlet": "WIRED",
-      "category": "Technology",
-      "date": "2026-11-23",
-      "summary": "Brain-computer interface company Paradromics is using Nvidia’s computing hardware and software to process brain data."
-    },
-    {
-      "headline": "Submit Your Questions: Will Anyone Keep You Safe From AI?",
-      "link": "https://www.wired.com/story/livestream-will-anyone-keep-us-safe-from-ai/",
-      "outlet": "WIRED",
-      "category": "Technology",
-      "date": "2026-11-23",
-      "summary": "Experts agree that AI, in one way or another, poses real danger. Will the industry do anything about it? Join our livestream on December 2 to hear your questions answered."
-    },
-    {
-      "headline": "44 Best Gifts Under $100 That WIRED Loves (2026)",
-      "link": "https://www.wired.com/gallery/best-gifts-under-100/",
-      "outlet": "WIRED",
-      "category": "Technology",
-      "date": "2026-11-23",
-      "summary": "Score a great gift for everyone on your list without breaking the bank. Every one of these gifts comes WIRED-recommended."
+      "summary": "Amazon now uses its packages for political purposes."
     },
     {
       "headline": "‘Most of the video budget went on Steve Strange’s makeup’: Midge Ure on how Visage made Fade to Grey",
@@ -401,36 +514,36 @@
       "summary": "A quarter of a century after their first encounter, Ben Stiller’s Greg Focker once again clashes with Robert De Niro’s patriarch Jack Byrnes The post ‘Focker-In-Law’ review: Even Ariana Grande’s…"
     },
     {
-      "headline": "FKA Twigs and Patti Smith added to Gasometer grand opening as we go inside the “new cultural landmark for Northern Europe”",
-      "link": "https://www.nme.com/news/music/gasometer-stockholm-new-venue-interview-opening-tickets-gig-plans-3976585",
-      "outlet": "NME",
+      "headline": "Adéla Announces 2027 World Tour",
+      "link": "https://pitchfork.com/story/adela-announces-2027-world-tour/",
+      "outlet": "Pitchfork",
       "category": "Music",
       "date": "2026-11-23",
-      "summary": "Ahead of Gasometer's ambitious inaugural performances in March 2027, NME takes a look around the new state-of-the-art renovated gig destination that offers many \"historic moments\" to come The post…"
+      "summary": "It runs nearly every single night from January to April"
     },
     {
-      "headline": "‘Blade Runner 2099’ review: a hollow retread of the cult dystopian classic",
-      "link": "https://www.nme.com/reviews/tv-reviews/blade-runner-2099-review-michelle-yeoh-hunter-schafer-amazon-prime-3976755",
-      "outlet": "NME",
+      "headline": "Hear Clairo Cover MF Doom With El Michels Affair",
+      "link": "https://pitchfork.com/story/hear-clairo-cover-mf-doom-with-el-michels-affair/",
+      "outlet": "Pitchfork",
       "category": "Music",
       "date": "2026-11-23",
-      "summary": "The eight-hour series fails to bring anything new to the slowly-expanding sci-fi franchise The post ‘Blade Runner 2099’ review: a hollow retread of the cult dystopian classic appeared first on NME ."
+      "summary": "Leon Michels & co. enlisted the singer-songwriter to recreate the hook on 2002’s “Lavender Buds”"
     },
     {
-      "headline": "Live music to be banned from rooftop of The Beatles’ Saville Row London fan experience",
-      "link": "https://www.nme.com/news/music/live-music-to-be-banned-from-rooftop-of-the-beatles-saville-row-london-fan-experience-3976748",
-      "outlet": "NME",
+      "headline": "Phoebe Bridgers Sets More Planetarium Listening Parties for Lost Weekend",
+      "link": "https://pitchfork.com/story/phoebe-bridgers-sets-more-planetarium-listening-parties-for-lost-weekend/",
+      "outlet": "Pitchfork",
       "category": "Music",
       "date": "2026-11-23",
-      "summary": "The Fab Four famously played their final public performance there in 1969 The post Live music to be banned from rooftop of The Beatles’ Saville Row London fan experience appeared first on NME ."
+      "summary": "Stargazers of North America, Europe, and Australasia, unite"
     },
     {
-      "headline": "‘Grand Theft Auto 6: The Album’ gets ‘Deluxe’ version with 23 more tracks",
-      "link": "https://www.nme.com/news/gaming-news/grand-theft-auto-6-the-album-deluxe-version-tracklist-slayyyter-travis-scott-3976738",
-      "outlet": "NME",
+      "headline": "D’Angelo, Belle and Sebastian, and More: This Week’s Pitchfork Selects Playlist",
+      "link": "https://pitchfork.com/story/dangelo-belle-and-sebastian-and-more-this-weeks-pitchfork-selects-playlist/",
+      "outlet": "Pitchfork",
       "category": "Music",
       "date": "2026-11-23",
-      "summary": "Featuring new music from Slayyyter, The Dare, Denzel Curry, Travis Scott and more The post ‘Grand Theft Auto 6: The Album’ gets ‘Deluxe’ version with 23 more tracks appeared first on NME ."
+      "summary": "Our weekly playlist highlights songs that our writers, editors, and contributors are listening to on repeat"
     },
     {
       "headline": "Travis Scott, Slayyyter, the Dare Feature on Deluxe GTA VI Soundtrack",
@@ -441,124 +554,36 @@
       "summary": "The new version features 23 more songs, including contributions from Overmono and 21 Savage"
     },
     {
-      "headline": "Portishead Reportedly Pull Music From Israeli Streaming Services",
-      "link": "https://pitchfork.com/story/portishead-reportedly-pull-music-from-israeli-streaming-services/",
-      "outlet": "Pitchfork",
-      "category": "Music",
-      "date": "2026-11-23",
-      "summary": "The band, long aligned with the Palestinian cause, has not commented on the removal"
-    },
-    {
-      "headline": "Listen to D’Angelo’s Posthumous Song “Kamikazi”",
-      "link": "https://pitchfork.com/story/listen-to-dangelos-posthumous-song-kamikazi/",
-      "outlet": "Pitchfork",
-      "category": "Music",
-      "date": "2026-11-23",
-      "summary": "The previously unreleased track surfaced in Grand Theft Auto VI’s Worldwide FM radio station"
-    },
-    {
-      "headline": "Don Toliver Concert Evacuated After Airborne Substance Released Into Crowd",
-      "link": "https://pitchfork.com/story/don-toliver-concert-evacuated-after-airborne-substance-released-into-crowd/",
-      "outlet": "Pitchfork",
-      "category": "Music",
-      "date": "2026-11-23",
-      "summary": "Fans were reportedly “screaming” and “coughing up blood” at UK arena Co-Op Live"
-    },
-    {
-      "headline": "Nirosta Steel Shares Alternate Versions of My Skyscraper Tracks",
-      "link": "https://pitchfork.com/story/nirosta-steel-shares-alternate-versions-of-my-skyscraper-tracks/",
-      "outlet": "Pitchfork",
-      "category": "Music",
-      "date": "2026-11-23",
-      "summary": "“Grey Boy” and “Boss Trix” now have “Boss Mix” editions"
-    },
-    {
-      "headline": "D’Angelo’s ‘GTA VI’ Song ‘Kamikaze’ Released as Brother Teases Future Posthumous Songs",
-      "link": "https://www.rollingstone.com/music/music-news/dangelos-gta-vi-kamikaze-brother-new-music-1235662740/",
+      "headline": "Mary J. Blige’s ‘Real Love’ Did Not Infringe on ‘Impeach the President,’ Appeals Court Rules",
+      "link": "https://www.rollingstone.com/music/music-news/mary-j-blige-real-love-impeach-the-president-appeals-ruling-1235663099/",
       "outlet": "Rolling Stone",
       "category": "Music",
       "date": "2026-11-23",
-      "summary": "\"We look forward to sharing more of my brother’s legacy with you,\" Luther Archer Jr. said"
+      "summary": "“The works as a whole are distinct,” the three-judge panel found"
     },
     {
-      "headline": "Justin Timberlake Will Open Up About Highs and Lows of Stardom on Four-Part Documentary",
-      "link": "https://www.rollingstone.com/music/music-news/justin-timberlake-apple-tv-documentary-1235662641/",
+      "headline": "Courtney Love Praises Nirvana’s ‘Unsung Hero’ Tracy Marander Amid Cancer Battle",
+      "link": "https://www.rollingstone.com/music/music-news/courtney-love-tracy-marander-cancer-battle-1235662840/",
       "outlet": "Rolling Stone",
       "category": "Music",
       "date": "2026-11-23",
-      "summary": "First two parts of Timberlake premiere on Apple TV on Dec. 11, with trailer out now"
+      "summary": "The photographer behind Bleach 's album cover and pivotal early Nirvana supporter enters hospice care after four-year cancer battle"
     },
     {
-      "headline": "Watch Taylor Swift Surprise Brenda Lee With ‘Rockin’ Around the Christmas Tree’ Honor",
-      "link": "https://www.rollingstone.com/music/music-country/taylor-swift-rockin-around-the-christmas-tree-brenda-lee-1235662663/",
+      "headline": "Billy Corgan’s Supergroup Zwan to Reissue Debut Album With 19 Unreleased Tracks",
+      "link": "https://www.rollingstone.com/music/music-news/zwan-reissue-mary-star-of-the-sea-unreleased-music-1235662842/",
       "outlet": "Rolling Stone",
       "category": "Music",
       "date": "2026-11-23",
-      "summary": "Lee’s 1958 chestnut is one of just two Christmas songs to ever be certified Diamond"
+      "summary": "Mary Star of the Sea will also return to streaming services, where it hasn’t been available for years"
     },
     {
-      "headline": "Nick Cave’s Raucous, Druggy Johnny Cash Cover Will Improve Your Day",
-      "link": "https://www.rollingstone.com/music/music-news/nick-cave-bob-dylan-johnny-cash-wanted-man-1986-concert-1235662612/",
+      "headline": "Clairo Covers Beloved MF Doom Song With El Michels Affair",
+      "link": "https://www.rollingstone.com/music/music-news/clairo-mf-doom-lavender-buds-cover-1235662772/",
       "outlet": "Rolling Stone",
       "category": "Music",
       "date": "2026-11-23",
-      "summary": "The Bad Seeds performed “Wanted Man” and other Cave classics at a 1986 gig that’s newly posted to YouTube"
-    },
-    {
-      "headline": "See Cheap Trick Play Last Concert Before Indefinite Hiatus: ‘Thanks for Everything You’ve Given Us’",
-      "link": "https://www.rollingstone.com/music/music-news/cheap-trick-last-concert-hiatus-1235662620/",
-      "outlet": "Rolling Stone",
-      "category": "Music",
-      "date": "2026-11-23",
-      "summary": "After 50 years of relentless touring, Cheap Trick now have a blank calendar for the first time in their history"
-    },
-    {
-      "headline": "Travis Scott, Slayyyter, Offset, Anitta & More Power ‘Grand Theft Auto VI: The Album’ Deluxe Edition: Stream It Now",
-      "link": "https://www.billboard.com/music/music-news/gta-6-album-deluxe-offset-travis-scott-slayyyter-anitta-1236387752/",
-      "outlet": "Billboard",
-      "category": "Music",
-      "date": "2026-11-23",
-      "summary": "Between the original and deluxe, the GTA album now boasts 57 tracks in total."
-    },
-    {
-      "headline": "Randy Newman, Marvin Hamlisch, Earle Hagen & More to Be Honored by Society of Composers & Lyricists",
-      "link": "https://www.billboard.com/music/awards/randy-newman-honored-society-of-composers-lyricists-1236387613/",
-      "outlet": "Billboard",
-      "category": "Music",
-      "date": "2026-11-23",
-      "summary": "Jon Batiste, Sen. Dick Durbin and Brent McCorkle will also be honored at SCL holiday events."
-    },
-    {
-      "headline": "‘Michael’ Costars Nominated for AARP Movies & TV for Grownups Awards: Full List",
-      "link": "https://www.billboard.com/music/awards/aarp-movies-tv-for-grownups-awards-nominations-list-1236387462/",
-      "outlet": "Billboard",
-      "category": "Music",
-      "date": "2026-11-23",
-      "summary": "Films about Elvis Presley and Darlene Love are nominated for best documentary."
-    },
-    {
-      "headline": "‘Dang Me’! Roger Miller Posthumously Inducted Into Songwriters Hall of Fame",
-      "link": "https://www.billboard.com/music/awards/roger-miller-inducted-songwriters-hall-of-fame-posthumous-1236387357/",
-      "outlet": "Billboard",
-      "category": "Music",
-      "date": "2026-11-23",
-      "summary": "His \"King of the Road\" received Grammy nods for both record and song of the year in 1966."
-    },
-    {
-      "headline": "It’s Dolly Parton Week on ‘The Voice’: See the Full List of Tribute Songs the Top 10 Will Perform",
-      "link": "https://www.billboard.com/lists/dolly-parton-week-the-voice-song-list-top-10-perform/",
-      "outlet": "Billboard",
-      "category": "Music",
-      "date": "2026-11-23",
-      "summary": "The Voice airs tonight (Nov. 23) at 9 p.m. ET on NBC."
-    },
-    {
-      "headline": "Billy Corgan Announces Deluxe Zwan Reissue With Previously Unreleased Tracks",
-      "link": "https://stereogum.com/2520267/billy-corgan-announces-deluxe-zwan-reissue-with-previously-unreleased-tracks/music/",
-      "outlet": "Stereogum",
-      "category": "Music",
-      "date": "2026-11-23",
-      "summary": "The post Billy Corgan Announces Deluxe Zwan Reissue With Previously Unreleased Tracks appeared first on Stereogum ."
+      "summary": "The singer-songwriter provided vocals to a rendition of Doom’s “Lavender Buds” which is available via 7-inch and Bandcamp"
     },
     {
       "headline": "Cathedrals of sound: the secret universe inside musical instruments – in pictures",
@@ -566,7 +591,7 @@
       "outlet": "The Guardian",
       "category": "Arts",
       "date": "2026-11-23",
-      "summary": "Photographer and former cellist Charles Brooks creates optical illusions with minuscule cameras. He threads endoscopes inside instruments to capture thousands of images which are then combined: a…"
+      "summary": "Photographer and former cellist Charles Brooks creates optical illusions with minuscule cameras. He threads endoscopes inside instruments to capture thousands of images, which are then combined: a…"
     },
     {
       "headline": "The journal of a punk photographer from Wollongong to London and back – in pictures",
@@ -593,52 +618,44 @@
       "summary": "Culinary artists are turning fashion shows and design fairs into a feast for the eyes A pretty Venetian chandelier featuring delicate pink flowers and cascading blue leaves hangs from a ceiling. A…"
     },
     {
-      "headline": "Dapper Liam and Noel, experimental Björk, and Bowie ‘cuddling himself’: Rankin reveals his never-before-seen shots of the stars",
-      "link": "https://www.theguardian.com/artanddesign/2026/nov/23/rankin-photographer-interview-contact-david-bowie-oasis",
-      "outlet": "The Guardian",
-      "category": "Arts",
-      "date": "2026-11-23",
-      "summary": "After some satirical experiments with the ‘disgusting’ AI, the photographer has returned to his first love with a book of contact sheets from his celebrity shoots. ‘I wish we could go back and stop…"
-    },
-    {
-      "headline": "Mohamed bin Zayed University of Artificial Intelligence Launches $250,000 Art Commission Program",
-      "link": "https://www.artnews.com/art-news/news/mbzuai-launches-inaugural-250000-commission-1234807312/",
+      "headline": "Since 2020, the Canon Has Grown Bigger Than Ever Before. Will Museums and the Market Continue to Listen?",
+      "link": "https://www.artnews.com/art-news/news/2020s-expanding-canon-art-week-nyc-1234807332/",
       "outlet": "ARTnews",
       "category": "Arts",
       "date": "2026-11-23",
-      "summary": "The winning commission will be displayed in the university’s new cultural center that’s slated to open in 2027."
+      "summary": "Experts gathered during Art Week NYC to discuss the art world since 2020."
     },
     {
-      "headline": "With MoMA, M+, and the Centre Pompidou’s Alliance, Museums Enter a New Era of Collaboration",
-      "link": "https://www.artnews.com/art-news/opinion/moma-m-plus-centre-pompidou-alliance-collaboration-1234807316/",
+      "headline": "Faurschou Ends Its Public Exhibition Program as Its New York Space Heads for Demolition",
+      "link": "https://www.artnews.com/art-news/news/faurschou-foundation-ends-shows-sells-new-york-building-1234807321/",
       "outlet": "ARTnews",
       "category": "Arts",
       "date": "2026-11-23",
-      "summary": "Maximizing and leveraging the reach of individual collections is only the start."
+      "summary": "After four decades, Faurschou's public shows are over."
     },
     {
-      "headline": "Did a Trump Staffer Accidentally Reveal White House Plans to Revamp the Smithsonian?",
-      "link": "https://www.artnews.com/art-news/news/trump-staffer-reveal-white-house-plans-revamp-smithsonian-1234807305/",
+      "headline": "Lynette Yiadom-Boakye and Anne Imhof Make Vogue’s 2026 Best-Dressed List",
+      "link": "https://www.artnews.com/art-news/news/lynette-yiadom-boakye-anne-imhof-vogue-best-dressed-list-1234807360/",
       "outlet": "ARTnews",
       "category": "Arts",
       "date": "2026-11-23",
-      "summary": "The staffer, likely one Sam Bock, was seen working on a “renewal plan” while riding a commuter train."
+      "summary": "The list also included dancer Devon Teuscher and architect Sumayya Vally."
     },
     {
-      "headline": "Controversial Venice Biennale Closes, Athens Police Seize 35 Forgeries, and More: Morning Links for November 23, 2026",
-      "link": "https://www.artnews.com/art-news/news/controversial-venice-biennale-closes-morning-links-1234807296/",
+      "headline": "13th-Century Carving Stolen by Art Thief ‘Eric the Belgian’ Recovered in the UK",
+      "link": "https://www.artnews.com/art-news/news/13th-century-carving-stolen-art-thief-eric-the-belgian-recovered-uk-1234807344/",
       "outlet": "ARTnews",
       "category": "Arts",
       "date": "2026-11-23",
-      "summary": "Here's what we're reading this morning."
+      "summary": "The so-called \"gentleman thief\" was known for robbing churches and monasteries in rural Spain in the 1970s and '80s."
     },
     {
-      "headline": "Hauser & Wirth Now Represents Ser Serpas, Fast-Rising Artist Who Combs the Detritus of Everyday Life",
-      "link": "https://www.artnews.com/art-news/market/ser-serpas-hauser-and-wirth-gallery-representation-1234807276/",
+      "headline": "Friedrich Christian Flick, Art Collector and Scion of German Industrialists with Nazi Past, Dies at 82",
+      "link": "https://www.artnews.com/art-news/news/friedrich-christian-flick-collection-dead-82-1234807322/",
       "outlet": "ARTnews",
       "category": "Arts",
       "date": "2026-11-23",
-      "summary": "She will have her first show at the gallery’s Paris space in January."
+      "summary": "Flick reportedly died after suffering injuries from a fall days earlier."
     },
     {
       "headline": "Miami Through the GTA VI Looking-Glass",
@@ -681,6 +698,22 @@
       "summary": "Virginie Efira went from hosting reality TV to starring in art house movies. For her latest, “All of a Sudden,” she mastered a new language — and won best actress at Cannes."
     },
     {
+      "headline": "A Vibrating Rage Runs Through ‘Elektra’ and ‘La Distance’",
+      "link": "https://www.nytimes.com/2026/11/23/theater/elektra-la-distance-bam-theater-new-audience-brooklyn.html",
+      "outlet": "The New York Times",
+      "category": "Arts",
+      "date": "2026-11-23",
+      "summary": "Daughters find themselves hating what their fathers left them in two plays now in Brooklyn. One woman burns her world down; the other one abandons it."
+    },
+    {
+      "headline": "Art Basel Hong Kong announces 232 galleries for 2027 edition.",
+      "link": "https://www.artsy.net/article/artsy-editorial-art-basel-hong-kong-announces-232-galleries-2027-edition",
+      "outlet": "Artsy",
+      "category": "Arts",
+      "date": "2026-11-23",
+      "summary": "Art Basel Hong Kong has announced 232 exhibitors for its 2027 edition. The galleries represent more than 40 countries and territories, and will include 31 first-time exhibitors. The fair will take…"
+    },
+    {
       "headline": "Jem Perucchini’s Jewel-Like Portraits Give Black Figures a Place in the Renaissance",
       "link": "https://www.artsy.net/article/artsy-editorial-jem-perucchinis-jewel-like-portraits-black-figures-place-renaissance",
       "outlet": "Artsy",
@@ -697,12 +730,12 @@
       "summary": "Year-round sunshine, miles of coastline, a culture steeped in Latin American influence, a world-class restaurant scene, and neighborhoods anchored by galleries, museums, and public art draw travelers…"
     },
     {
-      "headline": "Italian jeweller and businessman Paolo Bulgari dies aged 89",
-      "link": "https://www.bbc.co.uk/news/articles/c8e39qk5vrpdo",
+      "headline": "Britain's Got Talent winner almost missed audition due to Carphone Warehouse shift",
+      "link": "https://www.bbc.co.uk/news/articles/cw8dvq431280o",
       "outlet": "BBC News",
       "category": "Arts",
       "date": "2026-11-23",
-      "summary": "In a statement to Italian media, his family remember him as \"the greatest jeweller of our time\"."
+      "summary": "Tenor Paul Potts would have missed his big chance if a colleague didn't work his Saturday shift."
     },
     {
       "headline": "Welcome to Manchester United: Mauricio Pochettino faces grim reality after collapse against Liverpool",
@@ -719,30 +752,6 @@
       "category": "Football",
       "date": "2026-11-22",
       "summary": "After a decade of postseason heartbreak, the Kansas City Current midfielder scored a stunning olimpico to win the NWSL Championship and claim MVP honors months after returning from maternity leave"
-    },
-    {
-      "headline": "Vlatko Andonovski built it, Chris Armas finished it: KC Current's NWSL title was continuity through disruption",
-      "link": "https://www.cbssports.com/soccer/news/kc-current-nwsl-championship-chris-armas-vlatko-andonosvski/",
-      "outlet": "CBS Sports",
-      "category": "Football",
-      "date": "2026-11-22",
-      "summary": "The Current won their first ever NWSL Championship with a 2-1 win over the Washington Spirit thanks to goals from Vanessa DiBernardo and Debinha"
-    },
-    {
-      "headline": "Hunter Schafer, Now in ‘Blade Runner 2099,’ Never Meant to Be an Actress",
-      "link": "https://www.nytimes.com/2026/11/22/arts/television/hunter-schafer-never-meant-to-be-an-actress.html",
-      "outlet": "The New York Times",
-      "category": "Arts",
-      "date": "2026-11-22",
-      "summary": "The “Euphoria” star has other dreams for her future. But first she’ll star as Cora, a human among replicants, in “Blade Runner 2099.”"
-    },
-    {
-      "headline": "Andrew Scott on the Shattering Feat of Playing Ian Charleson in ‘Elsinore’",
-      "link": "https://www.nytimes.com/2026/11/22/movies/andrew-scott-elsinore-ian-charleson.html",
-      "outlet": "The New York Times",
-      "category": "Arts",
-      "date": "2026-11-22",
-      "summary": "Scott is the subject of Oscar chatter for his performance recreating the last months of Ian Charleson for the biopic “Elsinore.”"
     },
     {
       "headline": "Miley Cyrus marries Maxx Morando in California ceremony",
@@ -767,14 +776,6 @@
       "category": "Arts",
       "date": "2026-11-22",
       "summary": "Lancashire police says a mobile phone has been seized and it is assessing whether any criminal offences may have taken place."
-    },
-    {
-      "headline": "ITV investigating soap actor after bar incident",
-      "link": "https://www.bbc.co.uk/news/articles/cj5y16v79kd1o",
-      "outlet": "BBC News",
-      "category": "Arts",
-      "date": "2026-11-22",
-      "summary": "Police say they attended a Manchester bar after reports of a disturbance earlier this month."
     }
   ]
 }
