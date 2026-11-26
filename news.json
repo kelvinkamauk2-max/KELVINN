@@ -1,16 +1,15 @@
 {
-  "updated": "2026-11-26T05:53:32.516Z",
+  "updated": "2026-11-26T08:49:41.149Z",
   "report": {
-    "feeds_ok": 26,
+    "feeds_ok": 27,
     "feeds_failed": [
-      "Football / ESPN",
       "Technology / Techpoint Africa",
       "Arts / Hyperallergic"
     ]
   },
   "items": [
     {
-      "headline": "Frustration reigns for Pochettino in chaotic start to Man Utd job",
+      "headline": "More ref frustration as Pochettino's chaotic start at Man Utd continues",
       "link": "https://www.bbc.co.uk/sport/football/articles/c6vg24l724l4o",
       "outlet": "BBC Sport",
       "category": "Football",
@@ -26,12 +25,92 @@
       "summary": "BBC Sport breaks down the chaos amid Manchester United's rollercoaster Champions League draw against Sporting in Lisbon."
     },
     {
+      "headline": "No drums, no tifo … no point? The impact of Palace’s missing Holmesdale Fanatics",
+      "link": "https://www.theguardian.com/football/2026/nov/26/no-drums-no-tifo-no-point-the-impact-of-palaces-missing-holmesdale-fanatics",
+      "outlet": "The Guardian",
+      "category": "Football",
+      "date": "2026-11-26",
+      "summary": "Crystal Palace’s influential supporters’ group disbanded 24 hours before their first home game this season – and Selhurst Park has not been the same since Simon Teesdale could not help feeling mixed…"
+    },
+    {
+      "headline": "Champions League talking points: Should Man United be happy with chaotic draw?",
+      "link": "https://www.espn.com/soccer/story/_/id/50594529/champions-league-talking-points-manchester-united-sporting-draw",
+      "outlet": "ESPN",
+      "category": "Football",
+      "date": "2026-11-26",
+      "summary": "Gab Marcotti, Mark Ogden, Sam Tighe and Alex Kirkland run the rule over Man United's draw with Sporting, plus all the other moments that mattered from Matchday 5."
+    },
+    {
+      "headline": "New coach, same chaos: Man United remain their own worst enemy",
+      "link": "https://www.espn.com/soccer/story/_/id/50598965/manchester-united-pochettino-champions-league-sporting",
+      "outlet": "ESPN",
+      "category": "Football",
+      "date": "2026-11-26",
+      "summary": "Man United showed signs of progress under Mauricio Pochettino, but familiar mistakes cost them a UCL win."
+    },
+    {
+      "headline": "Pochettino: Man United were 'punished a lot' by officials in Sporting draw",
+      "link": "https://www.espn.com/soccer/story/_/id/50599139/man-united-mauricio-pochettino-sporting-referee-var-goal",
+      "outlet": "ESPN",
+      "category": "Football",
+      "date": "2026-11-26",
+      "summary": "Mauricio Pochettino said Manchester United were \"punished\" by the officials in the 2-2 draw with Sporting CP as he was denied a first win as head coach."
+    },
+    {
+      "headline": "Luis Enrique calls Roma PSG's toughest test of the season after winning streak ends",
+      "link": "https://www.espn.com/soccer/story/_/id/50599458/luis-enrique-praises-roma-draw-halts-psg-winning-streak",
+      "outlet": "ESPN",
+      "category": "Football",
+      "date": "2026-11-26",
+      "summary": "Paris Saint-Germain coach Luis Enrique said Roma was his team's \"toughest match of this season\" after a hard-fought 2-2 Champions League draw on Wednesday."
+    },
+    {
+      "headline": "Source: MLS owners agree new 16-team playoff format starting in 2027-28",
+      "link": "https://www.espn.com/soccer/story/_/id/50595745/mls-playoff-format-new-2027-2028-change-owners",
+      "outlet": "ESPN",
+      "category": "Football",
+      "date": "2026-11-26",
+      "summary": "MLS team owners have agreed on a new playoff format for the 2027-28 season featuring 16 teams, a source confirmed to ESPN."
+    },
+    {
+      "headline": "Chelsea Q&A! Submit your questions as club backs Alonso",
+      "link": "https://www.skysports.com/football/live-blog/12040/13025497/chelsea-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "outlet": "Sky Sports",
+      "category": "Football",
+      "date": "2026-11-26",
+      "summary": ""
+    },
+    {
+      "headline": "‘I hope they win Ashes 5-0’ – Stokes backs Root and Fleming's new England",
+      "link": "https://www.skysports.com/cricket/news/12040/13615980/ben-stokes-on-sandpapergate-the-ashes-and-joe-root-and-stephen-flemings-new-era-in-charge-of-the-england-test-team",
+      "outlet": "Sky Sports",
+      "category": "Football",
+      "date": "2026-11-26",
+      "summary": "Former England captain Ben Stokes says he hopes they win next year's Ashes 5-0, as he insisted there was no animosity towards his former team-mates."
+    },
+    {
+      "headline": "What impact will tyre-limit rule have on Qatar GP?",
+      "link": "https://www.skysports.com/f1/news/12040/13615090/qatar-gp-explaining-2026-tyre-limit-rule-and-what-impact-it-will-have-on-f1-race-weekend-at-lusail-international-circuit",
+      "outlet": "Sky Sports",
+      "category": "Football",
+      "date": "2026-11-26",
+      "summary": "Formula 1 returns to the Middle East this weekend for the first time since pre-season testing in February for back-to-back races to finish the 2026 campaign."
+    },
+    {
       "headline": "England's All Blacks Tests 'World Cup practice' | 'Ireland still not contenders'",
       "link": "https://www.skysports.com/rugby-union/news/12040/13616429/nations-championship-steve-borthwick-targets-world-cup-preparation-against-all-blacks-as-andy-farrell-plays-down-irelands-title-credentials",
       "outlet": "Sky Sports",
       "category": "Football",
       "date": "2026-11-26",
       "summary": "Head coaches Steve Borthwick of England, Andy Farrell of Ireland and Dave Rennie of New Zealand speak to media ahead of the final weekend of the inaugural Nations Championship."
+    },
+    {
+      "headline": "Sports Department Warns Sh8.3bn Budget Deficit Could Jeopardise AFCON 2027 Preparations",
+      "link": "https://capitalfm.africa/sports-department-warns-sh8-3bn-budget-deficit-could-jeopardise-afcon-2027-preparations/",
+      "outlet": "Capital FM (Kenya)",
+      "category": "Football",
+      "date": "2026-11-26",
+      "summary": "Kenya is co-hosting the 2027 Africa Cup of Nations (AFCON) \"Pamoja 2027\" alongside Tanzania and Uganda from June 19 to July 17, 2027, marking the first three-nation AFCON and the tournament's return…"
     },
     {
       "headline": "Now Google’s Familiar Faces AI feature works on Walmart’s $35 smart home camera too",
@@ -42,12 +121,100 @@
       "summary": "A couple of Walmart's budget-friendly smart home cameras will be able to recognize people around your house now using Google's familiar face detection feature. A new Google Home update brings…"
     },
     {
+      "headline": "Lenovo Coupon Codes: 15% Off in November 2026",
+      "link": "https://www.wired.com/story/lenovo-coupon-code/",
+      "outlet": "WIRED",
+      "category": "Technology",
+      "date": "2026-11-26",
+      "summary": "Whether you’re shopping for a ThinkPad, Yoga laptop, or Legion gaming PC, these Lenovo discount codes and promotions can help you save big on your next tech upgrade."
+    },
+    {
+      "headline": "Chewy Promo Codes: 50% Off November 2026",
+      "link": "https://www.wired.com/story/chewy-promo-code/",
+      "outlet": "WIRED",
+      "category": "Technology",
+      "date": "2026-11-26",
+      "summary": "Explore Chewy coupon codes for $30 off, $20 off your first order of $49, 50% off pet food, and more November 2026 discounts."
+    },
+    {
+      "headline": "Office Depot Coupons: $20 Off November 2026",
+      "link": "https://www.wired.com/story/office-depot-promo-codes/",
+      "outlet": "WIRED",
+      "category": "Technology",
+      "date": "2026-11-26",
+      "summary": "From furniture and ink to professional printing services, use an Office Depot discount code to maximize your savings on every workspace essential."
+    },
+    {
+      "headline": "LG Promo Code: 40% Off for November 2026",
+      "link": "https://www.wired.com/story/lg-promo-code/",
+      "outlet": "WIRED",
+      "category": "Technology",
+      "date": "2026-11-26",
+      "summary": "Save 20% with an LG promo code today, plus up to $1,000 off appliances, 40% off bestselling TVs and monitors."
+    },
+    {
+      "headline": "30% Off Canon Promo Codes | November 2026",
+      "link": "https://www.wired.com/story/canon-promo-code/",
+      "outlet": "WIRED",
+      "category": "Technology",
+      "date": "2026-11-26",
+      "summary": "Save an extra 10% or 30% with Canon coupon codes, plus up to $1,600 on cameras, printers, and more this November 2026."
+    },
+    {
+      "headline": "Neuralink receives FDA approval for 'pivotal' brain implant trial in ALS patients",
+      "link": "https://www.engadget.com/2329008/neuralink-receives-fda-approval-for-brain-implant-trial-in-als-patients/",
+      "outlet": "Engadget",
+      "category": "Technology",
+      "date": "2026-11-26",
+      "summary": "Elon Musk's Neuralink has received FDA permission to launch the first trial for its brain-computer interface."
+    },
+    {
+      "headline": "New York state bans AI chatbot toys for kids",
+      "link": "https://www.engadget.com/2328996/new-york-state-bans-ai-chatbot-toys-for-kids/",
+      "outlet": "Engadget",
+      "category": "Technology",
+      "date": "2026-11-26",
+      "summary": "New York governor Kathy Hochul has signed into law a five-year ban on the sale of AI chatbot toys."
+    },
+    {
+      "headline": "Elon Musk pledges to give two SpaceX shares to every child in the US",
+      "link": "https://www.theguardian.com/technology/2026/nov/26/elon-musk-pledges-to-give-two-spacex-shares-to-every-child-in-the-us",
+      "outlet": "The Guardian",
+      "category": "Technology",
+      "date": "2026-11-26",
+      "summary": "The total value of the shares could reach almost $18bn and comes as tech companies debate how to share the spoils of the AI boom Elon Musk, the world’s richest person, has pledged to give every child…"
+    },
+    {
+      "headline": "👨🏿‍🚀TechCabal Daily – A house breach",
+      "link": "https://techcabal.com/2026/11/26/%f0%9f%91%a8%f0%9f%8f%bf%f0%9f%9a%80techcabal-daily-a-house-breach/",
+      "outlet": "TechCabal",
+      "category": "Technology",
+      "date": "2026-11-26",
+      "summary": "In today's news: SA Home Loans hit by data breach || Dangote refinery to list on NGX || Raenest secures six US licences || WorldRemit founder launches Odola"
+    },
+    {
       "headline": "Why Nigerian companies are choosing Kenya for their next move",
       "link": "https://techcabal.com/2026/11/26/nigerian-companies-eyeing-kenya/",
       "outlet": "TechCabal",
       "category": "Technology",
       "date": "2026-11-26",
       "summary": "Dangote found a pipeline that can carry fuel to customers beyond Kenya. Moniepoint bought a bank that already lends to small businesses. Across energy, banking and capital markets, Nigerian companies…"
+    },
+    {
+      "headline": "Duran Duran was transformed by Andy Taylor’s rock edge – and never quite the same without him",
+      "link": "https://www.theguardian.com/music/2026/nov/26/andy-taylor-death-duran-duran-transformed-by-guitarists-rock-edge",
+      "outlet": "The Guardian",
+      "category": "Music",
+      "date": "2026-11-26",
+      "summary": "The guitarist was absolutely integral to Duran Duran’s success, and not merely because he was by far the band’s most straightforwardly talented musician Andy Taylor, guitarist in Duran Duran, dies…"
+    },
+    {
+      "headline": "Jay Lycurgo is taking deep breaths before super-stardom",
+      "link": "https://www.nme.com/features/film-interviews/jay-lycurgo-interview-i-see-buildings-fall-like-lightning-steve-half-bad-3976941",
+      "outlet": "NME",
+      "category": "Music",
+      "date": "2026-11-26",
+      "summary": "The soulful young actor trades Croydon for Birmingham in must-watch indie ‘I See Buildings Fall Like Lightning’ The post Jay Lycurgo is taking deep breaths before super-stardom appeared first on NME ."
     },
     {
       "headline": "Today’s Wordle answer and hints for #1986 on November 26",
@@ -106,6 +273,22 @@
       "summary": "The late guitarist gave the band an aggressive edge that no other New Romantic act had — which is part of the reason the songs never fade into the past"
     },
     {
+      "headline": "‘What A Talent’: Belinda Carlisle, UB40, Spandau Ballet & More Remember Andy Taylor",
+      "link": "https://www.billboard.com/music/rock/belinda-carlisle-ub40-spandau-ballet-remember-andy-taylor-1236390136/",
+      "outlet": "Billboard",
+      "category": "Music",
+      "date": "2026-11-26",
+      "summary": "Tributes are flooding in for Andy Taylor, the brawny founding guitarist for Duran Duran and The Power Station, who has passed away after a years-long battle with prostate cancer."
+    },
+    {
+      "headline": "Andy Taylor Was Full of Surprises: Six Deep-Dive Career Moments",
+      "link": "https://www.billboard.com/lists/andy-taylor-six-deep-dive-career-moments/",
+      "outlet": "Billboard",
+      "category": "Music",
+      "date": "2026-11-26",
+      "summary": "Following his death at the age of 65, Billboard has highlighted some impressive, but overlooked moments from Andy Taylor’s Hall of Fame career."
+    },
+    {
       "headline": "U2 Wind Back the Years With Classics, Dolly Parton Tribute for Thanksgiving Eve NFL Halftime Show",
       "link": "https://www.billboard.com/music/rock/u2-dolly-parton-tribute-thanksgiving-eve-nfl-halftime-show-1236390070/",
       "outlet": "Billboard",
@@ -128,6 +311,30 @@
       "category": "Music",
       "date": "2026-11-26",
       "summary": "The musician, who co-wrote some of the band's biggest hits, had been treated for prostate cancer."
+    },
+    {
+      "headline": "BBC Radio 1's Big Weekend 2027 heads to Brighton",
+      "link": "https://www.bbc.co.uk/news/articles/cr1ewjpgd2llo",
+      "outlet": "BBC News",
+      "category": "Music",
+      "date": "2026-11-26",
+      "summary": "The annual music festival will take place in Preston Park from Friday 28 to Sunday 30 May next year."
+    },
+    {
+      "headline": "‘When I cut these women out I feel like I’m freeing them’: the feminist collage artists taking scissors to the patriarchy",
+      "link": "https://www.theguardian.com/artanddesign/2026/nov/26/what-rose-from-the-cut-exhibition-graces-mews-gallery-feminist-collage",
+      "outlet": "The Guardian",
+      "category": "Arts",
+      "date": "2026-11-26",
+      "summary": "A new exhibition celebrates landmark artists who sliced up existing works to make striking new pieces. The show’s curators discuss how, in order to create, sometimes you first need to destroy When…"
+    },
+    {
+      "headline": "‘The streets were alive with sonic vibrations’: music and protest in Black London – in pictures",
+      "link": "https://www.theguardian.com/artanddesign/gallery/2026/nov/26/the-streets-were-alive-with-sonic-vibrations-music-and-protest-in-black-london-in-pictures",
+      "outlet": "The Guardian",
+      "category": "Arts",
+      "date": "2026-11-26",
+      "summary": "From booming sound systems at Notting Hill carnival to defiant marches against the National Front, Ian Watts’s images capture Black lives in the capital across two pivotal decades Continue reading..."
     },
     {
       "headline": "Bring me the scrotum stapler! Is this the world’s most extreme performance artist?",
@@ -170,12 +377,12 @@
       "summary": "Liverpool defeat Club Brugge in a clinical performance thanks to goals from Alexander Isak and Florian Wirtz, bouncing back after a defeat in their last Champions League match."
     },
     {
-      "headline": "Lammens errors cost Manchester United victory in frantic finale at Sporting",
-      "link": "https://www.theguardian.com/football/2026/nov/25/sporting-lisbon-manchester-united-champions-league-match-report",
+      "headline": "Pochettino claims officials ‘punished’ Manchester United in chaotic Sporting draw",
+      "link": "https://www.theguardian.com/football/2026/nov/25/mauricio-pochettino-officials-punished-manchester-united-sporting",
       "outlet": "The Guardian",
       "category": "Football",
       "date": "2026-11-25",
-      "summary": "“We are a strong team,” Mauricio Pochettino exhorted, then watched Manchester United’s unerring ability to cause drama every time they lace up their boots. Cruising, it seemed, at 2-1 and with 10…"
+      "summary": "Head coach questions ‘difficult to understand’ decisions Argentinian offers support to Lammens after errors Mauricio Pochettino claimed Manchester United were punished unfairly after again appearing…"
     },
     {
       "headline": "Isak and Wirtz on target as resurgent Liverpool sweep aside Club Brugge",
@@ -202,44 +409,12 @@
       "summary": "Lille 2-1 Bayern Munich, Sabah 1-4 Barcelona Malen penalty earns Roma 2-2 draw at PSG Bayern Munich endured their first defeat of the season on Wednesday, losing 2-1 at Lille in the Champions League…"
     },
     {
-      "headline": "Saudi Arabia’s PIF looking to sell 25% of Newcastle through share issue",
-      "link": "https://www.theguardian.com/football/2026/nov/25/saudi-arabia-pif-newcastle-share-issue",
-      "outlet": "The Guardian",
-      "category": "Football",
-      "date": "2026-11-25",
-      "summary": "PIF seeking investment to fund infrastructure projects JP Morgan appointed to handle the sale Newcastle United’s owner, Saudi Arabia’s Public Investment Fund (PIF), is looking to sell up to 25% of…"
-    },
-    {
       "headline": "Carra: Lammens confidence worrying but Poch will feel Man Utd were robbed",
       "link": "https://www.skysports.com/football/news/12040/13616618/man-utd-goalkeeper-senne-lammens-criticised-for-howler-in-sporting-draw-by-jamie-carragher",
       "outlet": "Sky Sports",
       "category": "Football",
       "date": "2026-11-25",
       "summary": "Jamie Carragher says Manchester United goalkeeper Senne Lammens' confidence is a cause for concern after his howler cost Mauricio Pochettino a first win since taking charge."
-    },
-    {
-      "headline": "Liverpool latest: Munoz adds to injury concern ahead of derby",
-      "link": "https://www.skysports.com/football/live-blog/12040/13025501/liverpool-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "outlet": "Sky Sports",
-      "category": "Football",
-      "date": "2026-11-25",
-      "summary": ""
-    },
-    {
-      "headline": "Super League reveals new format, seven-team play-offs, international games",
-      "link": "https://www.skysports.com/rugby-league/news/12040/13616617/super-league-reveals-new-15-team-format-seven-team-play-offs-international-games-and-magic-weekend-rivals-round-dates",
-      "outlet": "Sky Sports",
-      "category": "Football",
-      "date": "2026-11-25",
-      "summary": "Super League has revealed a new format, a seven-team play-off system and Magic Weekend and Rivals Round dates, on the same day London Broncos were confirmed as the competition's 15th team for 2027."
-    },
-    {
-      "headline": "Poch denied first Man Utd win by Lammens howler at Sporting",
-      "link": "https://www.skysports.com/football/sporting-lisbon-vs-manchester-united/report/577686",
-      "outlet": "Sky Sports",
-      "category": "Football",
-      "date": "2026-11-25",
-      "summary": "Mauricio Pochettino was denied a first victory as Manchester United head coach by a goalkeeping howler from Senne Lammens in an incident-packed 2-2 draw with Sporting in the Champions League as Youri…"
     },
     {
       "headline": "Champions League power rankings: Real Madrid claim top spot as Man City, Arsenal, PSG stumble",
@@ -264,46 +439,6 @@
       "category": "Football",
       "date": "2026-11-25",
       "summary": "Elsewhere, Inter try to steady a mistake-prone defense in a vital match against Stuttgart, and Florian Wirtz might have turned a corner with Liverpool"
-    },
-    {
-      "headline": "Mariga out, Amwayi in: FKF boss Hussein cracks whip by replacing ousted NEC members",
-      "link": "https://capitalfm.africa/mariga-out-amwayi-in-fkf-boss-hussein-cracks-whip-by-replacing-ousted-nec-members/",
-      "outlet": "Capital FM (Kenya)",
-      "category": "Football",
-      "date": "2026-11-25",
-      "summary": "NAIROBI, Kenya, November 25, 2026 – Football Kenya Federation (FKF) has appointed Caleb Amwayi as its new vice-president, replacing former Inter Milan midfielder MacDonald Mariga, who was ousted at a…"
-    },
-    {
-      "headline": "Sigh of relief for Aussems as Nairobi United earn first win of the season",
-      "link": "https://capitalfm.africa/sigh-of-relief-for-aussems-as-nairobi-united-earn-first-win-of-2026-27-premier-league/",
-      "outlet": "Capital FM (Kenya)",
-      "category": "Football",
-      "date": "2026-11-25",
-      "summary": "NAIROBI, Kenya, November 25, 2026 – Nairobi United notched their first win of the 2026/27 FKF Premier League, courtesy of a 2-0 win over 3K FC at the Moi Stadium…"
-    },
-    {
-      "headline": "Why Ministry of Sports need extra billions for Afcon 2027, World Athletics Championships",
-      "link": "https://capitalfm.africa/why-ministry-of-sports-need-extra-billions-for-afcon-2027-world-athletics-championships/",
-      "outlet": "Capital FM (Kenya)",
-      "category": "Football",
-      "date": "2026-11-25",
-      "summary": "NAIROBI, Kenya, November 25, 2026 – The Ministry of Sports has requested an extra Ksh 8billion to enable Kenya effectively co-host next year’s Africa Cup of Nations (Afcon) as well…"
-    },
-    {
-      "headline": "Nairobi football talent set for showdown as Safaricom Chapa Dimba finals kick off",
-      "link": "https://capitalfm.africa/nairobi-football-talent-set-for-showdown-as-safaricom-chapa-dimba-finals-kick-off/",
-      "outlet": "Capital FM (Kenya)",
-      "category": "Football",
-      "date": "2026-11-25",
-      "summary": "NAIROBI, Kenya, Nov 25 – Nairobi is gearing up for an exciting weekend of grassroots football as the Safaricom Chapa Dimba Nairobi Regional Finals take centre stage at Dandora Stadium,…"
-    },
-    {
-      "headline": "Shabana snatch defeat from jaws of victory as winless run continues",
-      "link": "https://capitalfm.africa/shabana-snatch-defeat-from-jaws-of-victory-as-winless-run-continues/",
-      "outlet": "Capital FM (Kenya)",
-      "category": "Football",
-      "date": "2026-11-25",
-      "summary": "NAIROBI, Kenya, November 25, 2026 – Shabana’s struggles in the FKF Premier League went from bad to worse with a gut-wrenching 3-2 loss to Kakamega Homeboyz at the Bukhungu Stadium…"
     },
     {
       "headline": "Huawei found guilty of stealing US trade secrets but acquitted of racketeering",
@@ -410,86 +545,6 @@
       "summary": "Most codes of conduct serve as a reflection of corporate culture. In Nvidia's case, that could have consequences."
     },
     {
-      "headline": "The canceled Tesla Cybertruck is the fastest-selling used truck in America",
-      "link": "https://techcrunch.com/2026/11/25/the-canceled-tesla-cybertruck-is-the-fastest-selling-used-truck-in-america/",
-      "outlet": "TechCrunch",
-      "category": "Technology",
-      "date": "2026-11-25",
-      "summary": "The Tesla Cybertruck was the fastest-selling used truck last month, averaging just 39.1 days on the market compared to 65.5 days for trucks overall."
-    },
-    {
-      "headline": "European spacecraft finds chaotic scene after asteroid deflection experiment",
-      "link": "https://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup/",
-      "outlet": "Ars Technica",
-      "category": "Technology",
-      "date": "2026-11-25",
-      "summary": "\"DART made a really, really large mess. However, we didn’t really know what kind of mess.\""
-    },
-    {
-      "headline": "Google search alternative Kagi launches Gmail rival",
-      "link": "https://arstechnica.com/gadgets/2026/11/google-search-alternative-kagi-launches-gmail-rival/",
-      "outlet": "Ars Technica",
-      "category": "Technology",
-      "date": "2026-11-25",
-      "summary": "The pitch is an unusual combination of privacy promises and AI features."
-    },
-    {
-      "headline": "Backblaze explains why it's sharing customer information with advertisers",
-      "link": "https://arstechnica.com/information-technology/2026/11/backblaze-explains-why-its-sharing-customer-information-with-advertisers/",
-      "outlet": "Ars Technica",
-      "category": "Technology",
-      "date": "2026-11-25",
-      "summary": "Backblaze tells Ars it won't share users' backup, storage files with advertisers."
-    },
-    {
-      "headline": "The FCC has authorized SpaceX to deploy 1 million satellites",
-      "link": "https://arstechnica.com/space/2026/11/the-fcc-has-authorized-spacex-to-deploy-1-million-satellites/",
-      "outlet": "Ars Technica",
-      "category": "Technology",
-      "date": "2026-11-25",
-      "summary": "This constellation would increase the number of satellites in orbit by roughly 50-fold."
-    },
-    {
-      "headline": "Ladybird browser's first downloadable alpha is surprisingly capable",
-      "link": "https://arstechnica.com/gadgets/2026/11/ladybirds-new-alpha-shows-theres-life-beyond-chromium/",
-      "outlet": "Ars Technica",
-      "category": "Technology",
-      "date": "2026-11-25",
-      "summary": "An independent browser engine arrives on Linux and macOS, and we've tried it."
-    },
-    {
-      "headline": "The Iowa Lead Detonation Happened. Now the Real Work Begins to Study It",
-      "link": "https://www.wired.com/story/iowa-lead-detonation-real-monitoring-work-begins/",
-      "outlet": "WIRED",
-      "category": "Technology",
-      "date": "2026-11-25",
-      "summary": "Early results indicate minimal signs of lead in the environment, though it will take days for more rigorous testing."
-    },
-    {
-      "headline": "The 30 Best Early Black Friday Deals: Our Ultimate Picks (2026)",
-      "link": "https://www.wired.com/story/best-black-friday-deals-11-25-2026/",
-      "outlet": "WIRED",
-      "category": "Technology",
-      "date": "2026-11-25",
-      "summary": "The early bird gets the worm. Here are the best Black Friday deals for 2026 you can get right now."
-    },
-    {
-      "headline": "How Jump-Roping Toy Soldiers Accidentally Took Over Your FYP",
-      "link": "https://www.wired.com/story/hot-jump-roping-toy-soldiers-accidentally-made-their-own-psyop/",
-      "outlet": "WIRED",
-      "category": "Technology",
-      "date": "2026-11-25",
-      "summary": "The holiday theme park performers started posting their own AI fan videos as an inside joke. They didn’t expect it to actually catch on."
-    },
-    {
-      "headline": "Andy Taylor, guitarist in Duran Duran, dies aged 65",
-      "link": "https://www.theguardian.com/music/2026/nov/25/andy-taylor-duran-duran-guitarist-dead",
-      "outlet": "The Guardian",
-      "category": "Music",
-      "date": "2026-11-25",
-      "summary": "Musician who had huge 1980s chart success had been diagnosed with prostate cancer in 2018 Duran Duran was transformed by Andy Taylor’s rock edge – and never quite the same without him Andy Taylor…"
-    },
-    {
       "headline": "Grand Theft Auto VI: The Album review – even GTA sceptics will warm to this zeitgeisty, star-packed soundtrack",
       "link": "https://www.theguardian.com/music/2026/nov/25/grand-theft-auto-vi-the-album-review",
       "outlet": "The Guardian",
@@ -512,14 +567,6 @@
       "category": "Music",
       "date": "2026-11-25",
       "summary": "Westminster council signs off on ‘cultural experience and exhibition’ at site where band last performed in public Fans of the Beatles will be able to stand on the Savile Row rooftop in London where…"
-    },
-    {
-      "headline": "Duran Duran pay tribute after death of guitarist Andy Taylor, age 65: “His playing drove the songs that took us around the world”",
-      "link": "https://www.nme.com/news/music/duran-duran-pay-tribute-after-death-of-guitarist-andy-taylor-age-65-his-playing-drove-the-songs-that-took-us-around-the-world-3976971",
-      "outlet": "NME",
-      "category": "Music",
-      "date": "2026-11-25",
-      "summary": "\"The 'Geordie Genius', 'the live wire from Newcastle': how fortunate we were to have found him\" The post Duran Duran pay tribute after death of guitarist Andy Taylor, age 65: “His playing drove the…"
     },
     {
       "headline": "King Crimson Co-Founder Michael Giles Dies at 84",
@@ -570,30 +617,6 @@
       "summary": "“Walmart has intentionally created a likelihood of confusion and false association,\" the new lawsuit claims"
     },
     {
-      "headline": "Duran Duran’s Biggest Billboard Hits: ‘Rio,’ ‘Hungry Like the Wolf’ & More",
-      "link": "https://www.billboard.com/lists/duran-duran-biggest-billboard-hits/",
-      "outlet": "Billboard",
-      "category": "Music",
-      "date": "2026-11-25",
-      "summary": "The band sent 15 classics to the Hot 100’s top 40 in the 1980s and ‘90s."
-    },
-    {
-      "headline": "‘Hunger Games’ Series Returns to No. 1 on Soundtracks Chart After More Than a Decade",
-      "link": "https://www.billboard.com/music/chart-beat/hunger-games-sunrise-reaping-album-tops-soundtracks-chart-1236390012/",
-      "outlet": "Billboard",
-      "category": "Music",
-      "date": "2026-11-25",
-      "summary": "The Hunger Games: Sunrise on the Reaping — with music by Noah Kahan, Ella Langley & more — bows atop the Soundtracks chart."
-    },
-    {
-      "headline": "U2’s ‘Carnaval de Luz’ Debuts at No. 1 on 3 Billboard Album Charts",
-      "link": "https://www.billboard.com/music/chart-beat/u2-carnaval-de-luz-number-1-billboard-charts-debut-1236389982/",
-      "outlet": "Billboard",
-      "category": "Music",
-      "date": "2026-11-25",
-      "summary": "It arrives in the top 10 on seven charts in total, including the Billboard 200."
-    },
-    {
       "headline": "Willa Woolston obituary",
       "link": "https://www.theguardian.com/tv-and-radio/2026/nov/25/willa-woolston-obituary",
       "outlet": "The Guardian",
@@ -608,22 +631,6 @@
       "category": "Arts",
       "date": "2026-11-25",
       "summary": "White Cube Bermondsey, London Kiefer asks what art means after the Holocaust – but even the vast scale of his powerfully seductive paintings can’t do justice to the gravity of his themes When the…"
-    },
-    {
-      "headline": "Pakistan’s first astronaut and golden light: photos of the day – Wednesday",
-      "link": "https://www.theguardian.com/news/gallery/2026/nov/25/pakistan-astronaut-golden-light-photos-of-the-day-wednesday",
-      "outlet": "The Guardian",
-      "category": "Arts",
-      "date": "2026-11-25",
-      "summary": "The Guardian’s picture editors select photographs from around the world Continue reading..."
-    },
-    {
-      "headline": "Fishing in Goa before tourism made taxi-drivers of everyone: Karan Kapoor’s best photograph",
-      "link": "https://www.theguardian.com/artanddesign/2026/nov/25/karan-kapoor-best-photograph-goa-fishing-mackerel",
-      "outlet": "The Guardian",
-      "category": "Arts",
-      "date": "2026-11-25",
-      "summary": "‘They drank, sang and screamed as the men launched a boat held together with rope and tar. If they missed the mackerel, the next village down got the catch. You can’t recognise these places now’ I…"
     },
     {
       "headline": "Smithsonian Head Assures Staff of Independence After Glimpse of White House Overhaul Plan",
@@ -738,6 +745,14 @@
       "summary": "Thelma Golden will step down as director and chief curator of the Studio Museum in Harlem in late 2027, the museum has announced. Board chair Kathryn C. Chenault said trustees had accepted Golden's…"
     },
     {
+      "headline": "Angelina Jolie and Brad Pitt settle legal battle over French winery",
+      "link": "https://www.bbc.co.uk/news/articles/cmvg2989wv74o",
+      "outlet": "BBC News",
+      "category": "Arts",
+      "date": "2026-11-25",
+      "summary": "The Hollywood A-listers' legal battle focused on the vineyard they bought in 2008 and where they wed six years later."
+    },
+    {
       "headline": "Gordon Ramsay to host Top Gear as show revived after Flintoff crash",
       "link": "https://www.bbc.co.uk/news/articles/cjr4gw100d52o",
       "outlet": "BBC News",
@@ -760,22 +775,6 @@
       "category": "Arts",
       "date": "2026-11-25",
       "summary": "The US president is suing the BBC over the way Panorama edited a speech he gave in 2021."
-    },
-    {
-      "headline": "Why are Arsenal throwing away leads? Itchy trigger fingers cost Mikel Arteta's side against Dortmund",
-      "link": "https://www.cbssports.com/soccer/news/why-arsenal-throwing-away-leads-champions-league-dortmund/",
-      "outlet": "CBS Sports",
-      "category": "Football",
-      "date": "2026-11-24",
-      "summary": "Mikel Arteta's side are dominating play and carving out opportunities, but a sudden surge in low-percentage strikes from distance is keeping opponents alive"
-    },
-    {
-      "headline": "Frieze Los Angeles announces 102 galleries for 2027 edition.",
-      "link": "https://www.artsy.net/article/artsy-editorial-frieze-los-angeles-announces-102-galleries-2027-edition",
-      "outlet": "Artsy",
-      "category": "Arts",
-      "date": "2026-11-24",
-      "summary": "Frieze Los Angeles has announced 102 galleries for its 2027 edition. The exhibiting galleries will represent 20 countries, including 38 galleries with spaces in Los Angeles, and will include 22…"
     }
   ]
 }
