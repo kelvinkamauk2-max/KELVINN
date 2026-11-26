@@ -1,37 +1,7 @@
-// ===== Settings =====
-// Paste your published Google Sheet CSV link between the quotes.
-// (Google Sheets > File > Share > Publish to web > Sheet1 + CSV)
-var SHEET_URL = "";
-
-// Daily headlines file, rebuilt every day by the GitHub Action (scripts/fetch-news.js).
-var NEWS_URL = "https://raw.githubusercontent.com/kelvinkamauk2-max/KELVINN/main/news.json";
+// Your personal settings (sheet link, donate, subscribe) live in settings.js.
 
 // Order of the filter buttons in "What I’m following".
 var CATEGORY_ORDER = ["Football", "Technology", "Music", "Arts"];
-
-// ----- Tips and donations -----
-// Fill in only the options you want. Anything left empty ("") is hidden, and if
-// everything is empty the whole "Support my work" section stays hidden.
-var DONATE = {
-  // A PayPal link, for example "https://paypal.me/yourname"
-  paypal: "",
-  mpesa: {
-    name: "",     // name that shows on M-Pesa, for example "Kelvin Kamau"
-    phone: "",    // send-money number, for example "0712 345 678"
-    till: "",     // Buy Goods till number
-    paybill: "",  // Paybill business number
-    account: ""   // account number to use with the Paybill
-  }
-};
-
-// Sheet columns (row 1 headings, any order):
-// headline | link | outlet | byline | date | summary | topics | category | mine | take
-// date: "YYYY-MM" (for example 2026-03) or leave empty.
-// mine: type "yes" if you wrote the story. Those rows go under "Selected work".
-//       All other rows go to the "News desk".
-// topics: separate with commas.
-// take: your own one or two sentences about a headline. It shows as "My take".
-//       To add a take to a BBC headline, paste that headline's link in the link column.
 
 // Saved stories, shown even when the sheet cannot be loaded.
 var BACKUP = [
@@ -372,6 +342,103 @@ function renderDonate() {
   cards.forEach(function (c) { box.appendChild(c); });
   section.hidden = false;
   if (navLink) navLink.hidden = false;
+  var hd = document.getElementById("hero-donate");
+  if (hd) hd.hidden = false;
+}
+
+// ===== Subscribe =====
+function renderSubscribe() {
+  var box = document.getElementById("subscribe-box");
+  var section = document.getElementById("subscribe");
+  if (!box || !section || typeof SUBSCRIBE === "undefined") return;
+  var action = safeUrl(SUBSCRIBE.action);
+  var link = safeUrl(SUBSCRIBE.link);
+  if (!action && !link) return;
+
+  if (action) {
+    var form = el("form", "sub-form");
+    form.method = "post"; form.action = action; form.target = "sub-frame";
+    var frame = el("iframe");
+    frame.name = "sub-frame"; frame.title = "Subscription response"; frame.hidden = true;
+    var thanks = el("p", "sub-thanks", "Thanks! Check your inbox for a confirmation email and click the link in it. If you don't see it in a few minutes, look in your spam folder.");
+    thanks.setAttribute("role", "status"); thanks.hidden = true;
+    form.addEventListener("submit", function () {
+      setTimeout(function () { form.hidden = true; thanks.hidden = false; }, 400);
+    });
+    var extra = SUBSCRIBE.extra || {};
+    Object.keys(extra).forEach(function (k) {
+      var h = el("input"); h.type = "hidden"; h.name = k; h.value = String(extra[k]);
+      form.appendChild(h);
+    });
+    var input = el("input", "email");
+    input.type = "email"; input.name = SUBSCRIBE.field || "email"; input.required = true;
+    input.placeholder = "Your email address";
+    input.setAttribute("aria-label", "Your email address");
+    var btn = el("button", "btn", "Subscribe");
+    btn.type = "submit";
+    form.appendChild(input); form.appendChild(btn);
+    box.appendChild(form);
+    box.appendChild(thanks);
+    box.appendChild(frame);
+  }
+  if (link) {
+    var a = el("a", action ? "alt-link" : "btn", action ? "Or sign up on the full page" : "Subscribe");
+    a.href = link; a.target = "_blank"; a.rel = "noopener";
+    box.appendChild(a);
+  }
+  box.appendChild(el("p", "sub-note", "I'll use your email only to send this newsletter. You can unsubscribe at any time."));
+  section.hidden = false;
+  var nav = document.getElementById("nav-subscribe");
+  if (nav) nav.hidden = false;
+  var hero = document.getElementById("hero-subscribe");
+  if (hero) hero.hidden = false;
+}
+
+// ===== Archive of past days =====
+function dayLabel(d) {
+  var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(d);
+  var dt = new Date(Number(m[1]), Number(m[2]) - 1, Number(m[3]));
+  var text = dt.toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" });
+  var now = new Date();
+  var today = new Date(now.getFullYear(), now.getMonth(), now.getDate()).getTime();
+  if (dt.getTime() === today) return "Today · " + text;
+  if (dt.getTime() === today - 86400000) return "Yesterday · " + text;
+  return text;
+}
+
+function loadArchive() {
+  var archiveEl = document.getElementById("archive");
+  var select = document.getElementById("archive-date");
+  if (!archiveEl || !select) return;
+  var base = NEWS_URL.replace(/news\.json$/, "archive/");
+
+  fetchText(base + "index.json").then(function (t) { return JSON.parse(t); }).then(function (idx) {
+    var days = (idx && Array.isArray(idx.days) ? idx.days : []).filter(function (d) { return /^\d{4}-\d{2}-\d{2}$/.test(d); });
+    if (!days.length) return;
+
+    var chosen = days[0];
+    days.forEach(function (d) {
+      var o = el("option", "", dayLabel(d));
+      o.value = d;
+      select.appendChild(o);
+      if (dayLabel(d).indexOf("Yesterday") === 0) chosen = d;
+    });
+    select.value = chosen;
+    archiveEl.hidden = false;
+    var nav = document.getElementById("nav-archive");
+    if (nav) nav.hidden = false;
+
+    function show(d) {
+      fetchText(base + d + ".json").then(function (t) { return JSON.parse(t); }).then(function (data) {
+        section("archive-list", "archive-chips", sortItems(itemsFromFeed(data)), newsBlock, "No headlines were saved for this day.");
+      }).catch(function () {
+        var list = document.getElementById("archive-list");
+        if (list) { list.textContent = ""; list.appendChild(el("p", "empty", "Couldn't load that day. Please try again.")); }
+      });
+    }
+    select.addEventListener("change", function () { show(select.value); });
+    show(chosen);
+  }).catch(function () {});
 }
 
 // ===== Start =====
@@ -379,8 +446,10 @@ function renderDonate() {
   var status = document.getElementById("status");
   var updated = document.getElementById("news-updated");
   renderDonate();
+  renderSubscribe();
   showAll(BACKUP.slice(), false);
   if (typeof fetch !== "function") return;
+  loadArchive();
 
   var sheetP = SHEET_URL
     ? fetchText(SHEET_URL).then(function (t) { return itemsFromRows(parseCSV(t)); }).catch(function () { return null; })

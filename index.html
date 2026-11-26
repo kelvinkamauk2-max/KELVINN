@@ -20,7 +20,7 @@
 <div class="wrap">
   <div class="bar">
     <span>Nairobi, Kenya</span>
-    <nav aria-label="Page sections"><a href="#work">Work</a><a href="#news">Following</a><a href="#beats">Beats</a><a href="#support" id="nav-support" hidden>Support</a><a href="#contact">Contact</a></nav>
+    <nav aria-label="Page sections"><a href="#work">Work</a><a href="#news">Following</a><a href="#archive" id="nav-archive" hidden>Archive</a><a href="#beats">Beats</a><a href="#subscribe" id="nav-subscribe" hidden>Subscribe</a><a href="#support" id="nav-support" hidden>Donate</a><a href="#contact">Contact</a></nav>
   </div>
   <header class="hero">
     <p class="role">Freelance journalist · Media Council of Kenya accredited</p>
@@ -29,6 +29,8 @@
     <div class="btns">
       <a class="btn" href="#work">Read my reporting</a>
       <a class="btn alt" href="mailto:kelvinkamauk2@gmail.com?subject=Project%20enquiry">Email me</a>
+      <a class="btn alt" href="#subscribe" id="hero-subscribe" hidden>Subscribe</a>
+      <a class="btn alt" href="#support" id="hero-donate" hidden>Donate</a>
     </div>
   </header>
 </div>
@@ -62,6 +64,16 @@
   </div>
 </section>
 
+<section id="archive" hidden>
+  <div class="wrap">
+    <h2>News archive</h2>
+    <p class="sub">Each day's headlines are saved automatically. Pick a day to read it.</p>
+    <label class="pick">Day <select id="archive-date"></select></label>
+    <div class="chips" id="archive-chips" aria-label="Filter the archive"></div>
+    <div id="archive-list"></div>
+  </div>
+</section>
+
 <section id="beats">
   <div class="wrap">
     <h2>Beats and services</h2>
@@ -72,10 +84,18 @@
   </div>
 </section>
 
-<section class="panel" id="support" hidden>
+<section class="panel" id="subscribe" hidden>
   <div class="wrap">
-    <h2>Support my work</h2>
-    <p class="sub">If my reporting or my daily news picks help you, you can leave a tip. It's optional and always appreciated.</p>
+    <h2>Subscribe</h2>
+    <p class="sub">Get my reporting and the daily football, technology, music and arts headlines in your inbox.</p>
+    <div id="subscribe-box"></div>
+  </div>
+</section>
+
+<section id="support" hidden>
+  <div class="wrap">
+    <h2>Donate</h2>
+    <p class="sub">If my reporting or my daily news picks help you, you can support my work with a tip. It's optional and always appreciated.</p>
     <div class="donate" id="donate-options"></div>
   </div>
 </section>
@@ -98,6 +118,7 @@
 
 <div class="wrap"><footer>© 2026 Kelvin Kamau · Freelance journalist, Nairobi, Kenya</footer></div>
 
+<script src="settings.js"></script>
 <script src="script.js" defer></script>
 </body>
 </html>
