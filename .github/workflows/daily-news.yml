@@ -2,8 +2,8 @@ name: Update news daily
 
 on:
   schedule:
-    - cron: "0 5 * * *"
-  workflow_dispatch:
+    - cron: "0 5 * * *"   # 05:00 UTC every day = 08:00 in Nairobi
+  workflow_dispatch:       # lets you run it by hand from the Actions tab
 
 permissions:
   contents: write
@@ -18,9 +18,9 @@ jobs:
           node-version: 20
       - name: Fetch the latest headlines
         run: node scripts/fetch-news.js
-      - name: Save news.json if it changed
+      - name: Save news.json and the archive if they changed
         run: |
           git config user.name "news-bot"
           git config user.email "news-bot@users.noreply.github.com"
-          git add news.json
+          git add news.json archive
           git diff --staged --quiet || (git commit -m "Update news" && git push)
