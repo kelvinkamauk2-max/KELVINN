@@ -18,11 +18,11 @@ var DONATE = {
   // A PayPal link, for example "https://paypal.me/yourname"
   paypal: "",
   mpesa: {
-    name: "",     // name that shows on M-Pesa, for example "Kelvin Kamau"
-    phone: "",    // send-money number, for example "0712 345 678"
-    till: "",     // Buy Goods till number
-    paybill: "",  // Paybill business number
-    account: ""   // account number to use with the Paybill
+    name: "kelvin kamau",
+    phone: "0740018924",
+    till: "",     
+    paybill: "",
+    account: ""
   }
 };
 
