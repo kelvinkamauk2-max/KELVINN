@@ -128,6 +128,8 @@ function storyBlock(s) {
   if (month) { var p = el("p"); var t = el("time", "", month); t.setAttribute("datetime", s.date); p.appendChild(t); side.appendChild(p); }
 
   var main = el("div");
+  var kick = s.topics.length ? s.topics[0] : s.category;
+  if (kick) main.appendChild(el("p", "kicker", kick));
   var h = el("h3");
   if (s.link) {
     var a = el("a", "", s.headline); a.href = s.link; a.target = "_blank"; a.rel = "noopener"; h.appendChild(a);
@@ -148,6 +150,7 @@ function storyBlock(s) {
 
 function newsBlock(s) {
   var art = el("article", "item");
+  if (s.category) art.appendChild(el("p", "kicker", s.category));
   var h = el("h3");
   if (s.link) {
     var a = el("a", "", s.headline); a.href = s.link; a.target = "_blank"; a.rel = "noopener"; h.appendChild(a);
@@ -445,6 +448,8 @@ function loadArchive() {
 (function start() {
   var status = document.getElementById("status");
   var updated = document.getElementById("news-updated");
+  var today = document.getElementById("today");
+  if (today) today.textContent = new Date().toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "long", year: "numeric" });
   renderDonate();
   renderSubscribe();
   showAll(BACKUP.slice(), false);
