@@ -33,3 +33,31 @@ var SUBSCRIBE = {
   field: "fields[email]",
   extra: { "ml-submit": "1" }
 };
+
+// 6) Business details. All optional. Empty parts stay hidden on the site.
+//    Do not invent prices or quotes. Only write what is true.
+var CONTACT = { email: "kelvinkamauk2@gmail.com", whatsapp: "254740018924" };
+
+//    Services shown under "Services". Add a price such as "From KES 5,000" or leave "" to show "Request a quote".
+var SERVICES = [
+  { title: "News and feature writing", text: "Accurate, readable reporting and longer features on county affairs, health, business and public life.", price: "" },
+  { title: "Press releases and PR", text: "Clear press releases, media pitches and statements that journalists actually read.", price: "" },
+  { title: "Social media management", text: "Regular posts, captions and community replies for hotels, restaurants and tourism brands.", price: "" },
+  { title: "Content writing", text: "Website copy, blog posts and newsletters in your brand's voice.", price: "" }
+];
+
+//    Advertising and sponsorship. Add options to show the section, for example:
+//    { title: "Newsletter sponsor", text: "One sponsor message in each newsletter.", price: "KES ..." }
+var ADVERTISE = { intro: "", options: [] };
+
+//    One clearly labelled sponsor line above the headlines. Needs both a message and an https link.
+var SPONSOR = { name: "", message: "", link: "" };
+
+//    About me. The section shows only when bio is filled in.
+var ABOUT = { bio: "", pressCard: "", education: "", languages: "" };
+
+//    Real client or editor quotes only, for example { quote: "...", name: "Name", role: "Role, Company" }
+var TESTIMONIALS = [];
+
+//    Full web addresses of your profiles. Empty ones are hidden.
+var SOCIAL = { x: "", linkedin: "", facebook: "", instagram: "", youtube: "", tiktok: "" };
