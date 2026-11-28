@@ -127,6 +127,18 @@ section h2{font-family:var(--sans);font-weight:800;font-size:1.05rem;letter-spac
 .copy{font:inherit;font-size:.8rem;font-weight:700;cursor:pointer;background:transparent;color:var(--accent-text);border:1px solid var(--rule);border-radius:.2rem;padding:.1rem .7rem}
 .copy:hover{border-color:var(--accent)}
 
+/* ---------- Services, sponsors, about, quotes ---------- */
+.pay p.price{font-weight:800;color:var(--ink);margin:0 0 1rem}
+.pay .btns .btn{padding:.55rem 1rem;font-size:.8rem}
+.sponsor{border:1px solid var(--rule);background:var(--bg);padding:.8rem 1.1rem;margin:0 0 1.5rem;font-size:.95rem}
+.sponsor .label{display:block;font-size:.7rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:.2rem}
+.sponsor a{font-weight:700}
+.about-bio{max-width:46rem;margin:0 0 1.25rem;font-size:1.1rem}
+.quote{margin:0;padding:1.1rem 1.25rem;border-left:4px solid var(--accent);background:var(--panel);font-family:var(--serif);font-size:1.1rem}
+.quote p{margin:0 0 .6rem}
+.quote cite{display:block;font-family:var(--sans);font-style:normal;font-size:.85rem;color:var(--muted)}
+#social-links a{margin-right:1rem}
+
 /* ---------- Contact ---------- */
 .contact .big{font-family:var(--serif);font-weight:700;font-size:clamp(1.6rem,5vw,2.6rem);line-height:1.1;margin:0 0 1.5rem;word-break:break-word}
 .contact .big a{text-decoration-thickness:2px;text-underline-offset:.15em}

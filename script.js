@@ -349,6 +349,122 @@ function renderDonate() {
   if (hd) hd.hidden = false;
 }
 
+// ===== Services, advertising, about, testimonials, social =====
+var DEFAULT_SERVICES = [
+  { title: "News and feature writing", text: "Accurate, readable reporting and longer features on county affairs, health, business and public life.", price: "" },
+  { title: "Press releases and PR", text: "Clear press releases, media pitches and statements that journalists actually read.", price: "" },
+  { title: "Social media management", text: "Regular posts, captions and community replies for hotels, restaurants and tourism brands.", price: "" },
+  { title: "Content writing", text: "Website copy, blog posts and newsletters in your brand's voice.", price: "" }
+];
+
+function contactInfo() {
+  var c = typeof CONTACT !== "undefined" && CONTACT ? CONTACT : {};
+  return { email: c.email || "kelvinkamauk2@gmail.com", whatsapp: c.whatsapp || "254740018924" };
+}
+
+function quoteButtons(topic) {
+  var c = contactInfo();
+  var row = el("div", "btns");
+  var wa = el("a", "btn", "WhatsApp");
+  wa.href = "https://wa.me/" + c.whatsapp + "?text=" + encodeURIComponent("Hello Kelvin, I'd like a quote for: " + topic);
+  wa.target = "_blank"; wa.rel = "noopener";
+  var mail = el("a", "btn alt", "Email");
+  mail.href = "mailto:" + c.email + "?subject=" + encodeURIComponent("Quote request: " + topic);
+  row.appendChild(wa); row.appendChild(mail);
+  return row;
+}
+
+function offerCard(o) {
+  var card = el("div", "pay");
+  card.appendChild(el("h3", "", o.title));
+  if (o.text) card.appendChild(el("p", "", o.text));
+  card.appendChild(el("p", "price", o.price ? o.price : "Request a quote"));
+  card.appendChild(quoteButtons(o.title));
+  return card;
+}
+
+function renderBusiness() {
+  var services = typeof SERVICES !== "undefined" && Array.isArray(SERVICES) && SERVICES.length ? SERVICES : DEFAULT_SERVICES;
+  var sBox = document.getElementById("services-list");
+  if (sBox) services.forEach(function (o) { if (o && o.title) sBox.appendChild(offerCard(o)); });
+
+  var adv = typeof ADVERTISE !== "undefined" ? ADVERTISE : null;
+  var aBox = document.getElementById("advertise-list");
+  var aSec = document.getElementById("advertise");
+  if (adv && Array.isArray(adv.options) && adv.options.length && aBox && aSec) {
+    var intro = document.getElementById("advertise-intro");
+    if (intro && adv.intro) intro.textContent = adv.intro;
+    adv.options.forEach(function (o) { if (o && o.title) aBox.appendChild(offerCard(o)); });
+    aSec.hidden = false;
+  }
+
+  var sp = typeof SPONSOR !== "undefined" ? SPONSOR : null;
+  var slot = document.getElementById("sponsor-slot");
+  if (sp && slot && sp.message && safeUrl(sp.link)) {
+    slot.appendChild(el("span", "label", "Sponsored" + (sp.name ? " · " + sp.name : "")));
+    var a = el("a", "", sp.message);
+    a.href = safeUrl(sp.link); a.target = "_blank"; a.rel = "sponsored noopener";
+    slot.appendChild(a);
+    slot.hidden = false;
+  }
+
+  var ab = typeof ABOUT !== "undefined" ? ABOUT : null;
+  var abSec = document.getElementById("about");
+  var abBox = document.getElementById("about-box");
+  if (ab && ab.bio && abSec && abBox) {
+    abBox.appendChild(el("p", "about-bio", ab.bio));
+    var facts = [["Press accreditation", ab.pressCard], ["Education", ab.education], ["Languages", ab.languages]]
+      .filter(function (f) { return f[1]; });
+    if (facts.length) {
+      var card = el("div", "pay");
+      var dl = el("dl");
+      facts.forEach(function (f) {
+        var row = el("div", "row");
+        row.appendChild(el("dt", "", f[0]));
+        row.appendChild(el("dd", "", f[1]));
+        dl.appendChild(row);
+      });
+      card.appendChild(dl);
+      abBox.appendChild(card);
+    }
+    abSec.hidden = false;
+  }
+
+  var tm = typeof TESTIMONIALS !== "undefined" && Array.isArray(TESTIMONIALS) ? TESTIMONIALS : [];
+  var tBox = document.getElementById("testimonials-list");
+  var tSec = document.getElementById("testimonials");
+  var shown = 0;
+  if (tBox && tSec) {
+    tm.forEach(function (t) {
+      if (!t || !t.quote) return;
+      var q = el("blockquote", "quote");
+      q.appendChild(el("p", "", "“" + t.quote + "”"));
+      var who = [t.name, t.role].filter(Boolean).join(", ");
+      if (who) q.appendChild(el("cite", "", who));
+      tBox.appendChild(q);
+      shown++;
+    });
+    if (shown) tSec.hidden = false;
+  }
+
+  var so = typeof SOCIAL !== "undefined" ? SOCIAL : null;
+  var soBox = document.getElementById("social-links");
+  var soCol = document.getElementById("social-col");
+  if (so && soBox && soCol) {
+    var names = { x: "X", linkedin: "LinkedIn", facebook: "Facebook", instagram: "Instagram", youtube: "YouTube", tiktok: "TikTok" };
+    var count = 0;
+    Object.keys(names).forEach(function (k) {
+      var u = safeUrl(so[k]);
+      if (!u) return;
+      var l = el("a", "", names[k]);
+      l.href = u; l.target = "_blank"; l.rel = "noopener";
+      soBox.appendChild(l);
+      count++;
+    });
+    if (count) soCol.hidden = false;
+  }
+}
+
 // ===== Subscribe =====
 function renderSubscribe() {
   var box = document.getElementById("subscribe-box");
@@ -452,6 +568,7 @@ function loadArchive() {
   if (today) today.textContent = new Date().toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "long", year: "numeric" });
   renderDonate();
   renderSubscribe();
+  renderBusiness();
   showAll(BACKUP.slice(), false);
   if (typeof fetch !== "function") return;
   loadArchive();

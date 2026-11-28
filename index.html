@@ -14,6 +14,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;700;800&family=Source+Serif+4:wght@400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person","name":"Kelvin Kamau","jobTitle":"Freelance journalist","url":"https://kelvinkamauk2-max.github.io/KELVINN/","homeLocation":{"@type":"Place","name":"Nairobi, Kenya"},"knowsAbout":["County government","Public health","Security","Tourism","Football","Technology","Music","Arts"]}
+</script>
 </head>
 <body>
 <a class="skip" href="#work">Skip to my reporting</a>
@@ -35,7 +38,7 @@
   </div>
   <nav class="mainnav" aria-label="Page sections">
     <div class="wrap">
-      <a href="#work">Reporting</a><a href="#news">Following</a><a href="#archive" id="nav-archive" hidden>Archive</a><a href="#beats">Beats</a><a href="#subscribe" id="nav-subscribe" hidden>Subscribe</a><a href="#support" id="nav-support" hidden>Donate</a><a href="#contact">Contact</a>
+      <a href="#work">Reporting</a><a href="#news">Following</a><a href="#archive" id="nav-archive" hidden>Archive</a><a href="#beats">Beats</a><a href="#services">Services</a><a href="#subscribe" id="nav-subscribe" hidden>Subscribe</a><a href="#support" id="nav-support" hidden>Donate</a><a href="#contact">Contact</a>
     </div>
   </nav>
 </header>
@@ -64,6 +67,7 @@
     <h2>What I’m following</h2>
     <p class="sub">Headlines on football, technology, music and the arts from outlets around the world, refreshed every day, with links to the originals. Each headline belongs to the outlet named on it. Anything marked “My take” is my own writing.</p>
     <p id="news-updated" class="status"></p>
+    <div class="sponsor" id="sponsor-slot" hidden></div>
     <div class="chips" id="news-chips" aria-label="Filter the headlines"></div>
     <div id="news-list"></div>
   </div>
@@ -86,6 +90,37 @@
     <ul class="beats">
       <li>County government</li><li>Public health</li><li>Security and policing</li><li>Tourism and business</li><li>Football</li><li>Technology</li><li>Music</li><li>Arts</li><li>Features and profiles</li><li>Press releases</li><li>Social media management</li><li>Content writing</li>
     </ul>
+  </div>
+</section>
+
+<section id="services">
+  <div class="wrap">
+    <h2>Services</h2>
+    <p class="sub">Need a story written, a press release, or your social media handled? Tell me what you need and I'll send you a quote.</p>
+    <div class="donate" id="services-list"></div>
+  </div>
+</section>
+
+<section class="panel" id="about" hidden>
+  <div class="wrap">
+    <h2>About</h2>
+    <div id="about-box"></div>
+  </div>
+</section>
+
+<section id="testimonials" hidden>
+  <div class="wrap">
+    <h2>What clients say</h2>
+    <div class="donate" id="testimonials-list"></div>
+  </div>
+</section>
+
+<section class="panel" id="advertise" hidden>
+  <div class="wrap">
+    <h2>Advertise and sponsor</h2>
+    <p class="sub" id="advertise-intro">Reach readers of my reporting and daily news picks.</p>
+    <div class="donate" id="advertise-list"></div>
+    <p class="sub">Sponsored content is always labelled as sponsored, and sponsors do not control my reporting.</p>
   </div>
 </section>
 
@@ -129,7 +164,11 @@
     </div>
     <div>
       <strong>Sections</strong>
-      <p><a href="#work">Reporting</a> · <a href="#news">Following</a> · <a href="#beats">Beats</a> · <a href="#contact">Contact</a></p>
+      <p><a href="#work">Reporting</a> · <a href="#news">Following</a> · <a href="#services">Services</a> · <a href="#contact">Contact</a> · <a href="policies.html">Policies</a></p>
+    </div>
+    <div id="social-col" hidden>
+      <strong>Follow</strong>
+      <p id="social-links"></p>
     </div>
     <div>
       <strong>About the headlines</strong>
