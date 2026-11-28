@@ -1,3 +1,0 @@
-# Plain static site: nothing to build, publish the repository root.
-[build]
-  publish = "."
