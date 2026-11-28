@@ -38,26 +38,38 @@ var SUBSCRIBE = {
 //    Do not invent prices or quotes. Only write what is true.
 var CONTACT = { email: "kelvinkamauk2@gmail.com", whatsapp: "254740018924" };
 
-//    Services shown under "Services". Add a price such as "From KES 5,000" or leave "" to show "Request a quote".
+// Services shown under "Services". Add a price when you are ready, for example "From KES 3,000".
+// Leave "" to show "Request a quote". Common ways to price: per article, or a monthly package.
 var SERVICES = [
-  { title: "News and feature writing", text: "Accurate, readable reporting and longer features on county affairs, health, business and public life.", price: "" },
-  { title: "Press releases and PR", text: "Clear press releases, media pitches and statements that journalists actually read.", price: "" },
-  { title: "Social media management", text: "Regular posts, captions and community replies for hotels, restaurants and tourism brands.", price: "" },
-  { title: "Content writing", text: "Website copy, blog posts and newsletters in your brand's voice.", price: "" }
+  { title: "News and feature writing", text: "Carefully sourced news reports, features and profiles, written to your deadline and house style.", price: "" },
+  { title: "Press releases and PR", text: "Press releases, statements and media pitches with clear headlines and the facts editors need.", price: "" },
+  { title: "Social media management", text: "Planned posts, captions and community replies for hotels, restaurants and tourism brands.", price: "" },
+  { title: "Content writing", text: "Website copy, blog posts and newsletters written in your brand's voice.", price: "" }
 ];
 
-//    Advertising and sponsorship. Add options to show the section, for example:
-//    { title: "Newsletter sponsor", text: "One sponsor message in each newsletter.", price: "KES ..." }
-var ADVERTISE = { intro: "", options: [] };
+// Advertising. Keep options empty until you have readers to offer. When ready, replace [] with:
+// [
+//   { title: "Newsletter sponsor", text: "A short sponsor message in each newsletter issue, clearly labelled.", price: "" },
+//   { title: "Sponsored post", text: "A clearly labelled sponsored item on this site.", price: "" }
+// ]
+var ADVERTISE = {
+  intro: "Reach readers of my reporting and daily news picks.",
+  options: []
+};
 
-//    One clearly labelled sponsor line above the headlines. Needs both a message and an https link.
+// One labelled sponsor line. Leave empty until a sponsor has agreed and paid.
 var SPONSOR = { name: "", message: "", link: "" };
 
-//    About me. The section shows only when bio is filled in.
-var ABOUT = { bio: "", pressCard: "", education: "", languages: "" };
+var ABOUT = {
+  bio: "I'm a freelance journalist based in Nairobi and accredited by the Media Council of Kenya. I report on county government, public health, security and tourism, and I follow football, technology, music and the arts. My reporting has been published by the Kenya News Agency. I also write press releases, social media posts and website content for Kenyan businesses.",
+  pressCard: "Media Council of Kenya accredited",
+  education: "Communications and Public Relations",
+  languages: ""
+};
 
-//    Real client or editor quotes only, for example { quote: "...", name: "Name", role: "Role, Company" }
+// Real quotes only. When someone agrees, add a line like this inside the brackets:
+// { quote: "Their exact words.", name: "Their name", role: "Their job, their organisation" }
 var TESTIMONIALS = [];
 
-//    Full web addresses of your profiles. Empty ones are hidden.
+// Paste the full web address of each profile you use. Empty ones stay hidden.
 var SOCIAL = { x: "", linkedin: "", facebook: "", instagram: "", youtube: "", tiktok: "" };
